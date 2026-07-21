@@ -7,7 +7,7 @@ OUTPUT_FILE="assets/switchboard-stats.svg"
 DEBUG_LOG="assets/switchboard-debug.log"
 
 # Redirect all output to debug log as well
-exec > >(tee -a "$DEBUG_LOG") 2>&1
+exec > "$DEBUG_LOG" 2>&1
 
 echo "=== SWITCHBOARD STATS GENERATOR (DEBUG) ==="
 echo "User: $USERNAME"
