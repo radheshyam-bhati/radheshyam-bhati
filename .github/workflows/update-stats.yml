@@ -21,8 +21,11 @@ jobs:
 
       - name: Generate live stats SVG
         run: |
-          chmod +x .github/scripts/generate-stats.sh
-          .github/scripts/generate-stats.sh
+          echo "=== INLINE TEST ==="
+          mkdir -p assets
+          echo "test-$(date)" > assets/switchboard-test.txt
+          echo "Hello from inline workflow step" > assets/switchboard-stats.svg
+          echo "=== DONE ==="
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
