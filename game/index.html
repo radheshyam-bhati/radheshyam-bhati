@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Operator's Switchboard — Interactive Demo</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0A0B0C;
+    color: #E8D5B7;
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  /* ─── HEADER ─── */
+  .header {
+    width: 100%;
+    max-width: 900px;
+    padding: 30px 20px 10px;
+    text-align: center;
+  }
+  .header h1 {
+    color: #C4A35A;
+    font-size: 1.2em;
+    letter-spacing: 6px;
+    font-weight: normal;
+    margin-bottom: 6px;
+  }
+  .header .subtitle {
+    color: #8B7355;
+    font-size: 0.75em;
+    letter-spacing: 3px;
+  }
+  .header .status-bar {
+    margin-top: 12px;
+    padding: 6px 16px;
+    border: 1px solid #2A2F38;
+    border-radius: 4px;
+    font-size: 0.7em;
+    color: #8B7355;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .header .status-bar .active { color: #D45500; }
+  .header .status-bar .online { color: #00A86B; }
+
+  /* ─── SWITCHBOARD PANEL ─── */
+  .panel-wrapper {
+    width: 100%;
+    max-width: 900px;
+    padding: 10px 20px;
+    position: relative;
+  }
+  .panel {
+    position: relative;
+    background: linear-gradient(180deg, #1A1D23 0%, #0A0B0C 100%);
+    border: 2px solid #2A2F38;
+    border-radius: 12px;
+    padding: 30px 20px;
+    min-height: 500px;
+    overflow: hidden;
+  }
+  .panel::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #C4A35A, transparent);
+    opacity: 0.3;
+  }
+
+  /* Decorative screw holes */
+  .screw { position: absolute; width: 12px; height: 12px; border-radius: 50%; background: #2A2F38; border: 1px solid #8B7355; }
+  .screw::after { content: '—'; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 8px; color: #8B7355; }
+  .screw.tl { top: 12px; left: 12px; }
+  .screw.tr { top: 12px; right: 12px; }
+  .screw.bl { bottom: 12px; left: 12px; }
+  .screw.br { bottom: 12px; right: 12px; }
+
+  /* Label plate */
+  .panel-label {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-bottom: 1px solid #2A2F38;
+  }
+  .panel-label span {
+    color: #8B7355;
+    font-size: 0.65em;
+    letter-spacing: 4px;
+  }
+
+  /* ─── SVG LAYER FOR CABLES ─── */
+  #cable-svg {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+  }
+  #cable-svg path {
+    fill: none;
+    stroke-width: 3;
+    stroke-linecap: round;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
+
+  /* ─── JACKS ─── */
+  .jacks-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px 0;
+  }
+
+  .jack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    width: 110px;
+    padding: 10px 6px 8px;
+    border-radius: 8px;
+    border: 1px solid #2A2F38;
+    background: rgba(26, 29, 35, 0.8);
+    transition: all 0.25s ease;
+    position: relative;
+  }
+  .jack:hover {
+    border-color: #8B7355;
+    background: rgba(42, 47, 56, 0.9);
+    transform: translateY(-2px);
+  }
+  .jack:active { transform: translateY(0); }
+
+  /* Jack socket */
+  .jack-socket {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #0A0B0C;
+    border: 2px solid #2A2F38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+    transition: all 0.3s;
+    position: relative;
+  }
+  .jack-socket .inner {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #1A1D23;
+    border: 1px solid #2A2F38;
+    transition: all 0.3s;
+  }
+  .jack .port-num {
+    font-size: 0.55em;
+    color: #8B7355;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+  }
+  .jack .jack-name {
+    font-size: 0.6em;
+    color: #E8D5B7;
+    text-align: center;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+  }
+  .jack .jack-tech {
+    font-size: 0.5em;
+    color: #5A4A35;
+    margin-top: 2px;
+    letter-spacing: 0.5px;
+  }
+
+  /* LED indicator */
+  .jack-led {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: 4px;
+    transition: all 0.3s;
+    background: #2A2F38;
+    box-shadow: none;
+  }
+
+  /* Jack states */
+  .jack.idle .jack-led { background: #00A86B; box-shadow: 0 0 6px rgba(0,168,107,0.3); }
+  .jack.idle .jack-socket { border-color: #2A2F38; }
+
+  .jack.selected .jack-led { background: #D45500; box-shadow: 0 0 10px rgba(212,85,0,0.5); }
+  .jack.selected .jack-socket { border-color: #D45500; }
+  .jack.selected .jack-socket .inner { background: #D45500; }
+
+  .jack.connected .jack-led { background: #CC3333; box-shadow: 0 0 8px rgba(204,51,51,0.4); }
+  .jack.connected .jack-socket { border-color: #CC3333; }
+  .jack.connected .jack-socket .inner { background: #CC3333; }
+
+  .jack.destination .jack-led { background: #4A90D9; box-shadow: 0 0 10px rgba(74,144,217,0.5); }
+  .jack.destination .jack-socket { border-color: #4A90D9; }
+  .jack.destination .jack-socket .inner { background: #4A90D9; }
+
+  /* ─── INFO PANEL ─── */
+  .info-panel {
+    margin-top: 16px;
+    padding: 14px 18px;
+    border: 1px solid #2A2F38;
+    border-radius: 8px;
+    background: rgba(10, 11, 12, 0.8);
+    min-height: 80px;
+    transition: all 0.3s;
+  }
+  .info-panel .info-label {
+    font-size: 0.6em;
+    color: #8B7355;
+    letter-spacing: 3px;
+    margin-bottom: 6px;
+  }
+  .info-panel .info-title {
+    font-size: 0.85em;
+    color: #C4A35A;
+    margin-bottom: 4px;
+  }
+  .info-panel .info-desc {
+    font-size: 0.75em;
+    color: #B8C6FF;
+    line-height: 1.5;
+  }
+  .info-panel .info-tech {
+    font-size: 0.65em;
+    color: #8B7355;
+    margin-top: 6px;
+    letter-spacing: 1px;
+  }
+  .info-panel .info-empty {
+    font-size: 0.7em;
+    color: #5A4A35;
+    font-style: italic;
+  }
+
+  /* ─── CONTROLS ─── */
+  .controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+    justify-content: center;
+  }
+  .controls button {
+    background: transparent;
+    border: 1px solid #2A2F38;
+    color: #8B7355;
+    font-family: inherit;
+    font-size: 0.65em;
+    padding: 6px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    letter-spacing: 1px;
+  }
+  .controls button:hover {
+    border-color: #C4A35A;
+    color: #C4A35A;
+  }
+  .controls button.danger:hover {
+    border-color: #CC3333;
+    color: #CC3333;
+  }
+
+  /* ─── FOOTER ─── */
+  .footer {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    text-align: center;
+  }
+  .footer a {
+    color: #8B7355;
+    font-size: 0.7em;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .footer a:hover { color: #C4A35A; }
+
+  /* ─── ANIMATIONS ─── */
+  @keyframes pulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+  }
+  .jack.selected .jack-socket { animation: pulse 1.5s ease-in-out infinite; }
+  .jack.destination .jack-socket { animation: pulse 1.5s ease-in-out infinite; animation-delay: 0.3s; }
+
+  @keyframes glow-pulse {
+    0%, 100% { box-shadow: 0 0 4px rgba(212,85,0,0.3); }
+    50% { box-shadow: 0 0 14px rgba(212,85,0,0.6); }
+  }
+  .jack.selected .jack-led { animation: glow-pulse 1.5s ease-in-out infinite; }
+  .jack.destination .jack-led { animation: glow-pulse 1.5s ease-in-out infinite; animation-delay: 0.3s; }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 700px) {
+    .jack { width: 80px; padding: 6px 4px; }
+    .jack-socket { width: 28px; height: 28px; }
+    .jack .jack-name { font-size: 0.5em; }
+    .header h1 { font-size: 0.9em; letter-spacing: 3px; }
+    .panel { padding: 20px 10px; min-height: 400px; }
+  }
+  @media (max-width: 500px) {
+    .jacks-container { gap: 6px; }
+    .jack { width: 70px; padding: 4px 2px; }
+    .jack-socket { width: 24px; height: 24px; }
+    .jack .jack-name { font-size: 0.45em; }
+    .jack .port-num { font-size: 0.45em; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>⬟ OPERATOR'S SWITCHBOARD</h1>
+  <p class="subtitle">Patch cables · Connect projects · Explore architecture</p>
+  <div class="status-bar">
+    <span>SYSTEM: <span class="online">ONLINE</span></span>
+    <span>LINES: <span class="active" id="line-count">0</span> / 21</span>
+    <span>STATUS: <span id="status-text">AWAITING INPUT</span></span>
+  </div>
+</div>
+
+<div class="panel-wrapper">
+  <div class="panel">
+    <div class="screw tl"></div>
+    <div class="screw tr"></div>
+    <div class="screw bl"></div>
+    <div class="screw br"></div>
+
+    <div class="panel-label"><span>● JACK FIELD ●</span></div>
+
+    <svg id="cable-svg"></svg>
+
+    <div class="jacks-container" id="jacks-container"></div>
+
+    <div class="info-panel" id="info-panel">
+      <div class="info-label">⬟ LAST CONNECTION</div>
+      <div class="info-empty">Click a source jack, then a destination jack to patch through.</div>
+    </div>
+
+    <div class="controls">
+      <button onclick="clearAllConnections()">✕ CLEAR ALL</button>
+      <button onclick="randomConnection()">⤻ RANDOM</button>
+      <button class="danger" onclick="resetAll()">⟲ RESET</button>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <a href="https://github.com/radheshyam-bhati">← RETURN TO SWITCHBOARD</a>
+</div>
+
+<script>
+// ─── PROJECT DATA ───
+const projects = [
+  { id: 'medconnect', name: 'MedConnect', tech: 'Next.js · NestJS · Prisma', short: 'Health Platform', color: '#D45500' },
+  { id: 'mafiaattack', name: 'MafiaAttack', tech: 'WebRTC · Socket.IO · Node.js', short: 'Social Game', color: '#4A90D9' },
+  { id: 'ghexplorer', name: 'GitHub Explorer', tech: 'Vanilla JS · Chart.js', short: 'Dev Analytics', color: '#00A86B' },
+  { id: 'newsfeed', name: 'News Feed', tech: 'Vanilla JS · NewsAPI', short: 'News Aggregator', color: '#C4A35A' },
+  { id: 'story', name: 'Story', tech: 'React · TypeScript · Framer', short: 'Web History', color: '#8B7355' },
+  { id: 'portfolio', name: 'Portfolio', tech: 'React 19 · Vite 6', short: 'Personal Site', color: '#CC3333' },
+  { id: 'voting', name: 'Online Voting', tech: 'IndexedDB · Chart.js', short: 'EVM Simulation', color: '#E8D5B7' }
+];
+
+// ─── CONNECTION DESCRIPTIONS ───
+const connectionInfo = {
+  'medconnect-mafiaattack': {
+    title: 'Health Data × Real-Time Voice',
+    desc: 'Patient portals enhanced with WebRTC-enabled doctor consultations. Privacy-first healthcare meets encrypted real-time communication.',
+    tech: 'WebRTC · TypeScript · Healthcare APIs'
+  },
+  'medconnect-ghexplorer': {
+    title: 'Medical Profile Search',
+    desc: 'The same modular search architecture from GitHub Explorer, applied to discovering healthcare providers and medical records.',
+    tech: 'Modular JS · Chart.js · Health Data Models'
+  },
+  'medconnect-newsfeed': {
+    title: 'Health News Intelligence',
+    desc: 'AI-powered health record platform with integrated medical news feed — patients stay informed about conditions found in their records.',
+    tech: 'NewsAPI · Gemini AI · React'
+  },
+  'medconnect-story': {
+    title: 'Patient Timeline Narrative',
+    desc: 'Scroll-driven health history inspired by Story\'s era-based narrative. Each medical event becomes a chapter in the patient\'s journey.',
+    tech: 'Framer Motion · React · Health Timeline'
+  },
+  'medconnect-portfolio': {
+    title: 'Health Dashboard Portfolio',
+    desc: 'Patient health dashboard with the same motion design principles from the portfolio — beautiful, responsive, accessible.',
+    tech: 'React 19 · Framer Motion · FormSubmit'
+  },
+  'medconnect-voting': {
+    title: 'Secure Health Records Voting',
+    desc: 'Blockchain-inspired verification for health records using the same zero-server architecture as the EVM simulation.',
+    tech: 'IndexedDB · Client-Side Security · Audit Trail'
+  },
+  'mafiaattack-ghexplorer': {
+    title: 'Game Analytics Dashboard',
+    desc: 'Real-time game statistics visualized with Chart.js. Track player behavior, win rates, and role performance across matches.',
+    tech: 'Chart.js · WebRTC · Socket.IO Analytics'
+  },
+  'mafiaattack-newsfeed': {
+    title: 'Gaming News Wire',
+    desc: 'In-game news ticker powered by the News Feed engine. Players stay updated on world events while deducing who\'s mafia.',
+    tech: 'NewsAPI · WebRTC · In-Game UI'
+  },
+  'mafiaattack-story': {
+    title: 'Cinematic Game Narratives',
+    desc: 'Story\'s scroll-driven narrative engine adapted for game lore and role backstories. Each character has a scrollable origin story.',
+    tech: 'Framer Motion · Canvas · Game Narrative'
+  },
+  'mafiaattack-portfolio': {
+    title: 'Game Dev Portfolio',
+    desc: 'MafiaAttack\'s cinematic UI design principles applied to a game developer\'s portfolio — immersive, animated, engaging.',
+    tech: 'React 19 · CSS Animations · WebRTC'
+  },
+  'mafiaattack-voting': {
+    title: 'In-Game Voting System',
+    desc: 'The EVM voting system adapted for mafia game eliminations. Tamper-proof, transparent, client-side verified votes.',
+    tech: 'IndexedDB · Chart.js · Game Mechanics'
+  },
+  'ghexplorer-newsfeed': {
+    title: 'Developer News Discovery',
+    desc: 'Search for developers and see their latest news mentions. GitHub Explorer meets News Feed — discover devs making headlines.',
+    tech: 'GitHub REST API · NewsAPI · Vanilla JS'
+  },
+  'ghexplorer-story': {
+    title: 'Codebase Evolution Timeline',
+    desc: 'Visualize a repository\'s history as an interactive scrollable timeline — from first commit to latest release.',
+    tech: 'GitHub API · Framer Motion · Scroll Narrative'
+  },
+  'ghexplorer-portfolio': {
+    title: 'Live GitHub Portfolio',
+    desc: 'Portfolio automatically populated from GitHub data. Always up-to-date repos, stars, and contribution graphs.',
+    tech: 'GitHub REST API · React 19 · Vite 6'
+  },
+  'ghexplorer-voting': {
+    title: 'Community Vote Analytics',
+    desc: 'GitHub issue voting with chart visualization. See which features the community wants most, powered by Chart.js.',
+    tech: 'Chart.js · IndexedDB · GitHub Issues API'
+  },
+  'newsfeed-story': {
+    title: 'News Through the Ages',
+    desc: 'Explore how news coverage of major internet events evolved — from ARPANET to Web3 — through an interactive timeline.',
+    tech: 'NewsAPI · Framer Motion · Historical Data'
+  },
+  'newsfeed-portfolio': {
+    title: 'News-Powered Portfolio',
+    desc: 'Portfolio with an integrated news section that surfaces articles relevant to each project\'s domain.',
+    tech: 'React 19 · NewsAPI · FormSubmit'
+  },
+  'newsfeed-voting': {
+    title: 'Polling + News Integration',
+    desc: 'Real-time news feed with integrated polling. Read an article, then vote on its relevance — civic engagement for information.',
+    tech: 'NewsAPI · IndexedDB · Chart.js'
+  },
+  'story-portfolio': {
+    title: 'Narrative Portfolio',
+    desc: 'The entire portfolio told as an interactive story — each project is a chapter, scroll to progress through the career narrative.',
+    tech: 'Framer Motion · React · Scroll Storytelling'
+  },
+  'story-voting': {
+    title: 'Democratic Internet History',
+    desc: 'Vote on which internet era was most transformative. Community-curated history with real-time Chart.js results.',
+    tech: 'IndexedDB · Chart.js · React · Scroll Narrative'
+  },
+  'portfolio-voting': {
+    title: 'Interactive Demo Platform',
+    desc: 'Voting system embedded in the portfolio as a live demo. Visitors can test the EVM simulation directly on the site.',
+    tech: 'React 19 · IndexedDB · Chart.js'
+  }
+};
+
+// Fallback for undefined connections
+function getConnectionInfo(id1, id2) {
+  const key1 = `${id1}-${id2}`;
+  const key2 = `${id2}-${id1}`;
+  const found = connectionInfo[key1] || connectionInfo[key2];
+  if (found) return found;
+  const p1 = projects.find(p => p.id === id1);
+  const p2 = projects.find(p => p.id === id2);
+  return {
+    title: `${p1.name} × ${p2.name}`,
+    desc: `Cross-system integration connecting ${p1.short} with ${p2.short}. Exploring how these architectures might collaborate.`,
+    tech: `${p1.tech} · ${p2.tech}`
+  };
+}
+
+// ─── STATE ───
+let connections = [];
+let selectedSource = null;
+let jackElements = {};
+
+// ─── RENDER JACKS ───
+function renderJacks() {
+  const container = document.getElementById('jacks-container');
+  container.innerHTML = '';
+  projects.forEach((proj, idx) => {
+    const jack = document.createElement('div');
+    jack.className = 'jack idle';
+    jack.dataset.id = proj.id;
+    jack.innerHTML = `
+      <div class="port-num">L${idx + 1}</div>
+      <div class="jack-socket"><div class="inner"></div></div>
+      <div class="jack-name">${proj.name}</div>
+      <div class="jack-tech">${proj.short}</div>
+      <div class="jack-led"></div>
+    `;
+    jack.addEventListener('click', () => handleJackClick(proj.id));
+    container.appendChild(jack);
+    jackElements[proj.id] = jack;
+  });
+}
+
+// ─── SVG CABLE LAYER ───
+function getJackCenter(id) {
+  const jack = jackElements[id];
+  if (!jack) return { x: 0, y: 0 };
+  const panel = document.querySelector('.panel');
+  const panelRect = panel.getBoundingClientRect();
+  const jackRect = jack.getBoundingClientRect();
+  return {
+    x: jackRect.left - panelRect.left + jackRect.width / 2,
+    y: jackRect.top - panelRect.top + jackRect.height / 2 - 10
+  };
+}
+
+function renderCables() {
+  const svg = document.getElementById('cable-svg');
+  svg.innerHTML = '';
+  connections.forEach((conn, idx) => {
+    const from = getJackCenter(conn.from);
+    const to = getJackCenter(conn.to);
+    if (!from.x || !to.x) return;
+
+    const dx = to.x - from.x;
+    const dy = to.y - from.y;
+    const cx1 = from.x + dx * 0.4;
+    const cy1 = from.y;
+    const cx2 = from.x + dx * 0.6;
+    const cy2 = to.y;
+
+    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    const projFrom = projects.find(p => p.id === conn.from);
+    const strokeColor = projFrom ? projFrom.color : '#D45500';
+    path.setAttribute('d', `M${from.x},${from.y} C${cx1},${cy1} ${cx2},${cy2} ${to.x},${to.y}`);
+    path.setAttribute('stroke', strokeColor);
+    path.style.animationDelay = `${idx * 0.15}s`;
+    svg.appendChild(path);
+
+    // Glow layer
+    const glow = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    glow.setAttribute('d', `M${from.x},${from.y} C${cx1},${cy1} ${cx2},${cy2} ${to.x},${to.y}`);
+    glow.setAttribute('stroke', strokeColor);
+    glow.setAttribute('stroke-width', '8');
+    glow.setAttribute('opacity', '0.15');
+    glow.setAttribute('filter', 'url(#blur)');
+    svg.appendChild(glow);
+  });
+
+  // Add blur filter
+  if (!document.querySelector('#cable-blur')) {
+    const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+    defs.id = 'cable-blur';
+    const filter = document.createElementNS('http://www.w3.org/2000/svg', 'filter');
+    filter.id = 'blur';
+    const blur = document.createElementNS('http://www.w3.org/2000/svg', 'feGaussianBlur');
+    blur.setAttribute('stdDeviation', '3');
+    filter.appendChild(blur);
+    defs.appendChild(filter);
+    svg.prepend(defs);
+  }
+}
+
+// ─── GAME LOGIC ───
+function handleJackClick(id) {
+  if (!selectedSource) {
+    // Select source
+    selectedSource = id;
+    updateJackStates();
+    document.getElementById('status-text').textContent = 'SELECTING DESTINATION';
+  } else if (selectedSource === id) {
+    // Deselect
+    selectedSource = null;
+    updateJackStates();
+    document.getElementById('status-text').textContent = 'AWAITING INPUT';
+  } else {
+    // Check if already connected
+    const already = connections.find(c =>
+      (c.from === selectedSource && c.to === id) ||
+      (c.from === id && c.to === selectedSource)
+    );
+    if (already) {
+      // Disconnect
+      connections = connections.filter(c => c !== already);
+    } else {
+      // Connect
+      connections.push({ from: selectedSource, to: id });
+      showConnectionInfo(selectedSource, id);
+    }
+    selectedSource = null;
+    updateJackStates();
+    document.getElementById('status-text').textContent = 'CONNECTED';
+    setTimeout(() => {
+      if (!selectedSource) document.getElementById('status-text').textContent = 'AWAITING INPUT';
+    }, 1500);
+  }
+  updateLineCount();
+}
+
+function updateJackStates() {
+  projects.forEach(proj => {
+    const jack = jackElements[proj.id];
+    if (!jack) return;
+    jack.classList.remove('idle', 'selected', 'connected', 'destination');
+
+    const isConnected = connections.some(c => c.from === proj.id || c.to === proj.id);
+    const isSelected = selectedSource === proj.id;
+
+    if (isSelected) {
+      jack.classList.add('selected');
+    } else if (isConnected) {
+      jack.classList.add('connected');
+    } else if (selectedSource && selectedSource !== proj.id) {
+      const already = connections.some(c =>
+        (c.from === selectedSource && c.to === proj.id) ||
+        (c.from === proj.id && c.to === selectedSource)
+      );
+      if (!already) {
+        jack.classList.add('destination');
+      } else {
+        jack.classList.add('idle');
+      }
+    } else {
+      jack.classList.add('idle');
+    }
+  });
+  renderCables();
+}
+
+function showConnectionInfo(id1, id2) {
+  const info = getConnectionInfo(id1, id2);
+  const panel = document.getElementById('info-panel');
+  const proj1 = projects.find(p => p.id === id1);
+  const proj2 = projects.find(p => p.id === id2);
+  panel.innerHTML = `
+    <div class="info-label">⬟ NEW CONNECTION: ${proj1.name} ↔ ${proj2.name}</div>
+    <div class="info-title">${info.title}</div>
+    <div class="info-desc">${info.desc}</div>
+    <div class="info-tech">⚡ ${info.tech}</div>
+  `;
+}
+
+function updateLineCount() {
+  document.getElementById('line-count').textContent = connections.length;
+}
+
+function clearAllConnections() {
+  connections = [];
+  selectedSource = null;
+  updateJackStates();
+  document.getElementById('info-panel').innerHTML = `
+    <div class="info-label">⬟ LAST CONNECTION</div>
+    <div class="info-empty">All lines cleared. Select a source jack to begin.</div>
+  `;
+  document.getElementById('status-text').textContent = 'CLEARED';
+  updateLineCount();
+}
+
+function randomConnection() {
+  // Pick two different projects that aren't already connected
+  const available = [];
+  for (let i = 0; i < projects.length; i++) {
+    for (let j = i + 1; j < projects.length; j++) {
+      const exists = connections.some(c =>
+        (c.from === projects[i].id && c.to === projects[j].id) ||
+        (c.from === projects[j].id && c.to === projects[i].id)
+      );
+      if (!exists) available.push({ from: projects[i].id, to: projects[j].id });
+    }
+  }
+  if (available.length === 0) {
+    document.getElementById('status-text').textContent = 'ALL CONNECTED';
+    return;
+  }
+  const pick = available[Math.floor(Math.random() * available.length)];
+  connections.push(pick);
+  showConnectionInfo(pick.from, pick.to);
+  selectedSource = null;
+  updateJackStates();
+  document.getElementById('status-text').textContent = 'RANDOM CONNECTED';
+  updateLineCount();
+}
+
+function resetAll() {
+  connections = [];
+  selectedSource = null;
+  updateJackStates();
+  document.getElementById('info-panel').innerHTML = `
+    <div class="info-label">⬟ LAST CONNECTION</div>
+    <div class="info-empty">Switchboard reset. Click a source jack to begin.</div>
+  `;
+  document.getElementById('status-text').textContent = 'RESET';
+  updateLineCount();
+}
+
+// ─── RESIZE HANDLER ───
+window.addEventListener('resize', () => { renderCables(); });
+
+// ─── INIT ───
+renderJacks();
+document.getElementById('status-text').textContent = 'READY';
+</script>
+
+</body>
+</html>

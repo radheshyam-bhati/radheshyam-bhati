@@ -689,6 +689,44 @@
 
 <br>
 
+<!-- ───── TRAINING SIMULATION ───── -->
+
+<div align="center">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
+  <br><br>
+  <img src="assets/indicator-light.svg" alt="Train" width="20">
+  <br><br>
+  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">⬟ SWITCHBOARD TRAINING SIMULATION</code>
+</div>
+
+<br>
+
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
+╔══════════════════════════════════════════╗
+║                                          ║
+║  OPERATOR TRAINING MODULE                ║
+║  ─────────────────────────                ║
+║                                          ║
+║  An interactive switchboard where you    ║
+║  patch cables between projects to        ║
+║  discover how they connect.              ║
+║                                          ║
+║  Click a source jack, then a destination ║
+║  — watch the cable glow as architecture  ║
+║  insights are revealed.                  ║
+║                                          ║
+║  All 21 possible connections have        ║
+║  unique engineering stories.             ║
+║                                          ║
+╚══════════════════════════════════════════╝
+</pre>
+
+<div align="center">
+  <a href="game/" style="display: inline-block; border: 1px solid #D45500; color: #D45500; padding: 10px 28px; border-radius: 6px; text-decoration: none; font-family: 'Courier New', monospace; font-size: 0.8em; letter-spacing: 3px; transition: all 0.3s;" onmouseover="this.style.background='#D45500'; this.style.color='#0A0B0C';" onmouseout="this.style.background='transparent'; this.style.color='#D45500';">⬟ ENTER TRAINING SIMULATION</a>
+</div>
+
+<br>
+
 <!-- ───── FUTURE INSTALLATIONS ───── -->
 
 <div align="center">
