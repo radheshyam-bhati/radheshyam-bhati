@@ -22,6 +22,11 @@ else
     "https://api.github.com/users/$USERNAME" 2>/dev/null) || true
 fi
 
+if [ -z "$HTTP_RESPONSE" ]; then
+  echo "ERROR: Empty response from user API"
+  exit 1
+fi
+
 HTTP_CODE="${HTTP_RESPONSE: -3}"
 BODY="${HTTP_RESPONSE:0:-3}"
 
@@ -50,6 +55,11 @@ if [ -n "$GH_TOKEN" ]; then
 else
   HTTP_RESPONSE=$(curl -s -w "%{http_code}" \
     "https://api.github.com/users/$USERNAME/repos?per_page=100&type=public&sort=updated" 2>/dev/null) || true
+fi
+
+if [ -z "$HTTP_RESPONSE" ]; then
+  echo "ERROR: Empty response from repos API"
+  exit 1
 fi
 
 HTTP_CODE="${HTTP_RESPONSE: -3}"
