@@ -20,10 +20,11 @@ if command -v gh &>/dev/null; then
   PUBLIC_REPOS=$(gh api "users/$USERNAME" --jq '.public_repos // 0')
   FOLLOWERS=$(gh api "users/$USERNAME" --jq '.followers // 0')
   
-  REPO_STARS=$(gh api "users/$USERNAME/repos?per_page=100&sort=updated" --jq '[.[].stargazers_count] | add // 0')
-  REPO_FORKS=$(gh api "users/$USERNAME/repos?per_page=100&sort=updated" --jq '[.[].forks_count] | add // 0')
-  LATEST_REPO=$(gh api "users/$USERNAME/repos?per_page=100&sort=updated" --jq 'max_by(.pushed_at) | .name // "N/A"')
-  LANGUAGES=$(gh api "users/$USERNAME/repos?per_page=100&sort=updated" --jq '[.[].language] | unique | map(select(. != null)) | join(", ")' 2>/dev/null || echo "Various")
+  REPOS_JSON=$(gh api "users/$USERNAME/repos?per_page=100&sort=updated")
+  REPO_STARS=$(echo "$REPOS_JSON" | jq -r '[.[].stargazers_count] | add // 0')
+  REPO_FORKS=$(echo "$REPOS_JSON" | jq -r '[.[].forks_count] | add // 0')
+  LATEST_REPO=$(echo "$REPOS_JSON" | jq -r 'max_by(.pushed_at) | .name // "N/A"')
+  LANGUAGES=$(echo "$REPOS_JSON" | jq -r '[.[].language] | unique | map(select(. != null)) | join(", ")' 2>/dev/null || echo "Various")
 
 else
   echo "gh CLI not available, falling back to curl"
