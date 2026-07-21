@@ -1,7 +1,6 @@
 name: Update Switchboard Stats
 on:
   schedule:
-    # Every Monday at 6 AM UTC
     - cron: '0 6 * * 1'
   workflow_dispatch:
   push:
@@ -19,6 +18,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
 
       - name: Generate live stats SVG
         run: |
