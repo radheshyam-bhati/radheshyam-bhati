@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/switchboard-header.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/switchboard-header.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/switchboard-header-light.svg">
     <img src="assets/switchboard-header.svg" alt="The Switchboard — Vintage Telephone Exchange" width="100%">
   </picture>
 </div>
@@ -113,6 +113,9 @@
 ║                                          ║
 ║  ⬟ PUBLIC BOOTH · Online Voting         ║
 ║    Civic utility — Open to all           ║
+║                                          ║
+║  ⬟ OJT CIRCUITS · Training Lines         ║
+║    Apprenticeship — Foundational          ║
 ║                                          ║
 ╚══════════════════════════════════════════╝
 </pre>
@@ -406,6 +409,32 @@
   Data filtering:
     Invalid articles (removed titles, missing links) are
     filtered out client-side before rendering.
+
+  CALL STATISTICS
+  ───────────────
+
+  Frontend:    Vanilla JS (5 modules)
+  Data:        NewsAPI
+  Cache:       localStorage (category preference)
+  Status:      🟢 Connected
+
+  ENGINEERING NOTES
+  ─────────────────
+
+  The 500ms debounce was tuned to balance responsiveness
+  against API rate limits. Any faster and we'd hit the
+  free tier ceiling on NewsAPI within minutes.
+
+  DocumentFragment batch rendering was a deliberate choice
+  over innerHTML. For a feed that might display 50+ cards,
+  the performance difference is measurable in seconds.
+
+  FUTURE UPGRADES
+  ───────────────
+
+  · Personalized news trunk (curated topics)
+  · Historical archive line (past articles)
+  · RSS feed integration
 </pre>
 
 </details>
@@ -459,6 +488,24 @@
               Framer Motion · Tailwind CSS v4
 
   Status: 🟢 Connected
+
+  ENGINEERING NOTES
+  ─────────────────
+
+  The most interesting challenge was managing global era
+  state across multiple scroll-driven sections. Using a
+  React context (useEraState) instead of prop-drilling
+  kept the architecture clean as the narrative grew.
+
+  Canvas-based particle effects use requestAnimationFrame
+  for 60fps — no animation library overhead.
+
+  LESSONS
+  ───────
+
+  Scroll-driven storytelling forces you to think in
+  sequences, not pages. Every section must work as a
+  scene in a film, not a slide in a deck.
 </pre>
 
 </details>
@@ -490,6 +537,76 @@
   Redesigned twice — from vanilla JS to GSAP to Framer
   Motion — each iteration teaching something new about
   animation performance and developer experience.
+</pre>
+
+</details>
+
+<br>
+
+<!-- ───── PUBLIC BOOTH: ONLINE VOTING ───── -->
+
+<div align="center">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
+  <br><br>
+  <code style="color: #00A86B; font-size: 0.9em; letter-spacing: 3px;">⬟ PUBLIC BOOTH · ONLINE VOTING SYSTEM</code>
+  <br>
+  <code style="color: #8B7355; font-size: 0.75em;">TYPE: Civic Utility · DESTINATION: The Ballot Box</code>
+</div>
+
+<details>
+<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
+  <strong>▸ PATCH THROUGH</strong>
+</summary>
+
+<br>
+
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
+  CALL DESCRIPTION
+  ────────────────
+
+  A fully client-side EVM + VVPAT simulation that enforces
+  one-vote-per-voter without any server infrastructure.
+  Designed for educational demonstrations of India's
+  electronic voting process.
+
+  SWITCHBOARD ARCHITECTURE
+  ───────────────────────
+
+  Zero-server trunk:
+    Hashed EPIC-style voter IDs + IndexedDB enforce voting
+    rules locally. Double-vote prevention at 100% accuracy.
+    No network dependency means the booth works offline.
+
+  Data relay (IndexedDB + LocalStorage):
+    Vote records persist across sessions. Unlimited voters
+    supported entirely in-browser.
+
+  Results display (Chart.js):
+    Real-time vote tallies updated client-side.
+
+  CALL STATISTICS
+  ───────────────
+
+  Engine:    Vanilla JavaScript
+  Storage:   IndexedDB · LocalStorage
+  Viz:       Chart.js
+  Server:    None (intentionally)
+  Status:    🟢 Connected
+
+  ENGINEERING NOTES
+  ─────────────────
+
+  The best infrastructure is no infrastructure.
+  Everything runs client-side. No servers, no costs,
+  no maintenance. Security through architecture.
+
+  LESSONS
+  ───────
+
+  Trust is the hardest engineering problem.
+  A voting system must be transparent enough to verify
+  but secure enough to protect. Client-side code can
+  achieve both when designed intentionally.
 </pre>
 
 </details>
@@ -662,6 +779,58 @@
     Connected from Jodhpur · Last updated July 2026
   </p>
 </div>
+
+<br>
+
+<!-- ───── EASTER EGG ───── -->
+
+<details>
+<summary style="color: #D45500; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.75em; opacity: 0.5;">
+  <strong>⬟ ROUTINE LOG ENTRY · DO NOT EXPAND</strong>
+</summary>
+
+<br>
+
+<pre style="background: #0A0B0C; border: 1px solid #CC3333; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
+╔══════════════════════════════════════════╗
+║                                          ║
+║  ⚠️  INTERCEPTED TRANSMISSION             ║
+║  ─────────────────────────                ║
+║                                          ║
+║  This line was not meant for you.        ║
+║  But since you're here...                ║
+║                                          ║
+║  The operator keeps a secondary log.     ║
+║  Notes that don't make it to the         ║
+║  official switchboard documentation:     ║
+║                                          ║
+║  · MedConnect started as a weekend       ║
+║    project. It became a monorepo.        ║
+║                                          ║
+║  · MafiaAttack's WebRTC mesh was         ║
+║    rewritten 4 times before phase-aware  ║
+║    voice worked reliably.                ║
+║                                          ║
+║  · GitHub Explorer began as a 200-line   ║
+║    script. It grew into 12 modules       ║
+║    because good code asks to be split.   ║
+║                                          ║
+║  · Story's canvas particles were         ║
+║    originally three.js. That was         ║
+║    overkill. requestAnimationFrame was   ║
+║    enough.                               ║
+║                                          ║
+║  · The voting system has never been      ║
+║    hacked. Not once. Client-side         ║
+║    security is not an oxymoron.          ║
+║                                          ║
+║  This message will self-destruct.        ║
+║  (Not really. It's just markdown.)       ║
+║                                          ║
+╚══════════════════════════════════════════╝
+</pre>
+
+</details>
 
 <br>
 
