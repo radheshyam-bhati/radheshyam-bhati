@@ -660,6 +660,30 @@
 
 <br>
 
+<!-- ───── SYSTEM STATUS ───── -->
+
+<div align="center">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
+  <br><br>
+  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">SYSTEM STATUS</code>
+</div>
+
+<br>
+
+<div align="center">
+  <a href="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/deploy-game.yml">
+    <img src="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/deploy-game.yml/badge.svg" alt="Deploy Game" style="margin: 3px;">
+  </a>
+  <a href="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/update-stats.yml">
+    <img src="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/update-stats.yml/badge.svg" alt="Update Stats" style="margin: 3px;">
+  </a>
+  <a href="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/switchboard-maintenance.yml">
+    <img src="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/switchboard-maintenance.yml/badge.svg" alt="Maintenance" style="margin: 3px;">
+  </a>
+</div>
+
+<br>
+
 <!-- ───── OPERATOR'S LOGS ───── -->
 
 <div align="center">
