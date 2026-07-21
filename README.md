@@ -672,13 +672,13 @@
 
 <div align="center">
   <a href="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/deploy-game.yml">
-    <img src="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/deploy-game.yml/badge.svg" alt="Deploy Game" style="margin: 3px;">
-  </a>
+    <img src="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/deploy-game.yml/badge.svg?style=flat&labelColor=0A0B0C&color=2A2F38" alt="Deploy Game">
+  </a>&nbsp;&nbsp;
   <a href="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/update-stats.yml">
-    <img src="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/update-stats.yml/badge.svg" alt="Update Stats" style="margin: 3px;">
-  </a>
+    <img src="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/update-stats.yml/badge.svg?style=flat&labelColor=0A0B0C&color=2A2F38" alt="Update Stats">
+  </a>&nbsp;&nbsp;
   <a href="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/switchboard-maintenance.yml">
-    <img src="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/switchboard-maintenance.yml/badge.svg" alt="Maintenance" style="margin: 3px;">
+    <img src="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/switchboard-maintenance.yml/badge.svg?style=flat&labelColor=0A0B0C&color=2A2F38" alt="Maintenance">
   </a>
 </div>
 
