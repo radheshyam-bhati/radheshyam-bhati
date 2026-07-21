@@ -4,118 +4,81 @@ set -e
 USERNAME="radheshyam-bhati"
 OUTPUT_FILE="assets/switchboard-stats.svg"
 
-# Ensure output directory exists
-mkdir -p assets
-
 echo "=== SWITCHBOARD STATS GENERATOR ==="
 echo "User: $USERNAME"
 echo "Output: $OUTPUT_FILE"
-echo "================================"
 
-# Fetch user data
-echo "Fetching user data..."
-if [ -n "$GH_TOKEN" ]; then
-  HTTP_RESPONSE=$(curl -s -w "%{http_code}" -H "Authorization: token $GH_TOKEN" \
-    "https://api.github.com/users/$USERNAME" 2>/dev/null) || true
+# Ensure output directory exists
+mkdir -p assets
+
+# Use gh CLI (pre-installed and authenticated on GitHub Actions runners)
+echo "Fetching user data via gh CLI..."
+if command -v gh &>/dev/null; then
+  GH_AVAILABLE=true
+  echo "gh CLI found, using authenticated API calls"
+
+  PUBLIC_REPOS=$(gh api "users/$USERNAME" --jq '.public_repos // 0')
+  FOLLOWERS=$(gh api "users/$USERNAME" --jq '.followers // 0')
+  
+  REPO_STARS=$(gh api "users/$USERNAME/repos?per_page=100&sort=updated" --jq '[.[].stargazers_count] | add // 0')
+  REPO_FORKS=$(gh api "users/$USERNAME/repos?per_page=100&sort=updated" --jq '[.[].forks_count] | add // 0')
+  LATEST_REPO=$(gh api "users/$USERNAME/repos?per_page=100&sort=updated" --jq 'max_by(.pushed_at) | .name // "N/A"')
+  LANGUAGES=$(gh api "users/$USERNAME/repos?per_page=100&sort=updated" --jq '[.[].language] | unique | map(select(. != null)) | join(", ")' 2>/dev/null || echo "Various")
+
 else
-  HTTP_RESPONSE=$(curl -s -w "%{http_code}" \
-    "https://api.github.com/users/$USERNAME" 2>/dev/null) || true
+  echo "gh CLI not available, falling back to curl"
+  echo "WARNING: This path may hit rate limits"
+
+  USER_DATA=$(curl -s --fail "https://api.github.com/users/$USERNAME" 2>/dev/null) || {
+    echo "ERROR: Failed to fetch user data"
+    exit 1
+  }
+  REPOS_DATA=$(curl -s --fail "https://api.github.com/users/$USERNAME/repos?per_page=100&sort=updated" 2>/dev/null) || {
+    echo "ERROR: Failed to fetch repos data"
+    exit 1
+  }
+
+  PUBLIC_REPOS=$(echo "$USER_DATA" | jq -r '.public_repos // 0')
+  FOLLOWERS=$(echo "$USER_DATA" | jq -r '.followers // 0')
+  REPO_STARS=$(echo "$REPOS_DATA" | jq '[.[].stargazers_count] | add // 0')
+  REPO_FORKS=$(echo "$REPOS_DATA" | jq '[.[].forks_count] | add // 0')
+  LATEST_REPO=$(echo "$REPOS_DATA" | jq -r 'max_by(.pushed_at) | .name // "N/A"')
+  LANGUAGES=$(echo "$REPOS_DATA" | jq -r '[.[].language] | unique | map(select(. != null)) | join(", ")' 2>/dev/null || echo "Various")
 fi
 
-if [ -z "$HTTP_RESPONSE" ]; then
-  echo "ERROR: Empty response from user API"
-  exit 1
-fi
-
-HTTP_CODE="${HTTP_RESPONSE: -3}"
-BODY="${HTTP_RESPONSE:0:-3}"
-
-echo "User API HTTP status: $HTTP_CODE"
-
-if [ "$HTTP_CODE" != "200" ]; then
-  echo "ERROR: GitHub user API returned HTTP $HTTP_CODE"
-  echo "Response excerpt:"
-  echo "$BODY" | head -c 300
-  echo ""
-  exit 1
-fi
-
-USER_DATA="$BODY"
-echo "$USER_DATA" | jq empty 2>/dev/null || {
-  echo "ERROR: Invalid JSON response from user API"
-  echo "$BODY" | head -c 300
-  exit 1
-}
-
-# Fetch repos data
-echo "Fetching repos data..."
-if [ -n "$GH_TOKEN" ]; then
-  HTTP_RESPONSE=$(curl -s -w "%{http_code}" -H "Authorization: token $GH_TOKEN" \
-    "https://api.github.com/users/$USERNAME/repos?per_page=100&type=public&sort=updated" 2>/dev/null) || true
-else
-  HTTP_RESPONSE=$(curl -s -w "%{http_code}" \
-    "https://api.github.com/users/$USERNAME/repos?per_page=100&type=public&sort=updated" 2>/dev/null) || true
-fi
-
-if [ -z "$HTTP_RESPONSE" ]; then
-  echo "ERROR: Empty response from repos API"
-  exit 1
-fi
-
-HTTP_CODE="${HTTP_RESPONSE: -3}"
-BODY="${HTTP_RESPONSE:0:-3}"
-
-echo "Repos API HTTP status: $HTTP_CODE"
-
-if [ "$HTTP_CODE" != "200" ]; then
-  echo "ERROR: GitHub repos API returned HTTP $HTTP_CODE"
-  echo "Response excerpt:"
-  echo "$BODY" | head -c 300
-  echo ""
-  exit 1
-fi
-
-REPOS_DATA="$BODY"
-echo "$REPOS_DATA" | jq empty 2>/dev/null || {
-  echo "ERROR: Invalid JSON response from repos API"
-  echo "$BODY" | head -c 300
-  exit 1
-}
-
-# Extract stats
-PUBLIC_REPOS=$(echo "$USER_DATA" | jq -r '.public_repos // 0')
-FOLLOWERS=$(echo "$USER_DATA" | jq -r '.followers // 0')
-TOTAL_STARS=$(echo "$REPOS_DATA" | jq '[.[].stargazers_count] | add // 0')
-TOTAL_FORKS=$(echo "$REPOS_DATA" | jq '[.[].forks_count] | add // 0')
-LATEST_REPO=$(echo "$REPOS_DATA" | jq -r 'max_by(.pushed_at) | .name // "N/A"')
-LANGUAGES=$(echo "$REPOS_DATA" | jq -r '[.[].language] | unique | map(select(. != null)) | join(", ")' 2>/dev/null || echo "Various")
 LANGUAGES="${LANGUAGES:0:55}"
 
 echo ""
-echo "Stats extracted:"
+echo "Stats:"
 echo "  Repos:     $PUBLIC_REPOS"
-echo "  Stars:     $TOTAL_STARS"
+echo "  Stars:     $REPO_STARS"
 echo "  Followers: $FOLLOWERS"
-echo "  Forks:     $TOTAL_FORKS"
+echo "  Forks:     $REPO_FORKS"
 echo "  Latest:    $LATEST_REPO"
 echo "  Languages: $LANGUAGES"
-echo ""
+
+# Guard against non-numeric values
+PUBLIC_REPOS=${PUBLIC_REPOS:-0}
+REPO_STARS=${REPO_STARS:-0}
+FOLLOWERS=${FOLLOWERS:-0}
+REPO_FORKS=${REPO_FORKS:-0}
 
 # Clamp bar widths (max 115px)
 bar_width_repos=$(( PUBLIC_REPOS > 50 ? 115 : PUBLIC_REPOS * 2 ))
-bar_width_stars=$(( TOTAL_STARS > 50 ? 115 : TOTAL_STARS * 2 ))
+bar_width_stars=$(( REPO_STARS > 50 ? 115 : REPO_STARS * 2 ))
 bar_width_followers=$(( FOLLOWERS > 50 ? 115 : FOLLOWERS * 2 ))
-bar_width_forks=$(( TOTAL_FORKS > 50 ? 115 : TOTAL_FORKS * 2 ))
+bar_width_forks=$(( REPO_FORKS > 50 ? 115 : REPO_FORKS * 2 ))
 
 # Format numbers with leading zeros
 fmt_repos=$(printf "%02d" $PUBLIC_REPOS)
-fmt_stars=$(printf "%02d" $TOTAL_STARS)
+fmt_stars=$(printf "%02d" $REPO_STARS)
 fmt_followers=$(printf "%02d" $FOLLOWERS)
-fmt_forks=$(printf "%02d" $TOTAL_FORKS)
+fmt_forks=$(printf "%02d" $REPO_FORKS)
 
 # Current timestamp
 NOW=$(date -u "+%Y-%m-%d %H:%M UTC")
 
+echo ""
 echo "Generating SVG..."
 cat > "$OUTPUT_FILE" << SVGEOF
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 160" width="100%" height="auto">
@@ -171,5 +134,6 @@ cat > "$OUTPUT_FILE" << SVGEOF
 </svg>
 SVGEOF
 
+echo ""
 echo "SVG generated successfully at $OUTPUT_FILE"
 echo "=== DONE ==="
