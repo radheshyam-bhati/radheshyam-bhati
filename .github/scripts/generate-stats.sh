@@ -10,22 +10,25 @@ mkdir -p assets
 echo "=== SWITCHBOARD STATS GENERATOR ==="
 echo "User: $USERNAME"
 echo "Output: $OUTPUT_FILE"
-echo "GH_TOKEN present: $([ -n \"$GH_TOKEN\" ] && echo 'YES' || echo 'NO')"
 echo "================================"
 
-# Fetch user data with verbose error handling
+# Fetch user data
 echo "Fetching user data..."
-HTTP_RESPONSE=$(curl -s -w "%{http_code}" \
-  ${GH_TOKEN:+-H "Authorization: token $GH_TOKEN"} \
-  "https://api.github.com/users/$USERNAME" 2>/dev/null) || true
+if [ -n "$GH_TOKEN" ]; then
+  HTTP_RESPONSE=$(curl -s -w "%{http_code}" -H "Authorization: token $GH_TOKEN" \
+    "https://api.github.com/users/$USERNAME" 2>/dev/null) || true
+else
+  HTTP_RESPONSE=$(curl -s -w "%{http_code}" \
+    "https://api.github.com/users/$USERNAME" 2>/dev/null) || true
+fi
 
 HTTP_CODE="${HTTP_RESPONSE: -3}"
 BODY="${HTTP_RESPONSE:0:-3}"
 
-echo "HTTP status: $HTTP_CODE"
+echo "User API HTTP status: $HTTP_CODE"
 
 if [ "$HTTP_CODE" != "200" ]; then
-  echo "ERROR: GitHub API returned HTTP $HTTP_CODE"
+  echo "ERROR: GitHub user API returned HTTP $HTTP_CODE"
   echo "Response excerpt:"
   echo "$BODY" | head -c 300
   echo ""
@@ -33,28 +36,29 @@ if [ "$HTTP_CODE" != "200" ]; then
 fi
 
 USER_DATA="$BODY"
-
-# Validate JSON
 echo "$USER_DATA" | jq empty 2>/dev/null || {
-  echo "ERROR: Invalid JSON response"
-  echo "Response excerpt:"
-  echo "$USER_DATA" | head -c 300
+  echo "ERROR: Invalid JSON response from user API"
+  echo "$BODY" | head -c 300
   exit 1
 }
 
 # Fetch repos data
 echo "Fetching repos data..."
-HTTP_RESPONSE=$(curl -s -w "%{http_code}" \
-  ${GH_TOKEN:+-H "Authorization: token $GH_TOKEN"} \
-  "https://api.github.com/users/$USERNAME/repos?per_page=100&type=public&sort=updated" 2>/dev/null) || true
+if [ -n "$GH_TOKEN" ]; then
+  HTTP_RESPONSE=$(curl -s -w "%{http_code}" -H "Authorization: token $GH_TOKEN" \
+    "https://api.github.com/users/$USERNAME/repos?per_page=100&type=public&sort=updated" 2>/dev/null) || true
+else
+  HTTP_RESPONSE=$(curl -s -w "%{http_code}" \
+    "https://api.github.com/users/$USERNAME/repos?per_page=100&type=public&sort=updated" 2>/dev/null) || true
+fi
 
 HTTP_CODE="${HTTP_RESPONSE: -3}"
 BODY="${HTTP_RESPONSE:0:-3}"
 
-echo "HTTP status: $HTTP_CODE"
+echo "Repos API HTTP status: $HTTP_CODE"
 
 if [ "$HTTP_CODE" != "200" ]; then
-  echo "ERROR: GitHub API returned HTTP $HTTP_CODE"
+  echo "ERROR: GitHub repos API returned HTTP $HTTP_CODE"
   echo "Response excerpt:"
   echo "$BODY" | head -c 300
   echo ""
@@ -62,9 +66,9 @@ if [ "$HTTP_CODE" != "200" ]; then
 fi
 
 REPOS_DATA="$BODY"
-
 echo "$REPOS_DATA" | jq empty 2>/dev/null || {
   echo "ERROR: Invalid JSON response from repos API"
+  echo "$BODY" | head -c 300
   exit 1
 }
 
@@ -75,8 +79,6 @@ TOTAL_STARS=$(echo "$REPOS_DATA" | jq '[.[].stargazers_count] | add // 0')
 TOTAL_FORKS=$(echo "$REPOS_DATA" | jq '[.[].forks_count] | add // 0')
 LATEST_REPO=$(echo "$REPOS_DATA" | jq -r 'max_by(.pushed_at) | .name // "N/A"')
 LANGUAGES=$(echo "$REPOS_DATA" | jq -r '[.[].language] | unique | map(select(. != null)) | join(", ")' 2>/dev/null || echo "Various")
-
-# Truncate long language list
 LANGUAGES="${LANGUAGES:0:55}"
 
 echo ""
