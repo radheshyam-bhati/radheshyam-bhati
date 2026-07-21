@@ -722,7 +722,9 @@
 </pre>
 
 <div align="center">
-  <a href="game/" style="display: inline-block; border: 1px solid #D45500; color: #D45500; padding: 10px 28px; border-radius: 6px; text-decoration: none; font-family: 'Courier New', monospace; font-size: 0.8em; letter-spacing: 3px; transition: all 0.3s;" onmouseover="this.style.background='#D45500'; this.style.color='#0A0B0C';" onmouseout="this.style.background='transparent'; this.style.color='#D45500';">⬟ ENTER TRAINING SIMULATION</a>
+  <a href="https://radheshyam-bhati.github.io/radheshyam-bhati/game/" style="display: inline-block; border: 1px solid #D45500; color: #D45500; padding: 10px 28px; border-radius: 6px; text-decoration: none; font-family: 'Courier New', monospace; font-size: 0.8em; letter-spacing: 3px;">⬟ ENTER TRAINING SIMULATION</a>
+  <br>
+  <span style="color: #5A4A35; font-size: 0.65em; display: block; margin-top: 6px;">Requires GitHub Pages enabled on this repo</span>
 </div>
 
 <br>
