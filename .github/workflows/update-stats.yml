@@ -1,0 +1,40 @@
+name: Update Switchboard Stats
+on:
+  schedule:
+    # Every Monday at 6 AM UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/generate-stats.sh'
+      - '.github/workflows/update-stats.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate live stats SVG
+        run: |
+          chmod +x .github/scripts/generate-stats.sh
+          .github/scripts/generate-stats.sh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "Switchboard Bot"
+          git config user.email "bot@switchboard.workshop"
+          git add assets/switchboard-stats.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update switchboard live stats [skip ci]"
+            git push
+          fi

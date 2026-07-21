@@ -8,6 +8,18 @@
 
 <br>
 
+<!-- ───── LIVE METER PANEL ───── -->
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/switchboard-stats.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/switchboard-stats.svg">
+    <img src="assets/switchboard-stats.svg" alt="Live Switchboard Stats — repos, stars, followers, forks" width="100%">
+  </picture>
+</div>
+
+<br>
+
 <!-- ───── ARRIVAL ───── -->
 
 <div align="center">
