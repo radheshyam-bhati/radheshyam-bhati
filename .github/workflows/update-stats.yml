@@ -21,11 +21,8 @@ jobs:
 
       - name: Generate live stats SVG
         run: |
-          echo "=== INLINE TEST ==="
-          mkdir -p assets
-          echo "test-$(date)" > assets/switchboard-test.txt
-          echo "Hello from inline workflow step" > assets/switchboard-stats.svg
-          echo "=== DONE ==="
+          chmod +x .github/scripts/generate-stats.sh
+          .github/scripts/generate-stats.sh
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -33,7 +30,8 @@ jobs:
         run: |
           git config user.name "Switchboard Bot"
           git config user.email "bot@switchboard.workshop"
-          git add assets/
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git add assets/switchboard-stats.svg
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
