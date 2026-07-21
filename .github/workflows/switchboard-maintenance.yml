@@ -15,20 +15,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-
       - name: Update operator timestamp
         run: |
-          # Use gsed (macOS) or sed (Linux) to update timestamp
-          CURRENT_MONTH=$(date '+%B %Y')
-          if [[ "$OSTYPE" == "darwin"* ]]; then
-            sed -i '' "s/Last updated.*/Last updated ${CURRENT_MONTH}/" README.md
-          else
-            sed -i "s/Last updated.*/Last updated ${CURRENT_MONTH}/" README.md
-          fi
+          sed -i "s/Last updated.*/Last updated $(date '+%B %Y')/" README.md
           echo "{\"last_maintenance\": \"$(date -u +"%Y-%m-%dT%H:%M:%SZ")\", \"operator\": \"Radheshyam Bhati\", \"station\": \"Jodhpur, India\"}" > assets/switchboard-state.json
 
       - name: Commit and push if changed
