@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "Switchboard Bot"
           git config user.email "bot@switchboard.workshop"
-          git add assets/switchboard-stats.svg
+          git add assets/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
