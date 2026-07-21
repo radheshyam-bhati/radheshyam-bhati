@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 70" width="30" height="35">
+  <!-- Phone icon (old handset) -->
+  <rect x="8" y="18" width="44" height="30" rx="6" fill="#1A1D23" stroke="#8B7355" stroke-width="1.5"/>
+  <!-- Handset -->
+  <rect x="14" y="4" width="32" height="10" rx="5" fill="#0A0B0C" stroke="#8B7355" stroke-width="1"/>
+  <!-- Earpiece -->
+  <circle cx="18" cy="9" r="4" fill="#1A1D23" stroke="#8B7355" stroke-width="0.5"/>
+  <!-- Mouthpiece -->
+  <circle cx="42" cy="9" r="4" fill="#1A1D23" stroke="#8B7355" stroke-width="0.5"/>
+  <!-- Coiled cord -->
+  <path d="M30 18 C30 22 20 24 20 30 C20 36 40 38 40 44" fill="none" stroke="#8B7355" stroke-width="1.5" opacity="0.6"/>
+  <!-- Active indicator -->
+  <circle cx="30" cy="55" r="3" fill="#D45500"/>
+  <circle cx="30" cy="55" r="6" fill="#D45500" opacity="0.2"/>
+</svg>

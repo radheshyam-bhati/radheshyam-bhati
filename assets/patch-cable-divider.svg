@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 50" width="100%" height="auto">
+  <defs>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B7355" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#8B7355" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#C4A35A" stop-opacity="0.5"/>
+      <stop offset="85%" stop-color="#8B7355" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8B7355" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="24" width="800" height="1" fill="url(#lineGrad)"/>
+  
+  <!-- Patch cable visual -->
+  <path d="M380 24 Q390 15 400 24 Q410 33 420 24" fill="none" stroke="#D45500" stroke-width="1.5" opacity="0.4"/>
+  <rect x="395" y="21" width="4" height="6" rx="1" fill="#D45500" opacity="0.5"/>
+  <rect x="400" y="21" width="4" height="6" rx="1" fill="#D45500" opacity="0.3"/>
+  <rect x="405" y="21" width="4" height="6" rx="1" fill="#D45500" opacity="0.5"/>
+  
+  <!-- Jack connector symbols -->
+  <rect x="385" y="22" width="3" height="4" rx="1" fill="#C4A35A" opacity="0.4"/>
+  <rect x="412" y="22" width="3" height="4" rx="1" fill="#C4A35A" opacity="0.4"/>
+</svg>

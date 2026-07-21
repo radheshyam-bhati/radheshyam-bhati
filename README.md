@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/city-skyline.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/city-skyline-light.svg">
-    <img src="assets/city-skyline.svg" alt="The Blue City Workshop — Jodhpur-inspired skyline" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/switchboard-header.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/switchboard-header.svg">
+    <img src="assets/switchboard-header.svg" alt="The Switchboard — Vintage Telephone Exchange" width="100%">
   </picture>
 </div>
 
@@ -11,529 +11,556 @@
 <!-- ───── ARRIVAL ───── -->
 
 <div align="center">
-  <img src="assets/street-sign.svg" alt="—" width="100%">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
   <br><br>
-  <img src="assets/compass-rose.svg" alt="Compass" width="36">
+  <img src="assets/indicator-light.svg" alt="Indicator" width="24">
   <br><br>
-  <code style="color: #4A6CF7; font-size: 1.1em; letter-spacing: 4px;">ARRIVAL</code>
+  <code style="color: #C4A35A; font-size: 1em; letter-spacing: 5px;">LINE OPEN</code>
   <br><br>
-  <p style="color: #E8D5B7; max-width: 600px; font-size: 0.95em; line-height: 1.7;">
-    You are standing at the entrance of the <strong style="color: #F5A623;">Blue City Workshop</strong>.<br>
-    A studio nestled in the indigo corridors of Jodhpur, Rajasthan —<br>
-    where ancient craftsmanship meets modern engineering.
+  <p style="color: #E8D5B7; max-width: 580px; font-size: 0.95em; line-height: 1.7;">
+    You have reached <strong style="color: #D45500;">The Switchboard</strong> —<br>
+    a telecommunications station in Jodhpur, Rajasthan,<br>
+    where every call connects a different problem to a solution.
   </p>
-  <p style="color: #B8C6FF; font-size: 0.85em; opacity: 0.7;">
-    Every building here was built by hand. Every street has a story.
+  <p style="color: #8B7355; font-size: 0.8em; max-width: 500px; line-height: 1.5;">
+    The operator is standing by. All circuits are open.<br>
+    Please proceed to your desired connection.
   </p>
   <br>
-  <p style="color: #B8C6FF; font-size: 0.8em; opacity: 0.5;">
-    ── ● ──
+  <p style="color: #C4A35A; font-size: 0.7em; opacity: 0.5; letter-spacing: 3px;">
+    ⬟ CONNECTION ESTABLISHED ⬟
   </p>
 </div>
 
 <br>
 
-<!-- ───── IDENTITY ───── -->
-
-<pre style="background: #0B0D17; border: 1px solid #2A2D4E; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 720px; margin: 0 auto;">
-╔══════════════════════════════════════════╗
-║                                          ║
-║  FOUNDATION STONE                        ║
-║  ────────────────                        ║
-║                                          ║
-║  ARCHITECT   │  Radheshyam Bhati        ║
-║  STUDIO      │  PW Institute of          ║
-║              │  Innovation, Pune         ║
-║  ORIGIN      │  Jodhpur, Rajasthan       ║
-║  CRAFT       │  AI Product Engineering   ║
-║              │  · Full-Stack Development  ║
-║  YEAR        │  First Year · B.Tech CSE  ║
-║              │  Class of 2029            ║
-║                                          ║
-║  PHILOSOPHY                              ║
-║  ──────────                              ║
-║  Build end-to-end. Ship before perfect.  ║
-║  Let AI handle the patterns.             ║
-║  Let humans handle the meaning.          ║
-║                                          ║
-╚══════════════════════════════════════════╝
-</pre>
-
-<br>
-
-<!-- ───── DISTRICT MAP ───── -->
+<!-- ───── OPERATOR'S STATION ───── -->
 
 <div align="center">
-  <img src="assets/street-sign.svg" alt="—" width="100%">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
   <br><br>
-  <code style="color: #4A6CF7; font-size: 1.1em; letter-spacing: 4px;">DISTRICT MAP</code>
-  <br><br>
+  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">OPERATOR'S STATION</code>
 </div>
 
-<pre style="background: #0B0D17; border: 1px solid #2A2D4E; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 720px; margin: 0 auto;">
+<br>
+
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
 ╔══════════════════════════════════════════╗
 ║                                          ║
-║  DISTRICT MAP                            ║
-║  ────────────                            ║
+║  OPERATOR PROFILE                        ║
+║  ────────────────                        ║
 ║                                          ║
-║  ┌─── MEDICAL QUARTER ─────────────────┐ ║
-║  │  🏥  MedConnect · AI Health         │ ║
-║  │      Records Platform               │ ║
-║  └─────────────────────────────────────┘ ║
+║  NAME:      Radheshyam Bhati            ║
+║  STATION:   Jodhpur · Pune, India        ║
+║  DIVISION:  Computer Science Engineering ║
+║             PW Institute of Innovation   ║
+║  SHIFT:     First Year · B.Tech CSE     ║
+║             Class of 2029                ║
 ║                                          ║
-║  ┌─── ENTERTAINMENT DISTRICT ──────────┐ ║
-║  │  🎭  Mafia Attack · Social          │ ║
-║  │      Deduction Game                 │ ║
-║  └─────────────────────────────────────┘ ║
+║  SPECIALIZATION                          ║
+║  ──────────────                          ║
 ║                                          ║
-║  ┌─── FINANCIAL SECTOR ────────────────┐ ║
-║  │  💰  Fin-Mate · AI Personal         │ ║
-║  │      Finance Coach                  │ ║
-║  └─────────────────────────────────────┘ ║
+║  Full-Stack Systems · AI Integration    ║
+║  Real-Time Communication                ║
+║  Monorepo Architecture                  ║
+║  Modular Frontend Design                ║
 ║                                          ║
-║  ┌─── CIVIC PLAZA ─────────────────────┐ ║
-║  │  🗳️  Online Voting System ·         │ ║
-║  │      EVM + VVPAT Simulation         │ ║
-║  └─────────────────────────────────────┘ ║
+║  OPERATOR'S LOG                          ║
+║  ──────────────                          ║
 ║                                          ║
-║  ┌─── CREATIVE STUDIO ─────────────────┐ ║
-║  │  🎨  Portfolio / GitHub Explorer    │ ║
-║  │      Developer Analytics Dashboard  │ ║
-║  └─────────────────────────────────────┘ ║
+║  "Every connection I build is a line     ║
+║   between a problem and its solution.    ║
+║   The switchboard never sleeps."         ║
 ║                                          ║
 ╚══════════════════════════════════════════╝
 </pre>
 
 <br>
 
-<p align="center" style="color: #B8C6FF; font-size: 0.85em; opacity: 0.6;">
-  Scroll to explore each district. Click to see the blueprints.
+<!-- ───── SWITCHBOARD OVERVIEW ───── -->
+
+<div align="center">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
+  <br><br>
+  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">THE SWITCHBOARD · CONNECTION MAP</code>
+</div>
+
+<br>
+
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
+╔══════════════════════════════════════════╗
+║                                          ║
+║  ACTIVE CONNECTIONS                      ║
+║  ──────────────────                      ║
+║                                          ║
+║  ⬟ TRUNK LINE 1 · MedConnect            ║
+║    Healthcare connection — Major circuit ║
+║                                          ║
+║  ⬟ CONFERENCE BRIDGE · MafiaAttack      ║
+║    Multi-party game — Encrypted channel  ║
+║                                          ║
+║  ⬟ DIRECTORY ASSISTANCE · GitHub        ║
+║    Developer lookup — Information line   ║
+║                                          ║
+║  ⬟ NEWS WIRE · News Feed                ║
+║    Live broadcast — Continuous feed      ║
+║                                          ║
+║  ⬟ HISTORY LINE · Story                 ║
+║    Long-distance — Internet archive      ║
+║                                          ║
+║  ⬟ HOTLINE · Portfolio                   ║
+║    Direct line to operator's work        ║
+║                                          ║
+║  ⬟ PUBLIC BOOTH · Online Voting         ║
+║    Civic utility — Open to all           ║
+║                                          ║
+╚══════════════════════════════════════════╝
+</pre>
+
+<br>
+
+<p align="center" style="color: #8B7355; font-size: 0.8em;">
+  Select a line below to connect through.
 </p>
 
 <br>
 
-<!-- ───── MEDICAL QUARTER ───── -->
+<!-- ───── TRUNK LINE: MEDCONNECT ───── -->
 
 <div align="center">
-  <img src="assets/street-sign.svg" alt="—" width="100%">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
   <br><br>
-  <img src="assets/building-medconnect.svg" alt="MedConnect" width="40">
-  <br><br>
-  <code style="color: #FF6B6B; font-size: 1em; letter-spacing: 3px;">DISTRICT 1: MEDICAL QUARTER</code>
-  <br><br>
-  <code style="color: #B8C6FF; font-size: 0.85em;">📍 MedConnect — AI Health Records Platform</code>
+  <code style="color: #D45500; font-size: 0.9em; letter-spacing: 3px;">⬟ TRUNK LINE 1 · MEDCONNECT</code>
+  <br>
+  <code style="color: #8B7355; font-size: 0.75em;">TYPE: Major Circuit · DESTINATION: India's Healthcare</code>
 </div>
 
 <details>
-<summary style="color: #F5A623; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
-  <strong>▸ VIEW BLUEPRINTS</strong>
+<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
+  <strong>▸ PATCH THROUGH</strong>
 </summary>
 
 <br>
 
-<pre style="background: #0B0D17; border: 1px solid #2A2D4E; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 720px; margin: 0 auto;">
-  PROJECT BRIEF
-  ─────────────
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
+  CALL DESCRIPTION
+  ────────────────
 
-  Healthcare data in India is fragmented across providers.
-  No unified, patient-controlled record system exists.
-  This project builds one.
+  Healthcare data in India is fragmented across providers
+  with no unified, patient-controlled record system.
+  This trunk line connects patients to their complete
+  medical history — prescriptions, lab reports, discharge
+  summaries, and imaging — using AI-powered extraction.
 
-  ARCHITECTURE DECISIONS
-  ─────────────────────
+  SWITCHBOARD ARCHITECTURE
+  ───────────────────────
 
-  TypeScript over JavaScript:
-    Health data models require type safety across the
-    entire pipeline. One wrong type = one wrong diagnosis.
+  Frontend trunk (Next.js 15):
+    Server-side React with streaming. TypeScript enforces
+    type safety across health data models end-to-end.
 
-  AI over rule-based:
-    Health patterns are adaptive, not deterministic.
-    LLM integration allows for context-aware insights
-    rather than rigid if-else logic.
+  Backend trunk (NestJS 11):
+    Modular monolith with dependency injection. Each
+    health domain (documents, medications, lab results)
+    is a separate module with its own router and service.
 
-  Clean layered architecture:
-    AI insight generation separated from secure storage.
-    No cross-contamination between inference and data.
+  Database relay (Prisma + PostgreSQL + Redis):
+    Prisma provides type-safe queries. PostgreSQL stores
+    structured health records. Redis caches AI results
+    for sub-50ms retrieval on repeat requests.
 
-  TECH STACK
-  ──────────
+  AI switchboard (Gemini + Document AI):
+    Two-engine OCR architecture: Google Document AI for
+    production, Gemini as fallback. Extracted text feeds
+    into structured health timelines automatically.
 
-  Front:     TypeScript · React · Chart.js
-  Back:      Node.js · FastAPI
-  Data:      PostgreSQL · Firebase · IndexedDB
-  AI:        OpenAI · LLM Integration
+  Build trunk (Turborepo + pnpm):
+    Monorepo with two workspace apps (frontend + backend).
+    Shared TypeScript types across the entire stack.
 
-  STATUS:    🟢 Deployed & functional
-  ──────────────────────────────────────
+  CALL STATISTICS
+  ───────────────
 
-  LESSONS
-  ───────
+  Switchboard:  Next.js 15 · NestJS 11 · Prisma · PostgreSQL
+               Redis · Turborepo · pnpm · Tailwind CSS
+  AI Trunks:    Google Document AI · Gemini · Mem0
+  Status:       🟢 Connected
 
-  Healthcare is not just about data — it's about trust.
-  Every architectural decision should answer:
-  "Would I trust this system with my own medical records?"
+  ENGINEERING NOTES
+  ─────────────────
+
+  The monorepo structure was chosen over separate repos
+  because health data models must be shared between frontend
+  and backend — duplication would create drift and risk.
+
+  Two OCR engines means no single point of failure in
+  document processing. If Document AI is down, Gemini
+  handles the load transparently.
 
   FUTURE UPGRADES
   ───────────────
 
-  · FHIR compliance integration
-  · Multi-language support for regional Indian languages
-  · Mobile application
+  · FHIR compliance trunk
+  · Multi-language operator support
+  · Mobile handset application
 </pre>
 
 </details>
 
 <br>
 
-<!-- ───── ENTERTAINMENT DISTRICT ───── -->
+<!-- ───── CONFERENCE BRIDGE: MAFIA ATTACK ───── -->
 
 <div align="center">
-  <img src="assets/street-sign.svg" alt="—" width="100%">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
   <br><br>
-  <img src="assets/building-mafia.svg" alt="Mafia Attack" width="40">
-  <br><br>
-  <code style="color: #FF6B6B; font-size: 1em; letter-spacing: 3px;">DISTRICT 2: ENTERTAINMENT DISTRICT</code>
-  <br><br>
-  <code style="color: #B8C6FF; font-size: 0.85em;">📍 Mafia Attack — Social Deduction Game</code>
+  <code style="color: #4A90D9; font-size: 0.9em; letter-spacing: 3px;">⬟ CONFERENCE BRIDGE · MAFIA ATTACK</code>
+  <br>
+  <code style="color: #8B7355; font-size: 0.75em;">TYPE: Multi-Party Encrypted · DESTINATION: Village Square</code>
 </div>
 
 <details>
-<summary style="color: #F5A623; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
-  <strong>▸ VIEW BLUEPRINTS</strong>
+<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
+  <strong>▸ PATCH THROUGH</strong>
 </summary>
 
 <br>
 
-<pre style="background: #0B0D17; border: 1px solid #2A2D4E; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 720px; margin: 0 auto;">
-  PROJECT BRIEF
-  ─────────────
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
+  CALL DESCRIPTION
+  ────────────────
 
   Online social deduction games lack integrated voice
-  communication and cinematic phase management.
-  This project embeds voice into the game loop itself.
+  communication. Players juggle Discord + browser, which
+  breaks immersion. This conference bridge embeds voice
+  directly into the game loop — creating a single,
+  seamless experience.
 
-  ARCHITECTURE DECISIONS
-  ─────────────────────
+  SWITCHBOARD ARCHITECTURE
+  ───────────────────────
 
-  WebRTC over external voice servers:
-    Zero-latency in-game communication matters more than
-    infrastructure convenience. A 200ms delay ruins bluffing.
+  Voice network (WebRTC mesh):
+    Peer-to-peer audio with no media server. Day phase =
+    global conference. Night phase = hard mute everyone.
+    Mafia phase = private encrypted channel for killers.
+    Zero server overhead on voice data.
 
-  Event-driven game loop:
-    Real-time state synchronization across all players.
-    Every action is an event. Every event updates all clients.
+  Game signaling (Socket.IO):
+    Strictly used for WebRTC offer/answer exchange and
+    game state synchronization. No game logic on the
+    signal line — all game rules run server-side.
 
-  JavaScript over TypeScript:
-    Rapid iteration on game mechanics requires flexibility.
-    Game balance is found through play, not static analysis.
+  Game engine (OOP — GameEngine.js):
+    Core loop manages timers, phase transitions, and win
+    conditions. PhaseManager acts as a state machine:
+    Lobby → Day → Night → Voting → Morning → GameOver.
 
-  TECH STACK
-  ──────────
+  Voice diagnostics:
+    Live latency and packet-loss indicators per client.
+    Spacebar push-to-talk with smart-muting while typing.
 
-  Engine:    JavaScript · Custom Game Loop
-  Comm:      WebRTC Voice Chat
-  State:     Real-time Synchronization
+  CALL STATISTICS
+  ───────────────
 
-  STATUS:    🟢 Fully playable
-  ──────────────────────────────
+  Audio:       WebRTC Mesh (no media servers)
+  Signaling:   Socket.IO
+  Game Loop:   Node.js · Express · Custom GameEngine
+  Status:      🟢 Connected
 
-  LESSONS
-  ───────
+  ENGINEERING NOTES
+  ─────────────────
 
-  Real-time systems teach you about state.
-  Every millisecond of latency is a design constraint.
-  Voice changes everything — it turns strangers into players.
+  Phase-aware audio is the key innovation. During the day,
+  everyone talks. At night, silence falls — the tension
+  is palpable. The mafia's private channel creates genuine
+  conspiracy. Voice makes the game real.
+
+  Zero media servers means zero voice costs. The server
+  only brokers WebRTC connections; all audio is P2P.
 
   FUTURE UPGRADES
   ───────────────
 
-  · Matchmaking system
-  · Custom game rooms
-  · Mobile responsive mode
+  · Matchmaking trunk line
+  · Custom game room exchanges
+  · Mobile handset support
 </pre>
 
 </details>
 
 <br>
 
-<!-- ───── FINANCIAL SECTOR ───── -->
+<!-- ───── DIRECTORY ASSISTANCE: GITHUB EXPLORER ───── -->
 
 <div align="center">
-  <img src="assets/street-sign.svg" alt="—" width="100%">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
   <br><br>
-  <img src="assets/building-finmate.svg" alt="Fin-Mate" width="40">
-  <br><br>
-  <code style="color: #FF6B6B; font-size: 1em; letter-spacing: 3px;">DISTRICT 3: FINANCIAL SECTOR</code>
-  <br><br>
-  <code style="color: #B8C6FF; font-size: 0.85em;">📍 Fin-Mate — AI Personal Finance Coach</code>
+  <code style="color: #00A86B; font-size: 0.9em; letter-spacing: 3px;">⬟ DIRECTORY ASSISTANCE · GITHUB EXPLORER</code>
+  <br>
+  <code style="color: #8B7355; font-size: 0.75em;">TYPE: Information Service · DESTINATION: Any GitHub Profile</code>
 </div>
 
 <details>
-<summary style="color: #F5A623; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
-  <strong>▸ VIEW BLUEPRINTS</strong>
+<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
+  <strong>▸ PATCH THROUGH</strong>
 </summary>
 
 <br>
 
-<pre style="background: #0B0D17; border: 1px solid #2A2D4E; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 720px; margin: 0 auto;">
-  PROJECT BRIEF
-  ─────────────
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
+  CALL DESCRIPTION
+  ────────────────
 
-  Students and freelancers with irregular income need
-  adaptive budgeting — not static spreadsheets.
-  Built start-to-finish in 24 hours at Mumbai Hacks 2025.
+  Exploring GitHub profiles requires navigating multiple
+  pages. No unified search + analytics view exists.
+  This directory assistance line connects you to any
+  developer's complete profile in one call.
 
-  ARCHITECTURE DECISIONS
-  ─────────────────────
+  SWITCHBOARD ARCHITECTURE
+  ───────────────────────
 
-  FastAPI over Express:
-    Python's data ecosystem integrates directly with OpenAI.
-    FastAPI's async handling suits AI endpoint latency.
+  12-module switchboard (Vanilla JS):
+    Each module has one responsibility:
+    · search.js — Orchestrates validation, loading, fetch
+    · validation.js — GitHub username rules engine
+    · userApi.js — HTTP communication with GitHub REST API
+    · profileRenderer.js — DOM construction for profile
+    · repoRendererNew.js — Sorting, filtering, animation
+    · chartRenderer.js — Chart.js doughnut language breakdown
+    · errorHandler.js — User-friendly error display
+    · rateLimit.js — API header parsing + caching
+    · loader.js — Skeleton loaders and spinners
+    · state.js — localStorage persistence
+    · constants.js — Language color tokens
+    · app.js — Entry point and initialization
 
-  OpenAI for adaptive budgets:
-    Spending patterns are analyzed in context.
-    Alerts trigger when spending deviates &gt;10% from plan.
-    Monthly reports generated in under 5 seconds.
+  Theme trunk:
+    Light/dark mode toggling persisted to localStorage.
+    Glassmorphism cards, fluid grid, responsive layout.
 
-  React + Firebase:
-    Real-time dashboard reflects financial state instantly.
-    Firebase Auth handles student/freelancer onboarding.
-
-  TECH STACK
-  ──────────
-
-  Front:     React · Firebase
-  Back:      Python · FastAPI
-  AI:        OpenAI API
-  Timeline:  24 hours (hackathon)
-
-  STATUS:    🟢 Deployed
-  ──────────────────────
-
-  LESSONS
-  ───────
-
-  24 hours changes everything. You don't build the perfect
-  system — you build the right system. Every feature must
-  answer: "Does this help the user make better decisions?"
-
-  FUTURE UPGRADES
+  CALL STATISTICS
   ───────────────
 
-  · Investment portfolio tracking
-  · Group budgeting for roommates
-  · UPI transaction integration
+  Frontend:    Vanilla JS (12 modules)
+  Data:        GitHub REST API
+  Charts:      Chart.js (doughnut)
+  Status:      🟢 Connected
+
+  ENGINEERING NOTES
+  ─────────────────
+
+  Zero-dependency frontend was a deliberate choice.
+  A framework would be overkill for this single-purpose
+  tool. Module separation makes each concern independently
+  testable and maintainable.
+
+  Rate-limit awareness parses GitHub's API headers and
+  shows users exactly when they can search again.
+  Transparency builds trust.
 </pre>
 
 </details>
 
 <br>
 
-<!-- ───── CIVIC PLAZA ───── -->
+<!-- ───── NEWS WIRE ───── -->
 
 <div align="center">
-  <img src="assets/street-sign.svg" alt="—" width="100%">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
   <br><br>
-  <img src="assets/building-voting.svg" alt="Voting System" width="40">
-  <br><br>
-  <code style="color: #FF6B6B; font-size: 1em; letter-spacing: 3px;">DISTRICT 4: CIVIC PLAZA</code>
-  <br><br>
-  <code style="color: #B8C6FF; font-size: 0.85em;">📍 Online Voting System — EVM + VVPAT Simulation</code>
+  <code style="color: #D45500; font-size: 0.9em; letter-spacing: 3px;">⬟ NEWS WIRE · NEWS FEED</code>
+  <br>
+  <code style="color: #8B7355; font-size: 0.75em;">TYPE: Continuous Broadcast · DESTINATION: Headlines Worldwide</code>
 </div>
 
 <details>
-<summary style="color: #F5A623; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
-  <strong>▸ VIEW BLUEPRINTS</strong>
+<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
+  <strong>▸ PATCH THROUGH</strong>
 </summary>
 
 <br>
 
-<pre style="background: #0B0D17; border: 1px solid #2A2D4E; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 720px; margin: 0 auto;">
-  PROJECT BRIEF
-  ─────────────
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
+  CALL DESCRIPTION
+  ────────────────
 
-  A fully client-side EVM + VVPAT simulation that enforces
-  one-vote-per-voter without any server infrastructure.
+  A fast, modular news ticker that fetches real-time
+  headlines from NewsAPI. Debounced search, categorized
+  filtering, and cached state for seamless browsing.
 
-  ARCHITECTURE DECISIONS
-  ─────────────────────
+  SWITCHBOARD ARCHITECTURE
+  ───────────────────────
 
-  Zero-server architecture:
-    Hashed EPIC-style voter IDs + IndexedDB enforce voting
-    rules locally. Double-vote prevention at 100% accuracy.
+  5-module design:
+    · main.js — Orchestrator, binds events, initializes
+    · state.js — Centralized state + localStorage caching
+    · api.js — HTTP layer, endpoint switching, error handling
+    · render.js — DocumentFragment batch DOM updates
+    · utils.js — Debounce (500ms), date formatting
 
-  IndexedDB over Firebase:
-    Why add network dependency when the voting booth
-    can operate offline? Local persistence is more secure
-    for this use case.
+  Performance trunk:
+    DocumentFragment builds all cards in memory before
+    a single DOM append. Zero reflows during construction.
+    Debounced input prevents API spam on every keystroke.
 
-  Chart.js for live results:
-    Real-time visualization without backend polling.
-    Client-side aggregation means instant dashboard updates.
-
-  TECH STACK
-  ──────────
-
-  Engine:    Vanilla JavaScript
-  Storage:   IndexedDB · LocalStorage
-  Viz:       Chart.js
-  Server:    None (intentionally)
-
-  STATUS:    🟢 Deployed
-  ──────────────────────
-
-  LESSONS
-  ───────
-
-  The best infrastructure is no infrastructure.
-  If it can be done client-side, it should be done client-side.
-  Security through architecture, not through complexity.
-
-  FUTURE UPGRADES
-  ───────────────
-
-  · Multi-election support
-  · Voter turnout analytics
-  · Paper trail PDF generation
+  Data filtering:
+    Invalid articles (removed titles, missing links) are
+    filtered out client-side before rendering.
 </pre>
 
 </details>
 
 <br>
 
-<!-- ───── CREATIVE STUDIO ───── -->
+<!-- ───── HISTORY LINE: STORY ───── -->
 
 <div align="center">
-  <img src="assets/street-sign.svg" alt="—" width="100%">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
   <br><br>
-  <img src="assets/building-studio.svg" alt="Creative Studio" width="40">
-  <br><br>
-  <code style="color: #FF6B6B; font-size: 1em; letter-spacing: 3px;">DISTRICT 5: CREATIVE STUDIO</code>
-  <br><br>
-  <code style="color: #B8C6FF; font-size: 0.85em;">📍 Portfolio &amp; GitHub Explorer</code>
+  <code style="color: #4A90D9; font-size: 0.9em; letter-spacing: 3px;">⬟ HISTORY LINE · STORY</code>
+  <br>
+  <code style="color: #8B7355; font-size: 0.75em;">TYPE: Long-Distance Archive · DESTINATION: Internet History</code>
 </div>
 
 <details>
-<summary style="color: #F5A623; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
-  <strong>▸ VIEW BLUEPRINTS</strong>
+<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
+  <strong>▸ PATCH THROUGH</strong>
 </summary>
 
 <br>
 
-<pre style="background: #0B0D17; border: 1px solid #2A2D4E; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 720px; margin: 0 auto;">
-  PROJECT BRIEF
-  ─────────────
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
+  CALL DESCRIPTION
+  ────────────────
 
-  Two projects, one philosophy: craft matters.
-  The portfolio uses GSAP to tell a visual story.
-  The explorer uses Chart.js to tell a data story.
+  An interactive museum of internet history — from ARPANET
+  to Web 4.0 — built as a scroll-driven narrative exhibit.
+  Each era (Genesis, Web Birth, Web 2.0, Web3, Future)
+  has its own visual identity, widgets, and simulations.
 
-  ARCHITECTURE DECISIONS
-  ─────────────────────
+  SWITCHBOARD ARCHITECTURE
+  ───────────────────────
 
-  GSAP over CSS animations:
-    Scroll-triggered timelines can sequence complex
-    micro-interactions. 3D hover effects. Parallax depth.
-    Sub-100ms first paint. Zero server dependency.
+  Era-based state machine (React 18 + TypeScript):
+    useEraState hook tracks the active historical period
+    based on scroll position. Global UI chrome (progress
+    bar, minimap, timeline slider) updates reactively.
 
-  Zero-dependency frontend (Explorer):
-    Vanilla JS gives full control. No framework overhead
-    for a single-purpose tool. Modular plugin architecture.
+  Canvas trunk:
+    requestAnimationFrame powers particle networks,
+    packet-routing simulations, and animated timelines.
 
-  Chart.js over D3:
-    Simpler API for real-time language distribution.
-    D3 would be overengineered for this use case.
+  Scroll-driven narrative:
+    Framer Motion handles section transitions, parallax
+    layers, and spring-based micro-interactions.
+    A bottom timeline slider lets users scrub through eras.
 
-  TECH STACK
-  ──────────
+  Tech Stack: React 18 · TypeScript · Vite 6
+              Framer Motion · Tailwind CSS v4
 
-  Portfolio:  HTML · CSS · JS · GSAP · Lenis
-  Explorer:   Vanilla JS · Chart.js · GitHub REST API
-
-  STATUS:     🟢 Both deployed
-  ──────────────────────────────
-
-  LESSONS
-  ───────
-
-  Animation is not decoration — it's communication.
-  Good frontend engineering makes the invisible visible.
-  Scroll jank is the enemy of trust.
+  Status: 🟢 Connected
 </pre>
 
 </details>
 
 <br>
 
-<!-- ───── RESEARCH INSTITUTE ───── -->
+<!-- ───── HOTLINE: PORTFOLIO ───── -->
 
 <div align="center">
-  <img src="assets/street-sign.svg" alt="—" width="100%">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
   <br><br>
-  <img src="assets/building-research.svg" alt="Research" width="40">
+  <code style="color: #00A86B; font-size: 0.9em; letter-spacing: 3px;">⬟ HOTLINE · PORTFOLIO</code>
+  <br>
+  <code style="color: #8B7355; font-size: 0.75em;">TYPE: Direct Line · DESTINATION: Operator's Showcase</code>
+</div>
+
+<details>
+<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
+  <strong>▸ PATCH THROUGH</strong>
+</summary>
+
+<br>
+
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
+  A motion-rich React 19 + Vite 6 portfolio with Framer
+  Motion animations, deterministic particle effects,
+  parallax scroll, and a FormSubmit-powered contact line.
+
+  Redesigned twice — from vanilla JS to GSAP to Framer
+  Motion — each iteration teaching something new about
+  animation performance and developer experience.
+</pre>
+
+</details>
+
+<br>
+
+<!-- ───── ENGINEERING SHED ───── -->
+
+<div align="center">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
   <br><br>
-  <code style="color: #4A6CF7; font-size: 1em; letter-spacing: 3px;">RESEARCH INSTITUTE</code>
+  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">ENGINEERING SHED</code>
 </div>
 
 <br>
 
-<pre style="background: #0B0D17; border: 1px solid #2A2D4E; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 720px; margin: 0 auto;">
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║  SWITCHBOARD INVENTORY                                        ║
+║  ─────────────────────                                        ║
+║                                                               ║
+║  SWITCH LANGUAGES  │  Python · JavaScript · TypeScript        ║
+║                    │  C · C++                                 ║
+║  FRONTEND TRUNKS   │  React 19 · Next.js 15 · Vite 6         ║
+║                    │  Framer Motion · Tailwind CSS · GSAP     ║
+║  BACKEND TRUNKS    │  Node.js · NestJS 11 · FastAPI           ║
+║                    │  Express                                 ║
+║  DATA RELAYS       │  PostgreSQL · MySQL · Redis              ║
+║                    │  Firebase · IndexedDB · Prisma           ║
+║  AI SWITCHBOARD    │  OpenAI API · Google Gemini             ║
+║                    │  Google Document AI · Mem0               ║
+║  REAL-TIME LINES   │  WebRTC · Socket.IO                     ║
+║  BUILD TRUNKS      │  Turborepo · pnpm · Git · Docker        ║
+║  DEPLOY HUBS       │  Vercel · Netlify · GitHub Pages        ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+</pre>
+
+<br>
+
+<!-- ───── OPERATOR'S LOGS ───── -->
+
+<div align="center">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
+  <br><br>
+  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">OPERATOR'S LOGS</code>
+</div>
+
+<br>
+
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
 ╔══════════════════════════════════════════╗
 ║                                          ║
-║  ACTIVE RESEARCH                         ║
-║  ───────────────                         ║
-║                                          ║
-║  · SYSTEM DESIGN                         ║
-║    Distributed architecture patterns     ║
-║    Current focus: fault-tolerant systems ║
-║                                          ║
-║  · LLM OPS                               ║
-║    Production AI agent deployment        ║
-║    Experimenting with agent orchestration║
-║                                          ║
-║  · REAL-TIME SYSTEMS                     ║
-║    WebSocket &amp; WebRTC optimization       ║
-║    Latency reduction techniques          ║
-║                                          ║
-║  · CONTAINERIZATION                      ║
-║    Docker &amp; orchestration                ║
-║    Moving from client-only to hybrid     ║
-║                                          ║
-╚══════════════════════════════════════════╝
-</pre>
-
-<br>
-
-<!-- ───── RECOGNITION ───── -->
-
-<div align="center">
-  <img src="assets/street-sign.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #4A6CF7; font-size: 1em; letter-spacing: 3px;">CITY HALL · RECOGNITION</code>
-</div>
-
-<br>
-
-<pre style="background: #0B0D17; border: 1px solid #2A2D4E; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 720px; margin: 0 auto;">
-╔══════════════════════════════════════════╗
-║                                          ║
-║  CITY HALL · HONOURS &amp; AWARDS           ║
-║  ─────────────────────────────────────── ║
+║  SERVICE RECOGNITION                     ║
+║  ───────────────────                     ║
 ║                                          ║
 ║  🏆  YOPHORIA 2025                       ║
 ║      3rd Runner Up · AI Innovation       ║
 ║      Among university teams across India ║
 ║                                          ║
 ║  🏆  MUMBAI HACKS 2025                   ║
-║      AI product built in 24 hours        ║
-║      Fin-Mate · Personal Finance Coach    ║
+║      24-hour hackathon · Fin-Mate        ║
+║      AI Personal Finance Coach           ║
 ║                                          ║
 ║  🏆  HACKXIOS 2K25                       ║
 ║      AWS-backed hackathon                ║
 ║      Cross-functional team delivery      ║
 ║                                          ║
-║  CERTIFICATIONS                          ║
-║  ──────────────                          ║
+║  OPERATOR TRAINING                       ║
+║  ─────────────────                       ║
 ║                                          ║
 ║  · Deloitte Cyber Simulation (Forage)    ║
 ║  · Google Gemini Academy — AI in Ed.     ║
@@ -545,34 +572,35 @@
 
 <br>
 
-<!-- ───── FUTURE DEVELOPMENT ───── -->
+<!-- ───── FUTURE INSTALLATIONS ───── -->
 
 <div align="center">
-  <img src="assets/street-sign.svg" alt="—" width="100%">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
   <br><br>
-  <code style="color: #4A6CF7; font-size: 1em; letter-spacing: 3px;">FUTURE DEVELOPMENT PLAN</code>
+  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">FUTURE INSTALLATIONS</code>
 </div>
 
 <br>
 
-<pre style="background: #0B0D17; border: 1px solid #2A2D4E; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 720px; margin: 0 auto;">
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
 ╔══════════════════════════════════════════╗
 ║                                          ║
-║  UPCOMING CONSTRUCTION                   ║
-║  ───────────────────────                 ║
+║  LINES IN DEVELOPMENT                    ║
+║  ─────────────────────                   ║
 ║                                          ║
 ║  🏗️  PROJECT ZEPHYR                      ║
-║      AI agent platform                   ║
-║      Multi-agent orchestration system    ║
+║      AI agent trunk line                 ║
+║      Multi-agent orchestration           ║
 ║      Status: ███░░░░░░░░░ 30%            ║
 ║                                          ║
 ║  🏗️  PROJECT SYNCHRO                     ║
-║      Real-time collaboration tool        ║
+║      Real-time collaboration line        ║
 ║      WebSocket + CRDT-based editing      ║
 ║      Status: ██░░░░░░░░░░ 20%            ║
 ║                                          ║
 ║  🏗️  PROJECT COLLECTIVE                  ║
-║      Open source contribution campaign   ║
+║      Open source trunk line              ║
+║      Community contribution campaign     ║
 ║      Status: █░░░░░░░░░░░ 10%            ║
 ║                                          ║
 ╚══════════════════════════════════════════╝
@@ -580,60 +608,33 @@
 
 <br>
 
-<!-- ───── ENGINEERING STACK ───── -->
-
-<div align="center">
-  <img src="assets/street-sign.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #4A6CF7; font-size: 1em; letter-spacing: 3px;">WORKSHOP INVENTORY</code>
-</div>
-
-<br>
-
-<pre style="background: #0B0D17; border: 1px solid #2A2D4E; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 720px; margin: 0 auto;">
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║  WORKSHOP INVENTORY                                           ║
-║  ────────────────────                                          ║
-║                                                               ║
-║  LANGUAGES   │  Python · JavaScript · TypeScript · C · C++   ║
-║  FRONTEND    │  React · GSAP · Lenis · Chart.js · Tailwind    ║
-║  BACKEND     │  Node.js · FastAPI                              ║
-║  DATA        │  PostgreSQL · MySQL · Firebase · IndexedDB      ║
-║  AI &amp; ML     │  OpenAI API · LLM Integration · Agent Design   ║
-║  TOOLS       │  Git · Linux · Docker · VS Code                 ║
-║  DEPLOY      │  Vercel · Netlify · GitHub Pages                ║
-║  CONCEPTS    │  OOP · DSA · REST · Client Arch · Agile         ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-</pre>
-
-<br>
-
 <!-- ───── CONTACT ───── -->
 
 <div align="center">
-  <img src="assets/street-sign.svg" alt="—" width="100%">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
   <br><br>
-  <code style="color: #4A6CF7; font-size: 1em; letter-spacing: 3px;">TOURIST INFORMATION</code>
+  <img src="assets/phone-handset.svg" alt="Contact" width="28">
+  <br><br>
+  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">CONTACT OPERATOR</code>
 </div>
 
 <br>
 
-<pre style="background: #0B0D17; border: 1px solid #2A2D4E; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.8; color: #B8C6FF; max-width: 720px; margin: 0 auto;">
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.8; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
 ╔══════════════════════════════════════════╗
 ║                                          ║
-║  VISITOR INFORMATION                     ║
-║  ─────────────────────                   ║
+║  OPERATOR CONTACT                        ║
+║  ───────────────────                     ║
 ║                                          ║
-║  📬  radheshyambhati747@gmail.com      ║
+║  📬  radheshyambhati747@gmail.com       ║
 ║  🔗  linkedin.com/in/radheshyam-bhati   ║
 ║  🖥️  github.com/radheshyam-bhati         ║
 ║  🏠  radheshyam-cod.github.io/Portfolio ║
 ║  📍  Jodhpur · Pune · India              ║
 ║                                          ║
-║  Open for commissions, collaborations,   ║
-║  and conversations over chai.            ║
+║  Lines are open for commissions,         ║
+║  collaborations, and conversations.      ║
+║  Operator will return your call.         ║
 ║                                          ║
 ╚══════════════════════════════════════════╝
 </pre>
@@ -643,83 +644,69 @@
 <!-- ───── DEPARTURE ───── -->
 
 <div align="center">
-  <img src="assets/street-sign.svg" alt="—" width="100%">
+  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
   <br><br>
-  <img src="assets/compass-rose.svg" alt="Compass" width="36">
+  <img src="assets/indicator-light.svg" alt="End" width="20">
   <br><br>
   <p style="color: #E8D5B7; font-size: 0.9em; max-width: 500px; line-height: 1.6;">
-    Thank you for visiting the Blue City Workshop.<br>
-    The gates are always open. The city is always growing.<br>
-    New districts are under construction.
+    This connection is now terminating.<br>
+    Thank you for calling The Switchboard.<br>
+    All circuits remain open for your return.
   </p>
   <br>
-  <p style="color: #4A6CF7; font-size: 0.8em; opacity: 0.6; letter-spacing: 2px;">
-    END OF TOUR
+  <p style="color: #C4A35A; font-size: 0.75em; opacity: 0.6; letter-spacing: 2px;">
+    ⬟ TRANSMISSION END ⬟
   </p>
   <br>
-  <p style="color: #B8C6FF; font-size: 0.75em; opacity: 0.4;">
-    Crafted with care from Jodhpur · Last updated July 2026
-</p>
+  <p style="color: #8B7355; font-size: 0.7em; opacity: 0.4;">
+    Connected from Jodhpur · Last updated July 2026
+  </p>
+</div>
 
 <br>
 
+<!-- ───── ARCHITECTURE ───── -->
+
 <details>
-<summary style="color: #4A6CF7; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.8em; opacity: 0.6;">
-  <strong>▸ WORKSHOP BLUEPRINTS</strong>
+<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.8em; opacity: 0.6;">
+  <strong>▸ SWITCHBOARD SCHEMATIC</strong>
 </summary>
 
 <br>
 
-<pre style="background: #0B0D17; border: 1px solid #2A2D4E; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 720px; margin: 0 auto;">
+<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
 ╔══════════════════════════════════════════╗
 ║                                          ║
 ║  PROJECT STRUCTURE                       ║
 ║  ─────────────────                       ║
 ║                                          ║
 ║  📁  .github/workflows/                  ║
-║      └── readme-skyline.yml              ║
-║         🕐 Weekly auto-update            ║
-║         📅 Timestamp refresh             ║
+║      └── switchboard-maintenance.yml     ║
+║         🕐 Weekly timestamp update       ║
 ║                                          ║
 ║  📁  assets/                             ║
-║      ├── city-skyline.svg                ║
-║      │   🌙 Dark mode (night skyline)    ║
-║      ├── city-skyline-light.svg          ║
-║      │   ☀️ Light mode (day skyline)      ║
-║      ├── compass-rose.svg                ║
-║      │   🧭 Navigation compass            ║
-║      ├── street-sign.svg                 ║
-║      │   🏷️ Section divider               ║
-║      ├── building-medconnect.svg         ║
-║      │   🏥 Medical Quarter              ║
-║      ├── building-finmate.svg            ║
-║      │   🏦 Financial Sector             ║
-║      ├── building-mafia.svg              ║
-║      │   🎭 Entertainment District       ║
-║      ├── building-voting.svg             ║
-║      │   🏛️ Civic Plaza                  ║
-║      ├── building-studio.svg             ║
-║      │   🎨 Creative Studio              ║
-║      └── building-research.svg           ║
-║          🔬 Research Institute           ║
+║      ├── switchboard-header.svg          ║
+║      │   Main switchboard panel          ║
+║      ├── patch-cable-divider.svg         ║
+║      │   Section separators              ║
+║      ├── phone-handset.svg              ║
+║      │   Contact icon                    ║
+║      └── indicator-light.svg            ║
+║          Status indicator                ║
 ║                                          ║
 ║  📄  README.md                           ║
-║      📖 This file — the Blue City        ║
-║         Workshop experience              ║
+║      The Switchboard experience          ║
 ║                                          ║
 ╚══════════════════════════════════════════╝
 </pre>
 
 </details>
-  </p>
-</div>
 
 <br>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=80&section=footer&color=0:0B0D17,50:1A1B2F,100:2A2D4E&reversal=false">
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=80&section=footer&color=0:0B0D17,50:1A1B2F,100:2A2D4E&reversal=false" width="100%" alt="footer">
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=60&section=footer&color=0:0A0B0C,50:1A1D23,100:2A2F38&reversal=false">
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=60&section=footer&color=0:0A0B0C,50:1A1D23,100:2A2F38&reversal=false" width="100%" alt="footer">
   </picture>
 </div>
-

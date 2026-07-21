@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A0B0C"/>
+      <stop offset="40%" stop-color="#1A1D23"/>
+      <stop offset="100%" stop-color="#0A0B0C"/>
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2A2F38"/>
+      <stop offset="100%" stop-color="#1A1D23"/>
+    </linearGradient>
+    <radialGradient id="amberGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D45500" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#D45500" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="greenGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00A86B" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00A86B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4A90D9" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#4A90D9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="jackPattern" x="0" y="0" width="40" height="36" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="40" height="36" fill="none"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  
+  <!-- Top decorative band -->
+  <rect x="0" y="0" width="1200" height="4" fill="#C4A35A" opacity="0.3"/>
+  <rect x="0" y="296" width="1200" height="4" fill="#C4A35A" opacity="0.3"/>
+  
+  <!-- Switchboard Main Panel -->
+  <rect x="80" y="30" width="1040" height="240" rx="4" fill="url(#panelGrad)" stroke="#8B7355" stroke-width="1.5"/>
+  
+  <!-- Panel inner border -->
+  <rect x="90" y="40" width="1020" height="220" rx="2" fill="none" stroke="#8B7355" stroke-width="0.5" opacity="0.5"/>
+  
+  <!-- Title plate -->
+  <rect x="420" y="44" width="360" height="24" rx="2" fill="#1A1D23" stroke="#C4A35A" stroke-width="0.5"/>
+  <text x="600" y="61" font-family="'Courier New', monospace" font-size="12" fill="#C4A35A" text-anchor="middle" letter-spacing="6" opacity="0.8">●●● THE SWITCHBOARD ●●●</text>
+  
+  <!-- Jack Field Rows - Row 1 (5 jacks) -->
+  <g transform="translate(140, 85)">
+    <!-- Jack 1 - Active (amber) -->
+    <rect x="0" y="0" width="60" height="20" rx="10" fill="#1A1D23" stroke="#8B7355" stroke-width="1"/>
+    <rect x="2" y="2" width="16" height="16" rx="8" fill="#0A0B0C" stroke="#8B7355" stroke-width="0.5"/>
+    <circle cx="39" cy="10" r="4" fill="#D45500"/>
+    <circle cx="39" cy="10" r="8" fill="url(#amberGlow)"/>
+    <rect x="2" y="7" width="6" height="6" rx="3" fill="#C4A35A" opacity="0.3"/>
+    <text x="52" y="14" font-family="monospace" font-size="7" fill="#8B7355" text-anchor="end">L1</text>
+    
+    <!-- Jack 2 - Idle (green) -->
+    <rect x="80" y="0" width="60" height="20" rx="10" fill="#1A1D23" stroke="#8B7355" stroke-width="1"/>
+    <rect x="2" y="2" width="16" height="16" rx="8" fill="#0A0B0C" stroke="#8B7355" stroke-width="0.5"/>
+    <circle cx="39" cy="10" r="4" fill="#00A86B"/>
+    <circle cx="39" cy="10" r="8" fill="url(#greenGlow)"/>
+    <text x="52" y="14" font-family="monospace" font-size="7" fill="#8B7355" text-anchor="end">L2</text>
+    
+    <!-- Jack 3 - Active (blue) -->
+    <rect x="160" y="0" width="60" height="20" rx="10" fill="#1A1D23" stroke="#8B7355" stroke-width="1"/>
+    <rect x="2" y="2" width="16" height="16" rx="8" fill="#0A0B0C" stroke="#8B7355" stroke-width="0.5"/>
+    <circle cx="39" cy="10" r="4" fill="#4A90D9"/>
+    <circle cx="39" cy="10" r="8" fill="url(#blueGlow)"/>
+    <text x="52" y="14" font-family="monospace" font-size="7" fill="#8B7355" text-anchor="end">L3</text>
+    
+    <!-- Jack 4 - Busy (red) -->
+    <rect x="240" y="0" width="60" height="20" rx="10" fill="#1A1D23" stroke="#8B7355" stroke-width="1"/>
+    <rect x="2" y="2" width="16" height="16" rx="8" fill="#0A0B0C" stroke="#8B7355" stroke-width="0.5"/>
+    <circle cx="39" cy="10" r="4" fill="#CC3333"/>
+    <text x="52" y="14" font-family="monospace" font-size="7" fill="#8B7355" text-anchor="end">L4</text>
+    
+    <!-- Jack 5 - Active (amber) -->
+    <rect x="320" y="0" width="60" height="20" rx="10" fill="#1A1D23" stroke="#8B7355" stroke-width="1"/>
+    <rect x="2" y="2" width="16" height="16" rx="8" fill="#0A0B0C" stroke="#8B7355" stroke-width="0.5"/>
+    <circle cx="39" cy="10" r="4" fill="#D45500"/>
+    <circle cx="39" cy="10" r="8" fill="url(#amberGlow)"/>
+    <text x="52" y="14" font-family="monospace" font-size="7" fill="#8B7355" text-anchor="end">L5</text>
+  </g>
+  
+  <!-- Jack Field Rows - Row 2 -->
+  <g transform="translate(140, 115)">
+    <rect x="0" y="0" width="60" height="20" rx="10" fill="#1A1D23" stroke="#8B7355" stroke-width="1"/>
+    <rect x="2" y="2" width="16" height="16" rx="8" fill="#0A0B0C" stroke="#8B7355" stroke-width="0.5"/>
+    <circle cx="39" cy="10" r="4" fill="#00A86B"/>
+    <text x="52" y="14" font-family="monospace" font-size="7" fill="#8B7355" text-anchor="end">L6</text>
+    
+    <rect x="80" y="0" width="60" height="20" rx="10" fill="#1A1D23" stroke="#8B7355" stroke-width="1"/>
+    <rect x="2" y="2" width="16" height="16" rx="8" fill="#0A0B0C" stroke="#8B7355" stroke-width="0.5"/>
+    <circle cx="39" cy="10" r="4" fill="#D45500"/>
+    <circle cx="39" cy="10" r="8" fill="url(#amberGlow)"/>
+    <text x="52" y="14" font-family="monospace" font-size="7" fill="#8B7355" text-anchor="end">L7</text>
+    
+    <rect x="160" y="0" width="60" height="20" rx="10" fill="#1A1D23" stroke="#8B7355" stroke-width="1"/>
+    <rect x="2" y="2" width="16" height="16" rx="8" fill="#0A0B0C" stroke="#8B7355" stroke-width="0.5"/>
+    <circle cx="39" cy="10" r="4" fill="#00A86B"/>
+    <text x="52" y="14" font-family="monospace" font-size="7" fill="#8B7355" text-anchor="end">L8</text>
+    
+    <rect x="240" y="0" width="60" height="20" rx="10" fill="#1A1D23" stroke="#8B7355" stroke-width="1"/>
+    <rect x="2" y="2" width="16" height="16" rx="8" fill="#0A0B0C" stroke="#8B7355" stroke-width="0.5"/>
+    <circle cx="39" cy="10" r="4" fill="#00A86B"/>
+    <text x="52" y="14" font-family="monospace" font-size="7" fill="#8B7355" text-anchor="end">L9</text>
+    
+    <rect x="320" y="0" width="60" height="20" rx="10" fill="#1A1D23" stroke="#8B7355" stroke-width="1"/>
+    <rect x="2" y="2" width="16" height="16" rx="8" fill="#0A0B0C" stroke="#8B7355" stroke-width="0.5"/>
+    <circle cx="39" cy="10" r="4" fill="#4A90D9"/>
+    <circle cx="39" cy="10" r="8" fill="url(#blueGlow)"/>
+    <text x="52" y="14" font-family="monospace" font-size="7" fill="#8B7355" text-anchor="end">L10</text>
+  </g>
+  
+  <!-- Patch Cables -->
+  <path d="M187 95 C200 90 210 70 230 75 C250 80 240 125 260 125" fill="none" stroke="#D45500" stroke-width="2" opacity="0.6"/>
+  <path d="M307 95 C320 100 330 70 350 75" fill="none" stroke="#4A90D9" stroke-width="2" opacity="0.6"/>
+  <path d="M267 125 C280 130 290 200 310 195 C330 190 340 130 350 130" fill="none" stroke="#D45500" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Label plates -->
+  <g transform="translate(500, 85)">
+    <rect x="0" y="0" width="180" height="28" rx="2" fill="#0A0B0C" stroke="#8B7355" stroke-width="0.5" opacity="0.8"/>
+    <text x="10" y="18" font-family="monospace" font-size="8" fill="#C4A35A" opacity="0.7">CONNECTIONS ACTIVE: 04</text>
+  </g>
+  <g transform="translate(500, 120)">
+    <rect x="0" y="0" width="180" height="28" rx="2" fill="#0A0B0C" stroke="#8B7355" stroke-width="0.5" opacity="0.8"/>
+    <text x="10" y="18" font-family="monospace" font-size="8" fill="#C4A35A" opacity="0.7">LINES OPEN: 10</text>
+  </g>
+  
+  <!-- Traditional rotary phone -->
+  <g transform="translate(750, 85)">
+    <!-- Base -->
+    <rect x="0" y="10" width="100" height="65" rx="8" fill="#0A0B0C" stroke="#8B7355" stroke-width="1"/>
+    <rect x="5" y="15" width="90" height="55" rx="6" fill="#1A1D23"/>
+    <!-- Rotary dial -->
+    <circle cx="50" cy="42" r="22" fill="#2A2F38" stroke="#C4A35A" stroke-width="1.5"/>
+    <circle cx="50" cy="42" r="14" fill="#0A0B0C"/>
+    <circle cx="50" cy="42" r="3" fill="#C4A35A"/>
+    <!-- Finger stop -->
+    <rect x="68" y="35" width="3" height="4" fill="#C4A35A"/>
+    <!-- Handset cradle -->
+    <rect x="5" y="5" width="90" height="8" rx="3" fill="#2A2F38" stroke="#8B7355" stroke-width="0.5"/>
+    <!-- Handset -->
+    <rect x="15" y="-15" width="70" height="12" rx="6" fill="#0A0B0C" stroke="#8B7355" stroke-width="0.5"/>
+    <circle cx="22" cy="-9" r="6" fill="#1A1D23" stroke="#8B7355" stroke-width="0.5"/>
+    <circle cx="78" cy="-9" r="6" fill="#1A1D23" stroke="#8B7355" stroke-width="0.5"/>
+    <!-- Coiled cord -->
+    <path d="M50 10 C50 20 40 22 40 30 C40 38 60 40 60 48" fill="none" stroke="#8B7355" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  
+  <!-- Operator badge -->
+  <g transform="translate(920, 85)">
+    <rect x="0" y="0" width="160" height="65" rx="3" fill="#1A1D23" stroke="#C4A35A" stroke-width="0.5"/>
+    <text x="12" y="20" font-family="monospace" font-size="7" fill="#8B7355">OPERATOR:</text>
+    <text x="12" y="38" font-family="monospace" font-size="10" fill="#E8D5B7">Radheshyam Bhati</text>
+    <text x="12" y="54" font-family="monospace" font-size="7" fill="#C4A35A" opacity="0.6">STATION: Jodhpur · INDIA</text>
+  </g>
+  
+  <!-- Bottom status bar -->
+  <rect x="140" y="215" width="940" height="2" fill="#8B7355" opacity="0.3"/>
+  <text x="145" y="237" font-family="monospace" font-size="7" fill="#8B7355" opacity="0.5">SYSTEM: ONLINE  |  CONNECTIONS: 10  |  OPERATOR: PRESENT  |  STATUS: ⬟ ACCEPTING CALLS</text>
+</svg>
