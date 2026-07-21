@@ -1,0 +1,6 @@
+# Personal documents (resumes, etc.)
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db

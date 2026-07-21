@@ -1,0 +1,36 @@
+name: Update Workshop Skyline
+on:
+  schedule:
+    # Updates every Sunday at midnight
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+
+jobs:
+  update-skyline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update city skyline timestamp
+        run: |
+          # Update the "Last updated" date in the README footer
+          sed -i "s/Last updated.*/Last updated $(date '+%B %Y')/" README.md
+
+      - name: Generate fresh contribution data
+        run: |
+          # Creates a JSON snapshot of current contribution state
+          # This could be extended to pull from GitHub API
+          echo '{"last_updated": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}' > assets/skyline-state.json
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "Workshop Bot"
+          git config user.email "bot@bluecity.workshop"
+          git add -A
+          git diff --staged --quiet || git commit -m "chore: update skyline timestamp [skip ci]"
+          git push
