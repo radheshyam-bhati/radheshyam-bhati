@@ -1,42 +1,48 @@
 #!/bin/bash
-# Switchboard Stats Generator
-# Fetches live GitHub stats and generates a vintage meter panel SVG
-
 set -e
 
 USERNAME="radheshyam-bhati"
 OUTPUT_FILE="assets/switchboard-stats.svg"
 
-# Use GITHUB_TOKEN for authenticated API calls (avoids rate limiting)
-AUTH_ARGS=()
+# Use GH_TOKEN for authenticated API calls (avoids rate limiting)
+AUTH=""
 if [ -n "$GH_TOKEN" ]; then
-  AUTH_ARGS=(-H "Authorization: token $GH_TOKEN")
+  AUTH="Authorization: token $GH_TOKEN"
 fi
 
-# Helper to escape XML special characters
 xml_escape() {
-  echo "$1" | sed 's/&amp;/\&amp;/g; s/&lt;/\&lt;/g; s/&gt;/\&gt;/g' | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g'
+  echo "$1" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g'
 }
 
 echo "Fetching user data for $USERNAME..."
-USER_DATA=$(curl -s --fail "${AUTH_ARGS[@]}" "https://api.github.com/users/$USERNAME" 2>/dev/null) || {
-  echo "ERROR: Failed to fetch user data from GitHub API"
-  exit 1
-}
-
-REPOS_DATA=$(curl -s --fail "${AUTH_ARGS[@]}" "https://api.github.com/users/$USERNAME/repos?per_page=100&type=public&sort=updated" 2>/dev/null) || {
-  echo "ERROR: Failed to fetch repos data from GitHub API"
-  exit 1
-}
+if [ -n "$AUTH" ]; then
+  USER_DATA=$(curl -s --fail -H "$AUTH" "https://api.github.com/users/$USERNAME" 2>&1) || {
+    echo "ERROR: Failed to fetch user data"
+    exit 1
+  }
+  REPOS_DATA=$(curl -s --fail -H "$AUTH" "https://api.github.com/users/$USERNAME/repos?per_page=100&type=public&sort=updated" 2>&1) || {
+    echo "ERROR: Failed to fetch repos data"
+    exit 1
+  }
+else
+  USER_DATA=$(curl -s --fail "https://api.github.com/users/$USERNAME" 2>&1) || {
+    echo "ERROR: Failed to fetch user data"
+    exit 1
+  }
+  REPOS_DATA=$(curl -s --fail "https://api.github.com/users/$USERNAME/repos?per_page=100&type=public&sort=updated" 2>&1) || {
+    echo "ERROR: Failed to fetch repos data"
+    exit 1
+  }
+fi
 
 echo "$USER_DATA" | jq empty 2>/dev/null || {
   echo "ERROR: Invalid JSON response from user API"
+  echo "$USER_DATA" | head -c 200
   exit 1
 }
 
 PUBLIC_REPOS=$(echo "$USER_DATA" | jq -r '.public_repos // 0')
 FOLLOWERS=$(echo "$USER_DATA" | jq -r '.followers // 0')
-FOLLOWING=$(echo "$USER_DATA" | jq -r '.following // 0')
 TOTAL_STARS=$(echo "$REPOS_DATA" | jq '[.[].stargazers_count] | add // 0')
 TOTAL_FORKS=$(echo "$REPOS_DATA" | jq '[.[].forks_count] | add // 0')
 LATEST_REPO=$(echo "$REPOS_DATA" | jq -r 'max_by(.pushed_at) | .name // "N/A"')
@@ -57,10 +63,9 @@ cat > "$OUTPUT_FILE" << SVGEOF
     <linearGradient id="meterBarGreen" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#00A86B"/><stop offset="100%" stop-color="#7ECF8A"/></linearGradient>
     <linearGradient id="meterBarBlue" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#4A90D9"/><stop offset="100%" stop-color="#8BB8F0"/></linearGradient>
     <linearGradient id="meterBarGold" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#C4A35A"/><stop offset="100%" stop-color="#E8D5B7"/></linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="2"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
   <rect x="0" y="0" width="620" height="160" rx="6" fill="url(#meterBg)" stroke="#2A2F38" stroke-width="1.5"/>
-  <rect x="3" y="3" width="614" height="154" rx="4" fill="none" stroke="#8B7355" stroke-width="0.5" opacity="0.3"/>
   <rect x="210" y="6" width="200" height="16" rx="2" fill="#0A0B0C" stroke="#8B7355" stroke-width="0.5"/>
   <text x="310" y="18" font-family="monospace" font-size="8" fill="#C4A35A" text-anchor="middle" letter-spacing="4" opacity="0.8">LIVE METER PANEL</text>
   <g transform="translate(22,30)">
