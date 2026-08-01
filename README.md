@@ -7,10 +7,10 @@
 <p style="font-size:15px; color:var(--fgColor-muted, #59636E); margin:0 0 22px;">Full-Stack Developer&nbsp;&nbsp;·&nbsp;&nbsp;AI Integration&nbsp;&nbsp;·&nbsp;&nbsp;Real-Time Systems</p>
 
 <p>
-  <a href="https://linkedin.com/in/radheshyam-bhati" style="display:inline-block; padding:9px 20px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); color:var(--fgColor-default, #1F2328); font-size:13px; font-weight:600; text-decoration:none; margin:3px 4px;">LinkedIn</a>
-  <a href="mailto:radheshyambhati747@gmail.com" style="display:inline-block; padding:9px 20px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); color:var(--fgColor-default, #1F2328); font-size:13px; font-weight:600; text-decoration:none; margin:3px 4px;">Email</a>
-  <a href="https://radheshyam-cod.github.io/Portfolio" style="display:inline-block; padding:9px 20px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); color:var(--fgColor-default, #1F2328); font-size:13px; font-weight:600; text-decoration:none; margin:3px 4px;">Portfolio</a>
-  <a href="https://github.com/radheshyam-bhati" style="display:inline-block; padding:9px 20px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); color:var(--fgColor-default, #1F2328); font-size:13px; font-weight:600; text-decoration:none; margin:3px 4px;">GitHub</a>
+  <a href="https://linkedin.com/in/radheshyam-bhati" title="LinkedIn" style="display:inline-flex; align-items:center; justify-content:center; width:38px; height:38px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); text-decoration:none; margin:3px 4px;"><img src="https://api.iconify.design/simple-icons:linkedin.svg" alt="LinkedIn" width="18" height="18"/></a>
+  <a href="mailto:radheshyambhati747@gmail.com" title="Email" style="display:inline-flex; align-items:center; justify-content:center; width:38px; height:38px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); text-decoration:none; margin:3px 4px;"><img src="https://api.iconify.design/simple-icons:gmail.svg" alt="Email" width="18" height="18"/></a>
+  <a href="https://radheshyam-cod.github.io/Portfolio" title="Portfolio" style="display:inline-flex; align-items:center; justify-content:center; width:38px; height:38px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); text-decoration:none; margin:3px 4px;"><img src="https://api.iconify.design/mdi:web.svg?color=%23e6edf3" alt="Portfolio" width="18" height="18"/></a>
+  <a href="https://github.com/radheshyam-bhati" title="GitHub" style="display:inline-flex; align-items:center; justify-content:center; width:38px; height:38px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); text-decoration:none; margin:3px 4px;"><img src="https://api.iconify.design/simple-icons:github.svg?color=%23e6edf3" alt="GitHub" width="18" height="18"/></a>
   <a href="https://radheshyam-bhati.github.io/radheshyam-bhati/game/" style="display:inline-block; padding:9px 20px; border-radius:999px; background-color:var(--fgColor-default, #1F2328); color:var(--bgColor-default, #FFFFFF); font-size:13px; font-weight:600; text-decoration:none; margin:3px 4px;">Play the game ↗</a>
 </p>
 
@@ -25,25 +25,20 @@
 <span style="display:inline-block; padding:6px 18px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:var(--fgColor-muted, #59636E);">Stats</span>
 
 <p style="margin:18px 0 0;">
-  <img src="https://streak-stats.demolab.com/?user=radheshyam-bhati&amp;theme=default&amp;hide_border=true#gh-light-mode-only" alt="GitHub Streak (light)" height="170"/>
-  <img src="https://streak-stats.demolab.com/?user=radheshyam-bhati&amp;theme=dark&amp;hide_border=true#gh-dark-mode-only" alt="GitHub Streak (dark)" height="170"/>
+  <img src="https://streak-stats.demolab.com/?user=radheshyam-bhati&amp;theme=dark&amp;hide_border=true" alt="GitHub Streak" height="170"/>
 </p>
 
 <p style="margin:14px 0 0;">
-  <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/stats/github-stats.svg#gh-light-mode-only" alt="GitHub Stats (light)" height="170"/>
-  <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/stats/github-stats-dark.svg#gh-dark-mode-only" alt="GitHub Stats (dark)" height="170"/>
-  <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/stats/top-langs.svg#gh-light-mode-only" alt="Top Languages (light)" height="150"/>
-  <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/stats/top-langs-dark.svg#gh-dark-mode-only" alt="Top Languages (dark)" height="150"/>
+  <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/stats/github-stats-dark.svg" alt="GitHub Stats" height="170"/>
+  <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/stats/top-langs-dark.svg" alt="Top Languages" height="150"/>
 </p>
 
 <p style="margin:14px 0 0;">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=radheshyam-bhati&amp;theme=minimal&amp;hide_border=true#gh-light-mode-only" alt="Contribution activity (light)" width="100%"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=radheshyam-bhati&amp;theme=xcode&amp;hide_border=true#gh-dark-mode-only" alt="Contribution activity (dark)" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=radheshyam-bhati&amp;theme=xcode&amp;hide_border=true" alt="Contribution activity" width="100%"/>
 </p>
 
 <p style="margin:14px 0 0;">
-  <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="Contribution snake (light)" width="100%"/>
-  <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="Contribution snake (dark)" width="100%"/>
+  <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%"/>
 </p>
 
 </div>
@@ -52,11 +47,15 @@
 
 <span style="display:inline-block; padding:6px 18px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:var(--fgColor-muted, #59636E);">Tech Stack</span>
 
-<p style="font-size:15px; line-height:2.1; color:var(--fgColor-muted, #59636E); margin:16px 0 0;">
-  <strong style="color:var(--fgColor-default, #1F2328);">Frontend</strong>&nbsp;&nbsp;HTML/CSS · JavaScript · React · Tailwind CSS<br/>
-  <strong style="color:var(--fgColor-default, #1F2328);">Backend</strong>&nbsp;&nbsp;Node.js · Python · REST APIs · PostgreSQL<br/>
-  <strong style="color:var(--fgColor-default, #1F2328);">AI &amp; Data</strong>&nbsp;&nbsp;OpenAI · LangChain · RAG Pipelines<br/>
-  <strong style="color:var(--fgColor-default, #1F2328);">Real-Time</strong>&nbsp;&nbsp;WebSockets · Socket.IO · Redis · Docker
+<p style="font-size:14px; line-height:2.2; color:var(--fgColor-muted, #59636E); margin:16px 0 0;">
+  <strong style="color:var(--fgColor-default, #1F2328);">Frontend</strong><br/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind&amp;theme=dark" alt="Frontend: HTML, CSS, JavaScript, React, Tailwind CSS"/><br/>
+  <strong style="color:var(--fgColor-default, #1F2328);">Backend</strong><br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,python,postgres&amp;theme=dark" alt="Backend: Node.js, Express, Python, PostgreSQL"/><br/>
+  <strong style="color:var(--fgColor-default, #1F2328);">AI &amp; Data</strong><br/>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow&amp;theme=dark" alt="AI and Data: PyTorch, TensorFlow"/><br/>
+  <strong style="color:var(--fgColor-default, #1F2328);">Real-Time</strong><br/>
+  <img src="https://skillicons.dev/icons?i=redis,docker,githubactions&amp;theme=dark" alt="Real-Time: Redis, Docker, GitHub Actions"/>
 </p>
 
 </div>
