@@ -53,7 +53,7 @@
   <strong style="color:var(--fgColor-default, #1F2328);">Backend</strong><br/>
   <img src="https://skillicons.dev/icons?i=nodejs,express,python,postgres&amp;theme=dark" alt="Backend: Node.js, Express, Python, PostgreSQL"/><br/>
   <strong style="color:var(--fgColor-default, #1F2328);">AI &amp; Data</strong><br/>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow&amp;theme=dark" alt="AI and Data: PyTorch, TensorFlow"/><br/>
+  <img src="https://skillicons.dev/icons?i=pytorch&amp;theme=dark" alt="AI and Data: PyTorch"/><br/>
   <strong style="color:var(--fgColor-default, #1F2328);">Real-Time</strong><br/>
   <img src="https://skillicons.dev/icons?i=redis,docker,githubactions&amp;theme=dark" alt="Real-Time: Redis, Docker, GitHub Actions"/>
 </p>
