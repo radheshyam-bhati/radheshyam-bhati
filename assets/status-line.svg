@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 44" width="100%" max-width="620" height="auto" role="img" aria-label="Currently building real-time systems, learning AI agents, shipping open source">
+  <style>
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes cycle { 0%, 5% { opacity: 0; } 10%, 30% { opacity: 1; } 35%, 100% { opacity: 0; } }
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    .p1 { animation: cycle 9s linear infinite; }
+    .p2 { animation: cycle 9s linear infinite; animation-delay: 3s; }
+    .p3 { animation: cycle 9s linear infinite; animation-delay: 6s; }
+  </style>
+  <rect width="620" height="44" rx="22" fill="#F2F3F5"/>
+  <rect x="2" y="2" width="616" height="40" rx="20" fill="#FFFFFF" stroke="#E8EAED" stroke-width="1"/>
+  <circle class="pulse" cx="22" cy="22" r="4" fill="#1F883D"/>
+  <text x="38" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#6B7280">NOW&#160;·</text>
+  <text class="p1" x="92" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#17181C">building real-time systems</text>
+  <text class="p2" x="92" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#17181C">learning AI agents</text>
+  <text class="p3" x="92" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#17181C">shipping open source</text>
+  <rect class="cursor" x="288" y="17" width="7" height="14" rx="2" fill="#17181C"/>
+</svg>
