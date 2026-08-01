@@ -1,957 +1,138 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/switchboard-header.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/switchboard-header-light.svg">
-    <img src="assets/switchboard-header.svg" alt="The Switchboard — Vintage Telephone Exchange" width="100%">
-  </picture>
+
+<span style="display:inline-block; padding:6px 18px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:var(--fgColor-muted, #59636E);">Open to collaborations</span>
+
+<img src="https://github.com/radheshyam-bhati.png" width="84" height="84" style="border-radius:50%; border:3px solid var(--bgColor-muted, #F6F8FA); box-shadow:0 10px 30px rgba(0,0,0,0.10); margin-top:22px;" alt="Radheshyam Bhati avatar" />
+
+<p style="font-family:'SF Pro Display',-apple-system,'Segoe UI',sans-serif; font-size:46px; font-weight:800; letter-spacing:-1.5px; line-height:1.1; margin:14px 0 4px; color:var(--fgColor-default, #1F2328);">Radheshyam Bhati</p>
+
+<p style="font-size:15px; color:var(--fgColor-muted, #59636E); margin:0 0 22px;">Full-Stack Developer&nbsp;&nbsp;·&nbsp;&nbsp;AI Integration&nbsp;&nbsp;·&nbsp;&nbsp;Real-Time Systems</p>
+
+<p>
+  <a href="https://linkedin.com/in/radheshyam-bhati" style="display:inline-block; padding:9px 20px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); color:var(--fgColor-default, #1F2328); font-size:13px; font-weight:600; text-decoration:none; margin:3px 4px;">LinkedIn</a>
+  <a href="mailto:radheshyambhati747@gmail.com" style="display:inline-block; padding:9px 20px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); color:var(--fgColor-default, #1F2328); font-size:13px; font-weight:600; text-decoration:none; margin:3px 4px;">Email</a>
+  <a href="https://radheshyam-cod.github.io/Portfolio" style="display:inline-block; padding:9px 20px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); color:var(--fgColor-default, #1F2328); font-size:13px; font-weight:600; text-decoration:none; margin:3px 4px;">Portfolio</a>
+  <a href="https://github.com/radheshyam-bhati" style="display:inline-block; padding:9px 20px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); color:var(--fgColor-default, #1F2328); font-size:13px; font-weight:600; text-decoration:none; margin:3px 4px;">GitHub</a>
+</p>
+
 </div>
 
-<br>
+<p align="center">
+  <img src="assets/profile-stats.svg" class="gh-light-mode-only" width="100%" alt="Live GitHub stats — repos, stars, followers, forks" />
+  <img src="assets/profile-stats-dark.svg" class="gh-dark-mode-only" width="100%" alt="Live GitHub stats — repos, stars, followers, forks" />
+</p>
 
-<!-- ───── LIVE METER PANEL ───── -->
+<!-- Self-hosted github-readme-stats card (theme-aware). -->
+<p align="center">
+  <img src="https://github-readme-stats-chi-seven-17.vercel.app/api/top-langs/?username=radheshyam-bhati&amp;layout=compact&amp;theme=default&amp;cache_seconds=21600" class="gh-light-mode-only" alt="Top Languages" />
+  <img src="https://github-readme-stats-chi-seven-17.vercel.app/api/top-langs/?username=radheshyam-bhati&amp;layout=compact&amp;theme=dark&amp;cache_seconds=21600" class="gh-dark-mode-only" alt="Top Languages" />
+</p>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/switchboard-stats.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/switchboard-stats.svg">
-    <img src="assets/switchboard-stats.svg" alt="Live Switchboard Stats — repos, stars, followers, forks" width="100%">
-  </picture>
-</div>
-
-<br>
-
-<!-- ───── ARRIVAL ───── -->
-
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <img src="assets/indicator-light.svg" alt="Indicator" width="24">
-  <br><br>
-  <code style="color: #C4A35A; font-size: 1em; letter-spacing: 5px;">LINE OPEN</code>
-  <br><br>
-  <p style="color: #E8D5B7; max-width: 580px; font-size: 0.95em; line-height: 1.7;">
-    You have reached <strong style="color: #D45500;">The Switchboard</strong> —<br>
-    a telecommunications station in Jodhpur, Rajasthan,<br>
-    where every call connects a different problem to a solution.
-  </p>
-  <p style="color: #8B7355; font-size: 0.8em; max-width: 500px; line-height: 1.5;">
-    The operator is standing by. All circuits are open.<br>
-    Please proceed to your desired connection.
-  </p>
-  <br>
-  <p style="color: #C4A35A; font-size: 0.7em; opacity: 0.5; letter-spacing: 3px;">
-    ⬟ CONNECTION ESTABLISHED ⬟
-  </p>
-</div>
-
-<br>
-
-<!-- ───── OPERATOR'S STATION ───── -->
-
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">OPERATOR'S STATION</code>
-</div>
-
-<br>
-
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-╔══════════════════════════════════════════╗
-║                                          ║
-║  OPERATOR PROFILE                        ║
-║  ────────────────                        ║
-║                                          ║
-║  NAME:      Radheshyam Bhati            ║
-║  STATION:   Jodhpur · Pune, India        ║
-║  DIVISION:  Computer Science Engineering ║
-║             PW Institute of Innovation   ║
-║  SHIFT:     First Year · B.Tech CSE     ║
-║             Class of 2029                ║
-║                                          ║
-║  SPECIALIZATION                          ║
-║  ──────────────                          ║
-║                                          ║
-║  Full-Stack Systems · AI Integration    ║
-║  Real-Time Communication                ║
-║  Monorepo Architecture                  ║
-║  Modular Frontend Design                ║
-║                                          ║
-║  OPERATOR'S LOG                          ║
-║  ──────────────                          ║
-║                                          ║
-║  "Every connection I build is a line     ║
-║   between a problem and its solution.    ║
-║   The switchboard never sleeps."         ║
-║                                          ║
-╚══════════════════════════════════════════╝
-</pre>
-
-<br>
-
-<!-- ───── SWITCHBOARD OVERVIEW ───── -->
-
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">THE SWITCHBOARD · CONNECTION MAP</code>
-</div>
-
-<br>
-
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-╔══════════════════════════════════════════╗
-║                                          ║
-║  ACTIVE CONNECTIONS                      ║
-║  ──────────────────                      ║
-║                                          ║
-║  ⬟ TRUNK LINE 1 · MedConnect            ║
-║    Healthcare connection — Major circuit ║
-║                                          ║
-║  ⬟ CONFERENCE BRIDGE · MafiaAttack      ║
-║    Multi-party game — Encrypted channel  ║
-║                                          ║
-║  ⬟ DIRECTORY ASSISTANCE · GitHub        ║
-║    Developer lookup — Information line   ║
-║                                          ║
-║  ⬟ NEWS WIRE · News Feed                ║
-║    Live broadcast — Continuous feed      ║
-║                                          ║
-║  ⬟ HISTORY LINE · Story                 ║
-║    Long-distance — Internet archive      ║
-║                                          ║
-║  ⬟ HOTLINE · Portfolio                   ║
-║    Direct line to operator's work        ║
-║                                          ║
-║  ⬟ PUBLIC BOOTH · Online Voting         ║
-║    Civic utility — Open to all           ║
-║                                          ║
-║  ⬟ OJT CIRCUITS · Training Lines         ║
-║    Apprenticeship — Foundational          ║
-║                                          ║
-╚══════════════════════════════════════════╝
-</pre>
-
-<br>
-
-<p align="center" style="color: #8B7355; font-size: 0.8em;">
-  Select a line below to connect through.
+<!-- Contribution activity graph (theme-aware). -->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=radheshyam-bhati&amp;theme=github-light&amp;hide_border=true&amp;hide_title=true&amp;area=true&amp;height=240" class="gh-light-mode-only" width="100%" alt="Contribution activity graph — last six months" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=radheshyam-bhati&amp;theme=github-dark&amp;hide_border=true&amp;hide_title=true&amp;area=true&amp;height=240" class="gh-dark-mode-only" width="100%" alt="Contribution activity graph — last six months" />
 </p>
 
 <br>
 
-<!-- ───── TRUNK LINE: MEDCONNECT ───── -->
+<p style="margin:44px 0 10px;"><span style="display:inline-block; padding:5px 14px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:10px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--fgColor-accent, #0969DA);">01 · About</span></p>
 
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #D45500; font-size: 0.9em; letter-spacing: 3px;">⬟ TRUNK LINE 1 · MEDCONNECT</code>
-  <br>
-  <code style="color: #8B7355; font-size: 0.75em;">TYPE: Major Circuit · DESTINATION: India's Healthcare</code>
-</div>
+<h2 style="font-size:26px; font-weight:800; letter-spacing:-0.5px; margin:0 0 14px; color:var(--fgColor-default, #1F2328);">About</h2>
 
-<details>
-<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
-  <strong>▸ PATCH THROUGH</strong>
-</summary>
-
-<br>
-
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-  CALL DESCRIPTION
-  ────────────────
-
-  Healthcare data in India is fragmented across providers
-  with no unified, patient-controlled record system.
-  This trunk line connects patients to their complete
-  medical history — prescriptions, lab reports, discharge
-  summaries, and imaging — using AI-powered extraction.
-
-  SWITCHBOARD ARCHITECTURE
-  ───────────────────────
-
-  Frontend trunk (Next.js 15):
-    Server-side React with streaming. TypeScript enforces
-    type safety across health data models end-to-end.
-
-  Backend trunk (NestJS 11):
-    Modular monolith with dependency injection. Each
-    health domain (documents, medications, lab results)
-    is a separate module with its own router and service.
-
-  Database relay (Prisma + PostgreSQL + Redis):
-    Prisma provides type-safe queries. PostgreSQL stores
-    structured health records. Redis caches AI results
-    for sub-50ms retrieval on repeat requests.
-
-  AI switchboard (Gemini + Document AI):
-    Two-engine OCR architecture: Google Document AI for
-    production, Gemini as fallback. Extracted text feeds
-    into structured health timelines automatically.
-
-  Build trunk (Turborepo + pnpm):
-    Monorepo with two workspace apps (frontend + backend).
-    Shared TypeScript types across the entire stack.
-
-  CALL STATISTICS
-  ───────────────
-
-  Switchboard:  Next.js 15 · NestJS 11 · Prisma · PostgreSQL
-               Redis · Turborepo · pnpm · Tailwind CSS
-  AI Trunks:    Google Document AI · Gemini · Mem0
-  Status:       🟢 Connected
-
-  ENGINEERING NOTES
-  ─────────────────
-
-  The monorepo structure was chosen over separate repos
-  because health data models must be shared between frontend
-  and backend — duplication would create drift and risk.
-
-  Two OCR engines means no single point of failure in
-  document processing. If Document AI is down, Gemini
-  handles the load transparently.
-
-  FUTURE UPGRADES
-  ───────────────
-
-  · FHIR compliance trunk
-  · Multi-language operator support
-  · Mobile handset application
-</pre>
-
-</details>
-
-<br>
-
-<!-- ───── CONFERENCE BRIDGE: MAFIA ATTACK ───── -->
-
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #4A90D9; font-size: 0.9em; letter-spacing: 3px;">⬟ CONFERENCE BRIDGE · MAFIA ATTACK</code>
-  <br>
-  <code style="color: #8B7355; font-size: 0.75em;">TYPE: Multi-Party Encrypted · DESTINATION: Village Square</code>
-</div>
-
-<details>
-<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
-  <strong>▸ PATCH THROUGH</strong>
-</summary>
-
-<br>
-
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-  CALL DESCRIPTION
-  ────────────────
-
-  Online social deduction games lack integrated voice
-  communication. Players juggle Discord + browser, which
-  breaks immersion. This conference bridge embeds voice
-  directly into the game loop — creating a single,
-  seamless experience.
-
-  SWITCHBOARD ARCHITECTURE
-  ───────────────────────
-
-  Voice network (WebRTC mesh):
-    Peer-to-peer audio with no media server. Day phase =
-    global conference. Night phase = hard mute everyone.
-    Mafia phase = private encrypted channel for killers.
-    Zero server overhead on voice data.
-
-  Game signaling (Socket.IO):
-    Strictly used for WebRTC offer/answer exchange and
-    game state synchronization. No game logic on the
-    signal line — all game rules run server-side.
-
-  Game engine (OOP — GameEngine.js):
-    Core loop manages timers, phase transitions, and win
-    conditions. PhaseManager acts as a state machine:
-    Lobby → Day → Night → Voting → Morning → GameOver.
-
-  Voice diagnostics:
-    Live latency and packet-loss indicators per client.
-    Spacebar push-to-talk with smart-muting while typing.
-
-  CALL STATISTICS
-  ───────────────
-
-  Audio:       WebRTC Mesh (no media servers)
-  Signaling:   Socket.IO
-  Game Loop:   Node.js · Express · Custom GameEngine
-  Status:      🟢 Connected
-
-  ENGINEERING NOTES
-  ─────────────────
-
-  Phase-aware audio is the key innovation. During the day,
-  everyone talks. At night, silence falls — the tension
-  is palpable. The mafia's private channel creates genuine
-  conspiracy. Voice makes the game real.
-
-  Zero media servers means zero voice costs. The server
-  only brokers WebRTC connections; all audio is P2P.
-
-  FUTURE UPGRADES
-  ───────────────
-
-  · Matchmaking trunk line
-  · Custom game room exchanges
-  · Mobile handset support
-</pre>
-
-</details>
-
-<br>
-
-<!-- ───── DIRECTORY ASSISTANCE: GITHUB EXPLORER ───── -->
-
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #00A86B; font-size: 0.9em; letter-spacing: 3px;">⬟ DIRECTORY ASSISTANCE · GITHUB EXPLORER</code>
-  <br>
-  <code style="color: #8B7355; font-size: 0.75em;">TYPE: Information Service · DESTINATION: Any GitHub Profile</code>
-</div>
-
-<details>
-<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
-  <strong>▸ PATCH THROUGH</strong>
-</summary>
-
-<br>
-
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-  CALL DESCRIPTION
-  ────────────────
-
-  Exploring GitHub profiles requires navigating multiple
-  pages. No unified search + analytics view exists.
-  This directory assistance line connects you to any
-  developer's complete profile in one call.
-
-  SWITCHBOARD ARCHITECTURE
-  ───────────────────────
-
-  12-module switchboard (Vanilla JS):
-    Each module has one responsibility:
-    · search.js — Orchestrates validation, loading, fetch
-    · validation.js — GitHub username rules engine
-    · userApi.js — HTTP communication with GitHub REST API
-    · profileRenderer.js — DOM construction for profile
-    · repoRendererNew.js — Sorting, filtering, animation
-    · chartRenderer.js — Chart.js doughnut language breakdown
-    · errorHandler.js — User-friendly error display
-    · rateLimit.js — API header parsing + caching
-    · loader.js — Skeleton loaders and spinners
-    · state.js — localStorage persistence
-    · constants.js — Language color tokens
-    · app.js — Entry point and initialization
-
-  Theme trunk:
-    Light/dark mode toggling persisted to localStorage.
-    Glassmorphism cards, fluid grid, responsive layout.
-
-  CALL STATISTICS
-  ───────────────
-
-  Frontend:    Vanilla JS (12 modules)
-  Data:        GitHub REST API
-  Charts:      Chart.js (doughnut)
-  Status:      🟢 Connected
-
-  ENGINEERING NOTES
-  ─────────────────
-
-  Zero-dependency frontend was a deliberate choice.
-  A framework would be overkill for this single-purpose
-  tool. Module separation makes each concern independently
-  testable and maintainable.
-
-  Rate-limit awareness parses GitHub's API headers and
-  shows users exactly when they can search again.
-  Transparency builds trust.
-</pre>
-
-</details>
-
-<br>
-
-<!-- ───── NEWS WIRE ───── -->
-
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #D45500; font-size: 0.9em; letter-spacing: 3px;">⬟ NEWS WIRE · NEWS FEED</code>
-  <br>
-  <code style="color: #8B7355; font-size: 0.75em;">TYPE: Continuous Broadcast · DESTINATION: Headlines Worldwide</code>
-</div>
-
-<details>
-<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
-  <strong>▸ PATCH THROUGH</strong>
-</summary>
-
-<br>
-
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-  CALL DESCRIPTION
-  ────────────────
-
-  A fast, modular news ticker that fetches real-time
-  headlines from NewsAPI. Debounced search, categorized
-  filtering, and cached state for seamless browsing.
-
-  SWITCHBOARD ARCHITECTURE
-  ───────────────────────
-
-  5-module design:
-    · main.js — Orchestrator, binds events, initializes
-    · state.js — Centralized state + localStorage caching
-    · api.js — HTTP layer, endpoint switching, error handling
-    · render.js — DocumentFragment batch DOM updates
-    · utils.js — Debounce (500ms), date formatting
-
-  Performance trunk:
-    DocumentFragment builds all cards in memory before
-    a single DOM append. Zero reflows during construction.
-    Debounced input prevents API spam on every keystroke.
-
-  Data filtering:
-    Invalid articles (removed titles, missing links) are
-    filtered out client-side before rendering.
-
-  CALL STATISTICS
-  ───────────────
-
-  Frontend:    Vanilla JS (5 modules)
-  Data:        NewsAPI
-  Cache:       localStorage (category preference)
-  Status:      🟢 Connected
-
-  ENGINEERING NOTES
-  ─────────────────
-
-  The 500ms debounce was tuned to balance responsiveness
-  against API rate limits. Any faster and we'd hit the
-  free tier ceiling on NewsAPI within minutes.
-
-  DocumentFragment batch rendering was a deliberate choice
-  over innerHTML. For a feed that might display 50+ cards,
-  the performance difference is measurable in seconds.
-
-  FUTURE UPGRADES
-  ───────────────
-
-  · Personalized news trunk (curated topics)
-  · Historical archive line (past articles)
-  · RSS feed integration
-</pre>
-
-</details>
-
-<br>
-
-<!-- ───── HISTORY LINE: STORY ───── -->
-
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #4A90D9; font-size: 0.9em; letter-spacing: 3px;">⬟ HISTORY LINE · STORY</code>
-  <br>
-  <code style="color: #8B7355; font-size: 0.75em;">TYPE: Long-Distance Archive · DESTINATION: Internet History</code>
-</div>
-
-<details>
-<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
-  <strong>▸ PATCH THROUGH</strong>
-</summary>
-
-<br>
-
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-  CALL DESCRIPTION
-  ────────────────
-
-  An interactive museum of internet history — from ARPANET
-  to Web 4.0 — built as a scroll-driven narrative exhibit.
-  Each era (Genesis, Web Birth, Web 2.0, Web3, Future)
-  has its own visual identity, widgets, and simulations.
-
-  SWITCHBOARD ARCHITECTURE
-  ───────────────────────
-
-  Era-based state machine (React 18 + TypeScript):
-    useEraState hook tracks the active historical period
-    based on scroll position. Global UI chrome (progress
-    bar, minimap, timeline slider) updates reactively.
-
-  Canvas trunk:
-    requestAnimationFrame powers particle networks,
-    packet-routing simulations, and animated timelines.
-
-  Scroll-driven narrative:
-    Framer Motion handles section transitions, parallax
-    layers, and spring-based micro-interactions.
-    A bottom timeline slider lets users scrub through eras.
-
-  Tech Stack: React 18 · TypeScript · Vite 6
-              Framer Motion · Tailwind CSS v4
-
-  Status: 🟢 Connected
-
-  ENGINEERING NOTES
-  ─────────────────
-
-  The most interesting challenge was managing global era
-  state across multiple scroll-driven sections. Using a
-  React context (useEraState) instead of prop-drilling
-  kept the architecture clean as the narrative grew.
-
-  Canvas-based particle effects use requestAnimationFrame
-  for 60fps — no animation library overhead.
-
-  LESSONS
-  ───────
-
-  Scroll-driven storytelling forces you to think in
-  sequences, not pages. Every section must work as a
-  scene in a film, not a slide in a deck.
-</pre>
-
-</details>
-
-<br>
-
-<!-- ───── HOTLINE: PORTFOLIO ───── -->
-
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #00A86B; font-size: 0.9em; letter-spacing: 3px;">⬟ HOTLINE · PORTFOLIO</code>
-  <br>
-  <code style="color: #8B7355; font-size: 0.75em;">TYPE: Direct Line · DESTINATION: Operator's Showcase</code>
-</div>
-
-<details>
-<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
-  <strong>▸ PATCH THROUGH</strong>
-</summary>
-
-<br>
-
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-  A motion-rich React 19 + Vite 6 portfolio with Framer
-  Motion animations, deterministic particle effects,
-  parallax scroll, and a FormSubmit-powered contact line.
-
-  Redesigned twice — from vanilla JS to GSAP to Framer
-  Motion — each iteration teaching something new about
-  animation performance and developer experience.
-</pre>
-
-</details>
-
-<br>
-
-<!-- ───── PUBLIC BOOTH: ONLINE VOTING ───── -->
-
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #00A86B; font-size: 0.9em; letter-spacing: 3px;">⬟ PUBLIC BOOTH · ONLINE VOTING SYSTEM</code>
-  <br>
-  <code style="color: #8B7355; font-size: 0.75em;">TYPE: Civic Utility · DESTINATION: The Ballot Box</code>
-</div>
-
-<details>
-<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.85em;">
-  <strong>▸ PATCH THROUGH</strong>
-</summary>
-
-<br>
-
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-  CALL DESCRIPTION
-  ────────────────
-
-  A fully client-side EVM + VVPAT simulation that enforces
-  one-vote-per-voter without any server infrastructure.
-  Designed for educational demonstrations of India's
-  electronic voting process.
-
-  SWITCHBOARD ARCHITECTURE
-  ───────────────────────
-
-  Zero-server trunk:
-    Hashed EPIC-style voter IDs + IndexedDB enforce voting
-    rules locally. Double-vote prevention at 100% accuracy.
-    No network dependency means the booth works offline.
-
-  Data relay (IndexedDB + LocalStorage):
-    Vote records persist across sessions. Unlimited voters
-    supported entirely in-browser.
-
-  Results display (Chart.js):
-    Real-time vote tallies updated client-side.
-
-  CALL STATISTICS
-  ───────────────
-
-  Engine:    Vanilla JavaScript
-  Storage:   IndexedDB · LocalStorage
-  Viz:       Chart.js
-  Server:    None (intentionally)
-  Status:    🟢 Connected
-
-  ENGINEERING NOTES
-  ─────────────────
-
-  The best infrastructure is no infrastructure.
-  Everything runs client-side. No servers, no costs,
-  no maintenance. Security through architecture.
-
-  LESSONS
-  ───────
-
-  Trust is the hardest engineering problem.
-  A voting system must be transparent enough to verify
-  but secure enough to protect. Client-side code can
-  achieve both when designed intentionally.
-</pre>
-
-</details>
-
-<br>
-
-<!-- ───── ENGINEERING SHED ───── -->
-
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">ENGINEERING SHED</code>
+<div style="background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:24px; padding:28px 32px; box-shadow:0 12px 32px rgba(0,0,0,0.05);">
+<p style="font-size:19px; font-weight:600; line-height:1.55; margin:0; color:var(--fgColor-default, #1F2328);">I care about clean architecture, modular code, and products that actually solve problems. My work spans monorepo full-stack apps, AI-powered document processing, and real-time voice systems — always with an eye on what runs well in production, not just what demos well.</p>
 </div>
 
 <br>
 
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║  SWITCHBOARD INVENTORY                                        ║
-║  ─────────────────────                                        ║
-║                                                               ║
-║  SWITCH LANGUAGES  │  Python · JavaScript · TypeScript        ║
-║                    │  C · C++                                 ║
-║  FRONTEND TRUNKS   │  React 19 · Next.js 15 · Vite 6         ║
-║                    │  Framer Motion · Tailwind CSS · GSAP     ║
-║  BACKEND TRUNKS    │  Node.js · NestJS 11 · FastAPI           ║
-║                    │  Express                                 ║
-║  DATA RELAYS       │  PostgreSQL · MySQL · Redis              ║
-║                    │  Firebase · IndexedDB · Prisma           ║
-║  AI SWITCHBOARD    │  OpenAI API · Google Gemini             ║
-║                    │  Google Document AI · Mem0               ║
-║  REAL-TIME LINES   │  WebRTC · Socket.IO                     ║
-║  BUILD TRUNKS      │  Turborepo · pnpm · Git · Docker        ║
-║  DEPLOY HUBS       │  Vercel · Netlify · GitHub Pages        ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-</pre>
+<p style="margin:36px 0 10px;"><span style="display:inline-block; padding:5px 14px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:10px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--fgColor-accent, #0969DA);">02 · Now</span></p>
+
+<h2 style="font-size:26px; font-weight:800; letter-spacing:-0.5px; margin:0 0 14px; color:var(--fgColor-default, #1F2328);">Currently building &amp; learning</h2>
+
+<div><div style="display:inline-block; width:32%; min-width:270px; box-sizing:border-box; vertical-align:top; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:20px; padding:22px 24px; margin:0 0.66% 12px 0;"><span style="font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--fgColor-accent, #0969DA);">Building</span><p style="font-size:14px; color:var(--fgColor-default, #1F2328); line-height:1.6; margin:10px 0 0;">Multi-agent AI orchestration · real-time collaboration (WebRTC / WebSockets) · open-source tooling</p></div><div style="display:inline-block; width:32%; min-width:270px; box-sizing:border-box; vertical-align:top; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:20px; padding:22px 24px; margin:0 0.66% 12px 0;"><span style="font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--fgColor-accent, #0969DA);">Learning</span><p style="font-size:14px; color:var(--fgColor-default, #1F2328); line-height:1.6; margin:10px 0 0;">AI agents · WebRTC &amp; CRDT collaboration patterns · monorepo architecture</p></div><div style="display:inline-block; width:32%; min-width:270px; box-sizing:border-box; vertical-align:top; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:20px; padding:22px 24px; margin:0 0 12px;"><span style="font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--fgColor-accent, #0969DA);">Education</span><p style="font-size:14px; color:var(--fgColor-default, #1F2328); line-height:1.6; margin:10px 0 0;">B.Tech Computer Science &amp; Engineering — PW Institute of Innovation · Class of 2029 · Jodhpur · Pune, India</p></div></div>
 
 <br>
 
-<!-- ───── SYSTEM STATUS ───── -->
+<p style="margin:36px 0 10px;"><span style="display:inline-block; padding:5px 14px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:10px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--fgColor-accent, #0969DA);">03 · Stack</span></p>
 
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">SYSTEM STATUS</code>
+<h2 style="font-size:26px; font-weight:800; letter-spacing:-0.5px; margin:0 0 14px; color:var(--fgColor-default, #1F2328);">What I work with</h2>
+
+<div style="background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:24px; padding:28px 32px; box-shadow:0 12px 32px rgba(0,0,0,0.05);">
+
+<p style="font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--fgColor-muted, #59636E); margin:0 0 10px;">Languages</p>
+<p style="margin:0 0 20px;"><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#3776AB; margin-right:6px;"></span>Python</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#F7DF1E; margin-right:6px;"></span>JavaScript</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#3178C6; margin-right:6px;"></span>TypeScript</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#A8B9CC; margin-right:6px;"></span>C</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#00599C; margin-right:6px;"></span>C++</span></p>
+
+<p style="font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--fgColor-muted, #59636E); margin:0 0 10px;">Frontend</p>
+<p style="margin:0 0 20px;"><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#61DAFB; margin-right:6px;"></span>React</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#111111; margin-right:6px;"></span>Next.js</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#646CFF; margin-right:6px;"></span>Vite</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#06B6D4; margin-right:6px;"></span>Tailwind CSS</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#0055FF; margin-right:6px;"></span>Framer Motion</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#88CE02; margin-right:6px;"></span>GSAP</span></p>
+
+<p style="font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--fgColor-muted, #59636E); margin:0 0 10px;">Backend</p>
+<p style="margin:0 0 20px;"><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#339933; margin-right:6px;"></span>Node.js</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#E0234E; margin-right:6px;"></span>NestJS</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#009688; margin-right:6px;"></span>FastAPI</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#111111; margin-right:6px;"></span>Express</span></p>
+
+<p style="font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--fgColor-muted, #59636E); margin:0 0 10px;">Data</p>
+<p style="margin:0 0 20px;"><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#4169E1; margin-right:6px;"></span>PostgreSQL</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#4479A1; margin-right:6px;"></span>MySQL</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#FF4438; margin-right:6px;"></span>Redis</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#FFCA28; margin-right:6px;"></span>Firebase</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#2D3748; margin-right:6px;"></span>Prisma</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#59636E; margin-right:6px;"></span>IndexedDB</span></p>
+
+<p style="font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--fgColor-muted, #59636E); margin:0 0 10px;">AI</p>
+<p style="margin:0 0 20px;"><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#412991; margin-right:6px;"></span>OpenAI</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#8E75B2; margin-right:6px;"></span>Google Gemini</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#59636E; margin-right:6px;"></span>Google Document AI</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#59636E; margin-right:6px;"></span>Mem0</span></p>
+
+<p style="font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--fgColor-muted, #59636E); margin:0 0 10px;">Realtime</p>
+<p style="margin:0 0 20px;"><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#59636E; margin-right:6px;"></span>WebRTC</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#010101; margin-right:6px;"></span>Socket.IO</span></p>
+
+<p style="font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--fgColor-muted, #59636E); margin:0 0 10px;">Tooling</p>
+<p style="margin:0;"><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#EF4444; margin-right:6px;"></span>Turborepo</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#F69220; margin-right:6px;"></span>pnpm</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#2496ED; margin-right:6px;"></span>Docker</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#F05032; margin-right:6px;"></span>Git</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#111111; margin-right:6px;"></span>Vercel</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#00C7B7; margin-right:6px;"></span>Netlify</span><span style="display:inline-block; padding:5px 12px 5px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:12px; font-weight:500; color:var(--fgColor-default, #1F2328); margin:0 6px 8px 0;"><span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#222222; margin-right:6px;"></span>GitHub Pages</span></p>
+
 </div>
 
 <br>
 
-<div align="center">
-  <a href="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/deploy-game.yml">
-    <img src="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/deploy-game.yml/badge.svg?style=flat&labelColor=0A0B0C" alt="Deploy Game">
-  </a>&nbsp;&nbsp;
-  <a href="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/update-stats.yml">
-    <img src="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/update-stats.yml/badge.svg?style=flat&labelColor=0A0B0C" alt="Update Stats">
-  </a>&nbsp;&nbsp;
-  <a href="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/switchboard-maintenance.yml">
-    <img src="https://github.com/radheshyam-bhati/radheshyam-bhati/actions/workflows/switchboard-maintenance.yml/badge.svg?style=flat&labelColor=0A0B0C" alt="Maintenance">
-  </a>
+<p style="margin:36px 0 10px;"><span style="display:inline-block; padding:5px 14px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:10px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--fgColor-accent, #0969DA);">04 · Projects</span></p>
+
+<h2 style="font-size:26px; font-weight:800; letter-spacing:-0.5px; margin:0 0 14px; color:var(--fgColor-default, #1F2328);">Selected work</h2>
+
+<div><div style="display:inline-block; width:66%; min-width:280px; box-sizing:border-box; vertical-align:top; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:22px; padding:26px 28px; margin:0 0.75% 12px 0;"><span style="float:right; font-size:44px; font-weight:800; line-height:0.9; color:var(--fgColor-muted, #59636E); opacity:0.3;">01</span><p style="font-size:19px; font-weight:700; margin:0 0 6px; color:var(--fgColor-default, #1F2328);">MedConnect</p><p style="font-size:13.5px; color:var(--fgColor-muted, #59636E); line-height:1.55; margin:0 0 14px;">AI-powered unified health records for India — prescriptions, lab reports, imaging, with two-engine OCR.</p><p style="margin:0 0 16px;"><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Next.js 15</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">NestJS</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Prisma</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">PostgreSQL</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Redis</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Gemini</span></p><a href="https://github.com/radheshyam-bhati/medconnect" style="display:inline-block; padding:7px 7px 7px 16px; border-radius:999px; background-color:var(--fgColor-default, #1F2328); color:var(--bgColor-default, #FFFFFF); font-size:12px; font-weight:600; text-decoration:none;">Repo <span style="display:inline-block; width:20px; height:20px; border-radius:50%; background-color:var(--bgColor-default, #FFFFFF); color:var(--fgColor-default, #1F2328); text-align:center; line-height:20px; font-size:10px; margin-left:8px;">↗</span></a></div><div style="display:inline-block; width:32%; min-width:280px; box-sizing:border-box; vertical-align:top; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:22px; padding:26px 28px; margin:0 0 12px;"><span style="float:right; font-size:44px; font-weight:800; line-height:0.9; color:var(--fgColor-muted, #59636E); opacity:0.3;">02</span><p style="font-size:19px; font-weight:700; margin:0 0 6px; color:var(--fgColor-default, #1F2328);">MafiaAttack</p><p style="font-size:13.5px; color:var(--fgColor-muted, #59636E); line-height:1.55; margin:0 0 14px;">Social deduction game with phase-aware WebRTC voice, zero media servers.</p><p style="margin:0 0 16px;"><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Node.js</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Socket.IO</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">WebRTC</span></p><a href="https://github.com/radheshyam-bhati/MafiaAttack" style="display:inline-block; padding:7px 7px 7px 16px; border-radius:999px; background-color:var(--fgColor-default, #1F2328); color:var(--bgColor-default, #FFFFFF); font-size:12px; font-weight:600; text-decoration:none;">Repo <span style="display:inline-block; width:20px; height:20px; border-radius:50%; background-color:var(--bgColor-default, #FFFFFF); color:var(--fgColor-default, #1F2328); text-align:center; line-height:20px; font-size:10px; margin-left:8px;">↗</span></a></div></div>
+
+<div><div style="display:inline-block; width:49%; min-width:280px; box-sizing:border-box; vertical-align:top; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:22px; padding:26px 28px; margin:0 0.75% 12px 0;"><span style="float:right; font-size:44px; font-weight:800; line-height:0.9; color:var(--fgColor-muted, #59636E); opacity:0.3;">03</span><p style="font-size:19px; font-weight:700; margin:0 0 6px; color:var(--fgColor-default, #1F2328);">GitHub Explorer</p><p style="font-size:13.5px; color:var(--fgColor-muted, #59636E); line-height:1.55; margin:0 0 14px;">Search + analytics for any GitHub profile, 12-module zero-dependency frontend.</p><p style="margin:0 0 16px;"><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Vanilla JS</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Chart.js</span></p><a href="https://github.com/radheshyam-bhati/GitHub-Developer-Explorer" style="display:inline-block; padding:7px 7px 7px 16px; border-radius:999px; background-color:var(--fgColor-default, #1F2328); color:var(--bgColor-default, #FFFFFF); font-size:12px; font-weight:600; text-decoration:none;">Repo <span style="display:inline-block; width:20px; height:20px; border-radius:50%; background-color:var(--bgColor-default, #FFFFFF); color:var(--fgColor-default, #1F2328); text-align:center; line-height:20px; font-size:10px; margin-left:8px;">↗</span></a></div><div style="display:inline-block; width:49%; min-width:280px; box-sizing:border-box; vertical-align:top; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:22px; padding:26px 28px; margin:0 0 12px;"><span style="float:right; font-size:44px; font-weight:800; line-height:0.9; color:var(--fgColor-muted, #59636E); opacity:0.3;">04</span><p style="font-size:19px; font-weight:700; margin:0 0 6px; color:var(--fgColor-default, #1F2328);">News Feed</p><p style="font-size:13.5px; color:var(--fgColor-muted, #59636E); line-height:1.55; margin:0 0 14px;">Real-time news ticker with debounced search and batch rendering.</p><p style="margin:0 0 16px;"><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Vanilla JS</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">NewsAPI</span></p><a href="https://github.com/radheshyam-bhati/News-Feed" style="display:inline-block; padding:7px 7px 7px 16px; border-radius:999px; background-color:var(--fgColor-default, #1F2328); color:var(--bgColor-default, #FFFFFF); font-size:12px; font-weight:600; text-decoration:none;">Repo <span style="display:inline-block; width:20px; height:20px; border-radius:50%; background-color:var(--bgColor-default, #FFFFFF); color:var(--fgColor-default, #1F2328); text-align:center; line-height:20px; font-size:10px; margin-left:8px;">↗</span></a></div></div>
+
+<div><div style="display:inline-block; width:66%; min-width:280px; box-sizing:border-box; vertical-align:top; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:22px; padding:26px 28px; margin:0 0.75% 12px 0;"><span style="float:right; font-size:44px; font-weight:800; line-height:0.9; color:var(--fgColor-muted, #59636E); opacity:0.3;">05</span><p style="font-size:19px; font-weight:700; margin:0 0 6px; color:var(--fgColor-default, #1F2328);">Story</p><p style="font-size:13.5px; color:var(--fgColor-muted, #59636E); line-height:1.55; margin:0 0 14px;">Interactive museum of internet history — scroll-driven narrative, canvas particles.</p><p style="margin:0 0 16px;"><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">React 18</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">TypeScript</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Framer Motion</span></p><a href="https://github.com/radheshyam-bhati/Story" style="display:inline-block; padding:7px 7px 7px 16px; border-radius:999px; background-color:var(--fgColor-default, #1F2328); color:var(--bgColor-default, #FFFFFF); font-size:12px; font-weight:600; text-decoration:none;">Repo <span style="display:inline-block; width:20px; height:20px; border-radius:50%; background-color:var(--bgColor-default, #FFFFFF); color:var(--fgColor-default, #1F2328); text-align:center; line-height:20px; font-size:10px; margin-left:8px;">↗</span></a></div><div style="display:inline-block; width:32%; min-width:280px; box-sizing:border-box; vertical-align:top; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:22px; padding:26px 28px; margin:0 0 12px;"><span style="float:right; font-size:44px; font-weight:800; line-height:0.9; color:var(--fgColor-muted, #59636E); opacity:0.3;">06</span><p style="font-size:19px; font-weight:700; margin:0 0 6px; color:var(--fgColor-default, #1F2328);">Online Voting</p><p style="font-size:13.5px; color:var(--fgColor-muted, #59636E); line-height:1.55; margin:0 0 14px;">Client-side EVM + VVPAT simulation, one-vote-per-voter, zero servers.</p><p style="margin:0 0 16px;"><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Vanilla JS</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">IndexedDB</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Chart.js</span></p><a href="https://github.com/radheshyam-bhati/Online-Voting-system" style="display:inline-block; padding:7px 7px 7px 16px; border-radius:999px; background-color:var(--fgColor-default, #1F2328); color:var(--bgColor-default, #FFFFFF); font-size:12px; font-weight:600; text-decoration:none;">Repo <span style="display:inline-block; width:20px; height:20px; border-radius:50%; background-color:var(--bgColor-default, #FFFFFF); color:var(--fgColor-default, #1F2328); text-align:center; line-height:20px; font-size:10px; margin-left:8px;">↗</span></a></div></div>
+
+<div><div style="display:inline-block; width:49%; min-width:280px; box-sizing:border-box; vertical-align:top; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:22px; padding:26px 28px; margin:0 0.75% 12px 0;"><span style="float:right; font-size:44px; font-weight:800; line-height:0.9; color:var(--fgColor-muted, #59636E); opacity:0.3;">07</span><p style="font-size:19px; font-weight:700; margin:0 0 6px; color:var(--fgColor-default, #1F2328);">IntelliDine</p><p style="font-size:13.5px; color:var(--fgColor-muted, #59636E); line-height:1.55; margin:0 0 14px;">Real-time restaurant management platform for front-of-house, kitchen, and management teams.</p><p style="margin:0 0 16px;"><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Next.js 14</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Express</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Socket.IO</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Prisma</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">FastAPI</span></p><a href="https://github.com/radheshyam-bhati/IntelliDine" style="display:inline-block; padding:7px 7px 7px 16px; border-radius:999px; background-color:var(--fgColor-default, #1F2328); color:var(--bgColor-default, #FFFFFF); font-size:12px; font-weight:600; text-decoration:none;">Repo <span style="display:inline-block; width:20px; height:20px; border-radius:50%; background-color:var(--bgColor-default, #FFFFFF); color:var(--fgColor-default, #1F2328); text-align:center; line-height:20px; font-size:10px; margin-left:8px;">↗</span></a> <a href="https://intelli-dine-web.vercel.app/login" style="display:inline-block; padding:7px 7px 7px 16px; border-radius:999px; background-color:var(--fgColor-default, #1F2328); color:var(--bgColor-default, #FFFFFF); font-size:12px; font-weight:600; text-decoration:none;">Live <span style="display:inline-block; width:20px; height:20px; border-radius:50%; background-color:var(--bgColor-default, #FFFFFF); color:var(--fgColor-default, #1F2328); text-align:center; line-height:20px; font-size:10px; margin-left:8px;">↗</span></a></div><div style="display:inline-block; width:49%; min-width:280px; box-sizing:border-box; vertical-align:top; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:22px; padding:26px 28px; margin:0 0 12px;"><span style="float:right; font-size:44px; font-weight:800; line-height:0.9; color:var(--fgColor-muted, #59636E); opacity:0.3;">08</span><p style="font-size:19px; font-weight:700; margin:0 0 6px; color:var(--fgColor-default, #1F2328);">Portfolio</p><p style="font-size:13.5px; color:var(--fgColor-muted, #59636E); line-height:1.55; margin:0 0 14px;">Motion-rich personal portfolio, three animation rewrites deep.</p><p style="margin:0 0 16px;"><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">React 19</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Vite</span><span style="display:inline-block; padding:3px 10px; border-radius:999px; background-color:var(--bgColor-default, #FFFFFF); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:11px; color:var(--fgColor-muted, #59636E); margin:0 4px 4px 0;">Framer Motion</span></p><a href="https://radheshyam-cod.github.io/Portfolio" style="display:inline-block; padding:7px 7px 7px 16px; border-radius:999px; background-color:var(--fgColor-default, #1F2328); color:var(--bgColor-default, #FFFFFF); font-size:12px; font-weight:600; text-decoration:none;">Live <span style="display:inline-block; width:20px; height:20px; border-radius:50%; background-color:var(--bgColor-default, #FFFFFF); color:var(--fgColor-default, #1F2328); text-align:center; line-height:20px; font-size:10px; margin-left:8px;">↗</span></a></div></div>
+
+<br>
+
+<p style="margin:36px 0 10px;"><span style="display:inline-block; padding:5px 14px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:10px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--fgColor-accent, #0969DA);">05 · Recognition</span></p>
+
+<h2 style="font-size:26px; font-weight:800; letter-spacing:-0.5px; margin:0 0 14px; color:var(--fgColor-default, #1F2328);">Hackathons &amp; awards</h2>
+
+<div><div style="display:inline-block; width:32%; min-width:270px; box-sizing:border-box; vertical-align:top; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:20px; padding:22px 24px; margin:0 0.66% 12px 0;"><span style="float:right; font-size:34px; font-weight:800; line-height:1; color:var(--fgColor-muted, #59636E); opacity:0.3;">01</span><p style="font-size:16px; font-weight:700; margin:0 0 6px; color:var(--fgColor-default, #1F2328);">Yophoria 2025</p><p style="font-size:13px; color:var(--fgColor-muted, #59636E); line-height:1.55; margin:0;">3rd Runner Up, AI Innovation — university teams across India.</p></div><div style="display:inline-block; width:32%; min-width:270px; box-sizing:border-box; vertical-align:top; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:20px; padding:22px 24px; margin:0 0.66% 12px 0;"><span style="float:right; font-size:34px; font-weight:800; line-height:1; color:var(--fgColor-muted, #59636E); opacity:0.3;">02</span><p style="font-size:16px; font-weight:700; margin:0 0 6px; color:var(--fgColor-default, #1F2328);">Mumbai Hacks 2025</p><p style="font-size:13px; color:var(--fgColor-muted, #59636E); line-height:1.55; margin:0;">24-hour hackathon · Fin-Mate, AI personal finance coach.</p></div><div style="display:inline-block; width:32%; min-width:270px; box-sizing:border-box; vertical-align:top; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); border-radius:20px; padding:22px 24px; margin:0 0 12px;"><span style="float:right; font-size:34px; font-weight:800; line-height:1; color:var(--fgColor-muted, #59636E); opacity:0.3;">03</span><p style="font-size:16px; font-weight:700; margin:0 0 6px; color:var(--fgColor-default, #1F2328);">HackXios 2K25</p><p style="font-size:13px; color:var(--fgColor-muted, #59636E); line-height:1.55; margin:0;">AWS-backed hackathon · cross-functional team delivery.</p></div></div>
+
+<br>
+
+<p style="margin:36px 0 10px;"><span style="display:inline-block; padding:5px 14px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:10px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--fgColor-accent, #0969DA);">06 · Play</span></p>
+
+<h2 style="font-size:26px; font-weight:800; letter-spacing:-0.5px; margin:0 0 14px; color:var(--fgColor-default, #1F2328);">Interactive demo</h2>
+
+<div align="center" style="margin:28px 0 8px;">
+<a href="https://radheshyam-bhati.github.io/radheshyam-bhati/game/" style="display:inline-block; padding:14px 14px 14px 26px; border-radius:999px; background-color:var(--fgColor-default, #1F2328); color:var(--bgColor-default, #FFFFFF); font-size:14px; font-weight:700; text-decoration:none;">Switchboard Training Simulation <span style="display:inline-block; width:28px; height:28px; border-radius:50%; background-color:var(--bgColor-default, #FFFFFF); color:var(--fgColor-default, #1F2328); text-align:center; line-height:28px; font-size:13px; margin-left:10px;">↗</span></a>
+<p style="font-size:12.5px; color:var(--fgColor-muted, #59636E); margin-top:12px;">Patch cables between projects to explore how they connect.</p>
 </div>
 
 <br>
 
-<!-- ───── OPERATOR'S LOGS ───── -->
+<p style="margin:36px 0 10px;"><span style="display:inline-block; padding:5px 14px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-muted, #D1D9E0); font-size:10px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--fgColor-accent, #0969DA);">07 · Contact</span></p>
 
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">OPERATOR'S LOGS</code>
-</div>
+<h2 style="font-size:26px; font-weight:800; letter-spacing:-0.5px; margin:0 0 14px; color:var(--fgColor-default, #1F2328);">Find me around the web</h2>
 
-<br>
+<p>
+  <a href="mailto:radheshyambhati747@gmail.com" style="display:inline-block; padding:9px 20px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); color:var(--fgColor-default, #1F2328); font-size:13px; font-weight:600; text-decoration:none; margin:3px 4px;">Email</a>
+  <a href="https://linkedin.com/in/radheshyam-bhati" style="display:inline-block; padding:9px 20px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); color:var(--fgColor-default, #1F2328); font-size:13px; font-weight:600; text-decoration:none; margin:3px 4px;">LinkedIn</a>
+  <a href="https://github.com/radheshyam-bhati" style="display:inline-block; padding:9px 20px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); color:var(--fgColor-default, #1F2328); font-size:13px; font-weight:600; text-decoration:none; margin:3px 4px;">GitHub</a>
+  <a href="https://radheshyam-cod.github.io/Portfolio" style="display:inline-block; padding:9px 20px; border-radius:999px; background-color:var(--bgColor-muted, #F6F8FA); border:1px solid var(--borderColor-default, #D1D9E0); color:var(--fgColor-default, #1F2328); font-size:13px; font-weight:600; text-decoration:none; margin:3px 4px;">Portfolio</a>
+</p>
 
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-╔══════════════════════════════════════════╗
-║                                          ║
-║  SERVICE RECOGNITION                     ║
-║  ───────────────────                     ║
-║                                          ║
-║  🏆  YOPHORIA 2025                       ║
-║      3rd Runner Up · AI Innovation       ║
-║      Among university teams across India ║
-║                                          ║
-║  🏆  MUMBAI HACKS 2025                   ║
-║      24-hour hackathon · Fin-Mate        ║
-║      AI Personal Finance Coach           ║
-║                                          ║
-║  🏆  HACKXIOS 2K25                       ║
-║      AWS-backed hackathon                ║
-║      Cross-functional team delivery      ║
-║                                          ║
-║  OPERATOR TRAINING                       ║
-║  ─────────────────                       ║
-║                                          ║
-║  · Deloitte Cyber Simulation (Forage)    ║
-║  · Google Gemini Academy — AI in Ed.     ║
-║  · Skill India Cybersecurity (NSDC)      ║
-║  · DevTown OS Bootcamp (Microsoft/GDG)   ║
-║                                          ║
-╚══════════════════════════════════════════╝
-</pre>
+<p style="font-size:13px; color:var(--fgColor-muted, #59636E); margin-top:16px;">📍 Jodhpur · Pune, India — open to collaborations, hackathons, and interesting problems.</p>
 
-<br>
+<div align="center" style="margin-top:44px;">
 
-<!-- ───── TRAINING SIMULATION ───── -->
+Last updated July 2026
 
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <img src="assets/indicator-light.svg" alt="Train" width="20">
-  <br><br>
-  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">⬟ SWITCHBOARD TRAINING SIMULATION</code>
-</div>
-
-<br>
-
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-╔══════════════════════════════════════════╗
-║                                          ║
-║  OPERATOR TRAINING MODULE                ║
-║  ─────────────────────────                ║
-║                                          ║
-║  An interactive switchboard where you    ║
-║  patch cables between projects to        ║
-║  discover how they connect.              ║
-║                                          ║
-║  Click a source jack, then a destination ║
-║  — watch the cable glow as architecture  ║
-║  insights are revealed.                  ║
-║                                          ║
-║  All 21 possible connections have        ║
-║  unique engineering stories.             ║
-║                                          ║
-╚══════════════════════════════════════════╝
-</pre>
-
-<div align="center">
-  <a href="https://radheshyam-bhati.github.io/radheshyam-bhati/game/" style="display: inline-block; border: 1px solid #D45500; color: #D45500; padding: 10px 28px; border-radius: 6px; text-decoration: none; font-family: 'Courier New', monospace; font-size: 0.8em; letter-spacing: 3px;">⬟ ENTER TRAINING SIMULATION</a>
-  <br>
-  <span style="color: #5A4A35; font-size: 0.65em; display: block; margin-top: 6px;">Requires Pages source → Deploy from <strong>gh-pages</strong> branch</span>
-</div>
-
-<br>
-
-<!-- ───── FUTURE INSTALLATIONS ───── -->
-
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">FUTURE INSTALLATIONS</code>
-</div>
-
-<br>
-
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-╔══════════════════════════════════════════╗
-║                                          ║
-║  LINES IN DEVELOPMENT                    ║
-║  ─────────────────────                   ║
-║                                          ║
-║  🏗️  PROJECT ZEPHYR                      ║
-║      AI agent trunk line                 ║
-║      Multi-agent orchestration           ║
-║      Status: ███░░░░░░░░░ 30%            ║
-║                                          ║
-║  🏗️  PROJECT SYNCHRO                     ║
-║      Real-time collaboration line        ║
-║      WebSocket + CRDT-based editing      ║
-║      Status: ██░░░░░░░░░░ 20%            ║
-║                                          ║
-║  🏗️  PROJECT COLLECTIVE                  ║
-║      Open source trunk line              ║
-║      Community contribution campaign     ║
-║      Status: █░░░░░░░░░░░ 10%            ║
-║                                          ║
-╚══════════════════════════════════════════╝
-</pre>
-
-<br>
-
-<!-- ───── CONTACT ───── -->
-
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <img src="assets/phone-handset.svg" alt="Contact" width="28">
-  <br><br>
-  <code style="color: #C4A35A; font-size: 0.9em; letter-spacing: 4px;">CONTACT OPERATOR</code>
-</div>
-
-<br>
-
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.8; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-╔══════════════════════════════════════════╗
-║                                          ║
-║  OPERATOR CONTACT                        ║
-║  ───────────────────                     ║
-║                                          ║
-║  📬  radheshyambhati747@gmail.com       ║
-║  🔗  linkedin.com/in/radheshyam-bhati   ║
-║  🖥️  github.com/radheshyam-bhati         ║
-║  🏠  radheshyam-cod.github.io/Portfolio ║
-║  📍  Jodhpur · Pune · India              ║
-║                                          ║
-║  Lines are open for commissions,         ║
-║  collaborations, and conversations.      ║
-║  Operator will return your call.         ║
-║                                          ║
-╚══════════════════════════════════════════╝
-</pre>
-
-<br>
-
-<!-- ───── DEPARTURE ───── -->
-
-<div align="center">
-  <img src="assets/patch-cable-divider.svg" alt="—" width="100%">
-  <br><br>
-  <img src="assets/indicator-light.svg" alt="End" width="20">
-  <br><br>
-  <p style="color: #E8D5B7; font-size: 0.9em; max-width: 500px; line-height: 1.6;">
-    This connection is now terminating.<br>
-    Thank you for calling The Switchboard.<br>
-    All circuits remain open for your return.
-  </p>
-  <br>
-  <p style="color: #C4A35A; font-size: 0.75em; opacity: 0.6; letter-spacing: 2px;">
-    ⬟ TRANSMISSION END ⬟
-  </p>
-  <br>
-  <p style="color: #8B7355; font-size: 0.7em; opacity: 0.4;">
-    Connected from Jodhpur · Last updated July 2026
-  </p>
-</div>
-
-<br>
-
-<!-- ───── EASTER EGG ───── -->
-
-<details>
-<summary style="color: #D45500; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.75em; opacity: 0.5;">
-  <strong>⬟ ROUTINE LOG ENTRY · DO NOT EXPAND</strong>
-</summary>
-
-<br>
-
-<pre style="background: #0A0B0C; border: 1px solid #CC3333; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-╔══════════════════════════════════════════╗
-║                                          ║
-║  ⚠️  INTERCEPTED TRANSMISSION             ║
-║  ─────────────────────────                ║
-║                                          ║
-║  This line was not meant for you.        ║
-║  But since you're here...                ║
-║                                          ║
-║  The operator keeps a secondary log.     ║
-║  Notes that don't make it to the         ║
-║  official switchboard documentation:     ║
-║                                          ║
-║  · MedConnect started as a weekend       ║
-║    project. It became a monorepo.        ║
-║                                          ║
-║  · MafiaAttack's WebRTC mesh was         ║
-║    rewritten 4 times before phase-aware  ║
-║    voice worked reliably.                ║
-║                                          ║
-║  · GitHub Explorer began as a 200-line   ║
-║    script. It grew into 12 modules       ║
-║    because good code asks to be split.   ║
-║                                          ║
-║  · Story's canvas particles were         ║
-║    originally three.js. That was         ║
-║    overkill. requestAnimationFrame was   ║
-║    enough.                               ║
-║                                          ║
-║  · The voting system has never been      ║
-║    hacked. Not once. Client-side         ║
-║    security is not an oxymoron.          ║
-║                                          ║
-║  This message will self-destruct.        ║
-║  (Not really. It's just markdown.)       ║
-║                                          ║
-╚══════════════════════════════════════════╝
-</pre>
-
-</details>
-
-<br>
-
-<!-- ───── ARCHITECTURE ───── -->
-
-<details>
-<summary style="color: #C4A35A; cursor: pointer; font-family: 'Courier New', monospace; font-size: 0.8em; opacity: 0.6;">
-  <strong>▸ SWITCHBOARD SCHEMATIC</strong>
-</summary>
-
-<br>
-
-<pre style="background: #0A0B0C; border: 1px solid #2A2F38; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 0.85em; line-height: 1.6; color: #B8C6FF; max-width: 700px; margin: 0 auto;">
-╔══════════════════════════════════════════╗
-║                                          ║
-║  PROJECT STRUCTURE                       ║
-║  ─────────────────                       ║
-║                                          ║
-║  📁  .github/workflows/                  ║
-║      └── switchboard-maintenance.yml     ║
-║         🕐 Weekly timestamp update       ║
-║                                          ║
-║  📁  assets/                             ║
-║      ├── switchboard-header.svg          ║
-║      │   Main switchboard panel          ║
-║      ├── patch-cable-divider.svg         ║
-║      │   Section separators              ║
-║      ├── phone-handset.svg              ║
-║      │   Contact icon                    ║
-║      └── indicator-light.svg            ║
-║          Status indicator                ║
-║                                          ║
-║  📄  README.md                           ║
-║      The Switchboard experience          ║
-║                                          ║
-╚══════════════════════════════════════════╝
-</pre>
-
-</details>
-
-<br>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=60&section=footer&color=0:0A0B0C,50:1A1D23,100:2A2F38&reversal=false">
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=60&section=footer&color=0:0A0B0C,50:1A1D23,100:2A2F38&reversal=false" width="100%" alt="footer">
-  </picture>
 </div>

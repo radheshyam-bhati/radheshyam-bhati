@@ -1,4 +1,4 @@
-name: Update Switchboard Stats
+name: Update Profile Stats
 on:
   schedule:
     - cron: '0 6 * * 1'
@@ -31,10 +31,10 @@ jobs:
           git config user.name "Switchboard Bot"
           git config user.email "bot@switchboard.workshop"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git add assets/switchboard-stats.svg
+          git add assets/profile-stats.svg assets/profile-stats-dark.svg assets/profile-badge.svg assets/profile-badge-dark.svg
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update switchboard live stats [skip ci]"
+            git commit -m "chore: update profile stats [skip ci]"
             git push
           fi
