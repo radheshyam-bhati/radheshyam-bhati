@@ -30,6 +30,13 @@
 </p>
 
 <p style="margin:14px 0 0;">
+  <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/stats/github-stats.svg#gh-light-mode-only" alt="GitHub Stats (light)" height="170"/>
+  <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/stats/github-stats-dark.svg#gh-dark-mode-only" alt="GitHub Stats (dark)" height="170"/>
+  <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/stats/top-langs.svg#gh-light-mode-only" alt="Top Languages (light)" height="150"/>
+  <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/stats/top-langs-dark.svg#gh-dark-mode-only" alt="Top Languages (dark)" height="150"/>
+</p>
+
+<p style="margin:14px 0 0;">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=radheshyam-bhati&amp;theme=minimal&amp;hide_border=true#gh-light-mode-only" alt="Contribution activity (light)" width="100%"/>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=radheshyam-bhati&amp;theme=xcode&amp;hide_border=true#gh-dark-mode-only" alt="Contribution activity (dark)" width="100%"/>
 </p>
