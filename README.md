@@ -20,6 +20,6 @@
 
 <p style="font-size:13px; color:var(--fgColor-muted, #59636E); margin:0 0 10px;">📍 Jodhpur · Pune, India — open to collaborations, hackathons, and interesting problems.</p>
 
-Last updated July 2026
+Last updated August 2026
 
 </div>
