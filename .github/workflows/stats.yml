@@ -20,20 +20,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate GitHub stats card (dark)
+      - name: Generate GitHub stats card (tokyonight)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&theme=dark
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&theme=tokyonight
           path: dist/github-stats-dark.svg
           fail_on_error: true
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate top languages card (dark)
+      - name: Generate top languages card (tokyonight)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide_border=true&theme=dark
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&theme=tokyonight
           path: dist/top-langs-dark.svg
           fail_on_error: true
           token: ${{ secrets.GITHUB_TOKEN }}
