@@ -206,18 +206,63 @@
 
 </div>
 
-<!-- GitHub Trophies / Achievements -->
+<!-- Quick Stats Summary -->
 <div align="center" style="margin-top:64px;">
 
-<span style="display:inline-block; padding:8px 22px; border-radius:999px; background:linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%); border:1px solid #d1d5db; font-size:11px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#4b5563;">Achievements</span>
+<span style="display:inline-block; padding:8px 22px; border-radius:999px; background:linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%); border:1px solid #d1d5db; font-size:11px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#4b5563;">Quick Stats</span>
 
-<p style="margin:20px 0 0;">
-  <a href="https://github.com/radheshyam-bhati?tab=repositories" target="_blank" rel="noopener noreferrer">
-    <img src="https://github-profile-trophy.vercel.app/?username=radheshyam-bhati&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=6&rank=SSS,SS,S,AAA,AA,A,B" alt="GitHub Trophies" style="max-width:100%; height:auto;"/>
-  </a>
-</p>
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:16px; margin:24px 0 0; max-width:800px;">
+
+<div style="flex:1; min-width:180px; background:linear-gradient(135deg, #1e1e2e 0%, #282a36 100%); border:1px solid #3d3f4b; border-radius:16px; padding:24px; text-align:center; transition:transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 16px 40px rgba(102,126,234,0.2)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+  <div style="font-size:32px; font-weight:800; background:linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; line-height:1.2;" id="stat-repos">—</div>
+  <div style="font-size:13px; color:#9ca3af; margin-top:6px; font-weight:500; text-transform:uppercase; letter-spacing:1px;">Repositories</div>
+</div>
+
+<div style="flex:1; min-width:180px; background:linear-gradient(135deg, #1e1e2e 0%, #282a36 100%); border:1px solid #3d3f4b; border-radius:16px; padding:24px; text-align:center; transition:transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 16px 40px rgba(16,185,129,0.2)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+  <div style="font-size:32px; font-weight:800; background:linear-gradient(135deg, #10b981 0%, #059669 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; line-height:1.2;" id="stat-stars">—</div>
+  <div style="font-size:13px; color:#9ca3af; margin-top:6px; font-weight:500; text-transform:uppercase; letter-spacing:1px;">Total Stars</div>
+</div>
+
+<div style="flex:1; min-width:180px; background:linear-gradient(135deg, #1e1e2e 0%, #282a36 100%); border:1px solid #3d3f4b; border-radius:16px; padding:24px; text-align:center; transition:transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 16px 40px rgba(249,115,22,0.2)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+  <div style="font-size:32px; font-weight:800; background:linear-gradient(135deg, #f97316 0%, #fbbf24 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; line-height:1.2;" id="stat-forks">—</div>
+  <div style="font-size:13px; color:#9ca3af; margin-top:6px; font-weight:500; text-transform:uppercase; letter-spacing:1px;">Total Forks</div>
+</div>
+
+<div style="flex:1; min-width:180px; background:linear-gradient(135deg, #1e1e2e 0%, #282a36 100%); border:1px solid #3d3f4b; border-radius:16px; padding:24px; text-align:center; transition:transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 16px 40px rgba(236,72,153,0.2)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+  <div style="font-size:32px; font-weight:800; background:linear-gradient(135deg, #ec4899 0%, #f472b6 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; line-height:1.2;" id="stat-followers">—</div>
+  <div style="font-size:13px; color:#9ca3af; margin-top:6px; font-weight:500; text-transform:uppercase; letter-spacing:1px;">Followers</div>
+</div>
 
 </div>
+
+</div>
+
+<script>
+  async function fetchGitHubStats() {
+    try {
+      const res = await fetch('https://api.github.com/users/radheshyam-bhati');
+      if (!res.ok) throw new Error('Failed to fetch');
+      const data = await res.json();
+      document.getElementById('stat-repos').textContent = data.public_repos || '—';
+      document.getElementById('stat-stars').textContent = (data.starred_url ? '—' : '—');
+      document.getElementById('stat-forks').textContent = '—';
+      document.getElementById('stat-followers').textContent = data.followers || '—';
+      
+      // Fetch total stars across repos
+      const reposRes = await fetch('https://api.github.com/users/radheshyam-bhati/repos?per_page=100');
+      if (reposRes.ok) {
+        const repos = await reposRes.json();
+        const totalStars = repos.reduce((sum, r) => sum + (r.stargazers_count || 0), 0);
+        const totalForks = repos.reduce((sum, r) => sum + (r.forks_count || 0), 0);
+        document.getElementById('stat-stars').textContent = totalStars.toLocaleString();
+        document.getElementById('stat-forks').textContent = totalForks.toLocaleString();
+      }
+    } catch (e) {
+      console.log('Stats fetch failed:', e);
+    }
+  }
+  fetchGitHubStats();
+</script>
 
 <!-- Footer -->
 <div align="center" style="margin-top:72px; padding-top:32px; border-top:1px solid #e5e7eb;">
