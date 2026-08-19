@@ -206,63 +206,24 @@
 
 </div>
 
-<!-- Quick Stats Summary -->
+<!-- Quick Stats Summary (via GitHub Readme Stats) -->
 <div align="center" style="margin-top:64px;">
 
 <span style="display:inline-block; padding:8px 22px; border-radius:999px; background:linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%); border:1px solid #d1d5db; font-size:11px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#4b5563;">Quick Stats</span>
 
-<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:16px; margin:24px 0 0; max-width:800px;">
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin:24px 0 0; max-width:900px;">
 
-<div style="flex:1; min-width:180px; background:linear-gradient(135deg, #1e1e2e 0%, #282a36 100%); border:1px solid #3d3f4b; border-radius:16px; padding:24px; text-align:center; transition:transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 16px 40px rgba(102,126,234,0.2)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
-  <div style="font-size:32px; font-weight:800; background:linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; line-height:1.2;" id="stat-repos">—</div>
-  <div style="font-size:13px; color:#9ca3af; margin-top:6px; font-weight:500; text-transform:uppercase; letter-spacing:1px;">Repositories</div>
-</div>
+<a href="https://github.com/radheshyam-bhati?tab=repositories" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">
+  <img src="https://github-readme-stats.vercel.app/api?username=radheshyam-bhati&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&title_color=fff&icon_color=667eea&text_color=9ca3af&bg_color=1e1e2e,282a36&include_all_commits=true&count_private=true" alt="GitHub Stats" style="max-width:100%; height:auto; border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,0.3); transition:transform 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='translateY(0)'"/>
+</a>
 
-<div style="flex:1; min-width:180px; background:linear-gradient(135deg, #1e1e2e 0%, #282a36 100%); border:1px solid #3d3f4b; border-radius:16px; padding:24px; text-align:center; transition:transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 16px 40px rgba(16,185,129,0.2)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
-  <div style="font-size:32px; font-weight:800; background:linear-gradient(135deg, #10b981 0%, #059669 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; line-height:1.2;" id="stat-stars">—</div>
-  <div style="font-size:13px; color:#9ca3af; margin-top:6px; font-weight:500; text-transform:uppercase; letter-spacing:1px;">Total Stars</div>
-</div>
-
-<div style="flex:1; min-width:180px; background:linear-gradient(135deg, #1e1e2e 0%, #282a36 100%); border:1px solid #3d3f4b; border-radius:16px; padding:24px; text-align:center; transition:transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 16px 40px rgba(249,115,22,0.2)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
-  <div style="font-size:32px; font-weight:800; background:linear-gradient(135deg, #f97316 0%, #fbbf24 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; line-height:1.2;" id="stat-forks">—</div>
-  <div style="font-size:13px; color:#9ca3af; margin-top:6px; font-weight:500; text-transform:uppercase; letter-spacing:1px;">Total Forks</div>
-</div>
-
-<div style="flex:1; min-width:180px; background:linear-gradient(135deg, #1e1e2e 0%, #282a36 100%); border:1px solid #3d3f4b; border-radius:16px; padding:24px; text-align:center; transition:transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 16px 40px rgba(236,72,153,0.2)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
-  <div style="font-size:32px; font-weight:800; background:linear-gradient(135deg, #ec4899 0%, #f472b6 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; line-height:1.2;" id="stat-followers">—</div>
-  <div style="font-size:13px; color:#9ca3af; margin-top:6px; font-weight:500; text-transform:uppercase; letter-spacing:1px;">Followers</div>
-</div>
+<a href="https://github.com/radheshyam-bhati?tab=stars" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=radheshyam-bhati&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&title_color=fff&text_color=9ca3af&bg_color=1e1e2e,282a36&langs_count=8" alt="Top Languages" style="max-width:100%; height:auto; min-width:320px; border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,0.3); transition:transform 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='translateY(0)'"/>
+</a>
 
 </div>
 
 </div>
-
-<script>
-  async function fetchGitHubStats() {
-    try {
-      const res = await fetch('https://api.github.com/users/radheshyam-bhati');
-      if (!res.ok) throw new Error('Failed to fetch');
-      const data = await res.json();
-      document.getElementById('stat-repos').textContent = data.public_repos || '—';
-      document.getElementById('stat-stars').textContent = (data.starred_url ? '—' : '—');
-      document.getElementById('stat-forks').textContent = '—';
-      document.getElementById('stat-followers').textContent = data.followers || '—';
-      
-      // Fetch total stars across repos
-      const reposRes = await fetch('https://api.github.com/users/radheshyam-bhati/repos?per_page=100');
-      if (reposRes.ok) {
-        const repos = await reposRes.json();
-        const totalStars = repos.reduce((sum, r) => sum + (r.stargazers_count || 0), 0);
-        const totalForks = repos.reduce((sum, r) => sum + (r.forks_count || 0), 0);
-        document.getElementById('stat-stars').textContent = totalStars.toLocaleString();
-        document.getElementById('stat-forks').textContent = totalForks.toLocaleString();
-      }
-    } catch (e) {
-      console.log('Stats fetch failed:', e);
-    }
-  }
-  fetchGitHubStats();
-</script>
 
 <!-- Footer -->
 <div align="center" style="margin-top:72px; padding-top:32px; border-top:1px solid #e5e7eb;">
@@ -270,7 +231,7 @@
 <p style="font-size:14px; color:#6b7280; margin:0 0 8px;">📍 Jodhpur · Pune, India — open to collaborations, hackathons, and interesting problems.</p>
 
 <p style="font-size:13px; color:#9ca3af; margin:0;">
-  Last updated <span id="last-updated">August 2026</span> · 
+  Last updated August 2026 · 
   <a href="https://github.com/radheshyam-bhati/radheshyam-bhati" target="_blank" rel="noopener noreferrer" style="color:#667eea; text-decoration:none; font-weight:600;">View Source</a> ·
   <a href="https://radheshyam-bhati.github.io/Portfolio" target="_blank" rel="noopener noreferrer" style="color:#667eea; text-decoration:none; font-weight:600;">Portfolio</a>
 </p>
@@ -281,10 +242,3 @@
 </p>
 
 </div>
-
-<!-- Auto-update date script -->
-<script>
-  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-  const d = new Date();
-  document.getElementById('last-updated').textContent = months[d.getMonth()] + ' ' + d.getFullYear();
-</script>
