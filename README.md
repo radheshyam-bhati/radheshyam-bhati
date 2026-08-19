@@ -37,7 +37,7 @@
 <!-- Streak Stats (Fixed with cache busting) -->
 <p style="margin:24px 0 0;">
   <a href="https://github.com/radheshyam-bhati" target="_blank" rel="noopener noreferrer">
-    <img src="https://streak-stats.demolab.com/?user=radheshyam-bhati&theme=tokyonight&hide_border=true&border_radius=12&stroke=667eea&ring=667eea&fire=fbbf24&currStreakNum=fff&sideNums=9ca3af&currStreakLabel=fff&sideLabels=6b7280&dates=6b7280&excludeDaysLabel=6b7280&mode=daily&short_numbers=true" alt="GitHub Streak" style="max-width:100%; height:auto; border-radius:16px; box-shadow:0 8px 32px rgba(102,126,234,0.15); transition:transform 0.3s ease;" onmouseover="this.style.transform='scale(1.01)'" onmouseout="this.style.transform='scale(1)'"/>
+    <img src="https://streak-stats.demolab.com/?user=radheshyam-bhati&theme=tokyonight&hide_border=true&border_radius=12&stroke=667eea&ring=667eea&fire=fbbf24&currStreakNum=fff&sideNums=9ca3af&currStreakLabel=fff&sideLabels=6b7280&dates=6b7280&excludeDaysLabel=6b7280&mode=daily&short_numbers=true&cache_bust=1724064000" alt="GitHub Streak" style="max-width:100%; height:auto; border-radius:16px; box-shadow:0 8px 32px rgba(102,126,234,0.15); transition:transform 0.3s ease;" onmouseover="this.style.transform='scale(1.01)'" onmouseout="this.style.transform='scale(1)'"/>
   </a>
 </p>
 
