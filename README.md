@@ -1,122 +1,83 @@
 <div align="center">
 
-<!-- Header Badge -->
-<span style="display:inline-block; padding:6px 18px; border-radius:999px; background:linear-gradient(135deg, #667eea 0%, #764ba2 100%); font-size:11px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#fff; box-shadow:0 4px 14px rgba(102,126,234,0.4);">Hey there 👋</span>
+<!-- Minimal Header -->
+<p style="font-family:'Space Grotesk',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:clamp(28px,4vw,40px); font-weight:700; letter-spacing:-1px; line-height:1.15; margin:0 0 8px; color:#0f172a;">Radheshyam Bhati</p>
 
-<!-- Name -->
-<h1 style="font-family:'Space Grotesk','SF Pro Display',-apple-system,'Segoe UI',sans-serif; font-size:clamp(32px,5vw,48px); font-weight:800; letter-spacing:-1.5px; line-height:1.1; margin:16px 0 8px; background:linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;">Radheshyam Bhati</h1>
+<p style="font-size:15px; color:#64748b; margin:0 0 28px; font-weight:400; letter-spacing:0.2px;">Full-Stack · AI Integration · Real-Time Systems</p>
 
-<!-- Title -->
-<p style="font-size:clamp(14px,2vw,18px); color:#6b7280; margin:0 0 24px; font-weight:500; letter-spacing:0.3px;">Full-Stack Developer · AI Integration · Real-Time Systems</p>
-
-<!-- Social Links -->
-<p style="margin:0 0 32px;">
-  <a href="https://linkedin.com/in/radheshyam-bhati" title="LinkedIn" style="display:inline-flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:14px; background:#fff; border:1px solid #e5e7eb; text-decoration:none; margin:0 6px; transition:all 0.3s cubic-bezier(0.34,1.56,0.64,1); box-shadow:0 2px 8px rgba(0,0,0,0.04);" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.1)';this.style.borderColor='#667eea';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 2px 8px rgba(0,0,0,0.04)';this.style.borderColor='#e5e7eb';"><img src="https://api.iconify.design/simple-icons:linkedin.svg?color=0a66c2" alt="LinkedIn" width="20" height="20"/></a>
-  <a href="mailto:radheshyambhati747@gmail.com" title="Email" style="display:inline-flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:14px; background:#fff; border:1px solid #e5e7eb; text-decoration:none; margin:0 6px; transition:all 0.3s cubic-bezier(0.34,1.56,0.64,1); box-shadow:0 2px 8px rgba(0,0,0,0.04);" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.1)';this.style.borderColor='#ea4335';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 2px 8px rgba(0,0,0,0.04)';this.style.borderColor='#e5e7eb';"><img src="https://api.iconify.design/simple-icons:gmail.svg?color=ea4335" alt="Email" width="20" height="20"/></a>
-  <a href="https://radheshyam-bhati.github.io/Portfolio" title="Portfolio" style="display:inline-flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:14px; background:#fff; border:1px solid #e5e7eb; text-decoration:none; margin:0 6px; transition:all 0.3s cubic-bezier(0.34,1.56,0.64,1); box-shadow:0 2px 8px rgba(0,0,0,0.04);" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.1)';this.style.borderColor='#667eea';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 2px 8px rgba(0,0,0,0.04)';this.style.borderColor='#e5e7eb';"><img src="https://api.iconify.design/mdi:web.svg?color=667eea" alt="Portfolio" width="20" height="20"/></a>
-  <a href="https://github.com/radheshyam-bhati" title="GitHub" style="display:inline-flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:14px; background:#fff; border:1px solid #e5e7eb; text-decoration:none; margin:0 6px; transition:all 0.3s cubic-bezier(0.34,1.56,0.64,1); box-shadow:0 2px 8px rgba(0,0,0,0.04);" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.1)';this.style.borderColor='#24292e';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 2px 8px rgba(0,0,0,0.04)';this.style.borderColor='#e5e7eb';"><img src="https://api.iconify.design/simple-icons:github.svg?color=24292e" alt="GitHub" width="20" height="20"/></a>
+<!-- Social - minimal -->
+<p style="margin:0 0 40px;">
+  <a href="https://github.com/radheshyam-bhati" target="_blank" rel="noopener" style="display:inline-flex; width:40px; height:40px; border-radius:12px; background:#f1f5f9; border:1px solid #e2e8f0; align-items:center; justify-content:center; margin:0 6px; text-decoration:none; transition:transform .2s ease, border-color .2s ease;" onmouseover="this.style.transform='translateY(-2px)';this.style.borderColor='#64748b'" onmouseout="this.style.transform='translateY(0)';this.style.borderColor='#e2e8f0'"><img src="https://api.iconify.design/simple-icons:github.svg?color=0f172a" width="18" height="18" alt="GitHub"/></a>
+  <a href="https://linkedin.com/in/radheshyam-bhati" target="_blank" rel="noopener" style="display:inline-flex; width:40px; height:40px; border-radius:12px; background:#f1f5f9; border:1px solid #e2e8f0; align-items:center; justify-content:center; margin:0 6px; text-decoration:none; transition:transform .2s ease, border-color .2s ease;" onmouseover="this.style.transform='translateY(-2px)';this.style.borderColor='#0a66c2'" onmouseout="this.style.transform='translateY(0)';this.style.borderColor='#e2e8f0'"><img src="https://api.iconify.design/simple-icons:linkedin.svg?color=0a66c2" width="18" height="18" alt="LinkedIn"/></a>
+  <a href="mailto:radheshyambhati747@gmail.com" target="_blank" rel="noopener" style="display:inline-flex; width:40px; height:40px; border-radius:12px; background:#f1f5f9; border:1px solid #e2e8f0; align-items:center; justify-content:center; margin:0 6px; text-decoration:none; transition:transform .2s ease, border-color .2s ease;" onmouseover="this.style.transform='translateY(-2px)';this.style.borderColor='#ea4335'" onmouseout="this.style.transform='translateY(0)';this.style.borderColor='#e2e8f0'"><img src="https://api.iconify.design/simple-icons:gmail.svg?color=ea4335" width="18" height="18" alt="Email"/></a>
+  <a href="https://radheshyam-bhati.github.io/Portfolio" target="_blank" rel="noopener" style="display:inline-flex; width:40px; height:40px; border-radius:12px; background:#f1f5f9; border:1px solid #e2e8f0; align-items:center; justify-content:center; margin:0 6px; text-decoration:none; transition:transform .2s ease, border-color .2s ease;" onmouseover="this.style.transform='translateY(-2px)';this.style.borderColor='#667eea'" onmouseout="this.style.transform='translateY(0)';this.style.borderColor='#e2e8f0'"><img src="https://api.iconify.design/mdi:web.svg?color=667eea" width="18" height="18" alt="Portfolio"/></a>
 </p>
 
 </div>
 
-<!-- Tagline -->
-<p align="center" style="font-size:17px; line-height:1.7; color:#6b7280; max-width:720px; margin:0 auto 48px; font-weight:400;">
-  I build full-stack applications, AI pipelines, and real-time systems — the kind that scale in production, not just in demos.
-</p>
+<!-- Core Stats - single row, clean -->
+<div align="center" style="margin:0 0 48px;">
 
-<!-- Animated Wave Divider -->
-<div align="center" style="margin:48px 0;">
-  <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" style="max-width:100%; height:auto; border-radius:16px; box-shadow:0 12px 40px rgba(0,0,0,0.15);"/>
-</div>
-
-<!-- Stats Section -->
-<div align="center" style="margin-top:56px;">
-
-<span style="display:inline-block; padding:8px 22px; border-radius:999px; background:linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%); border:1px solid #d1d5db; font-size:11px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#4b5563;">GitHub Analytics</span>
-
-<!-- Streak Stats (Fixed with cache busting) -->
-<p style="margin:24px 0 0;">
-  <a href="https://github.com/radheshyam-bhati" target="_blank" rel="noopener noreferrer">
-    <img src="https://streak-stats.demolab.com/?user=radheshyam-bhati&theme=tokyonight&hide_border=true&border_radius=12&stroke=667eea&ring=667eea&fire=fbbf24&currStreakNum=fff&sideNums=9ca3af&currStreakLabel=fff&sideLabels=6b7280&dates=6b7280&excludeDaysLabel=6b7280&mode=daily&short_numbers=true&cache_bust=1724064000" alt="GitHub Streak" style="max-width:100%; height:auto; border-radius:16px; box-shadow:0 8px 32px rgba(102,126,234,0.15); transition:transform 0.3s ease;" onmouseover="this.style.transform='scale(1.01)'" onmouseout="this.style.transform='scale(1)'"/>
-  </a>
-</p>
-
-<!-- Stats Grid -->
-<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:16px; margin:20px 0 0;">
-  <a href="https://github.com/radheshyam-bhati" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">
-    <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/stats/github-stats-dark.svg?v=4" alt="GitHub Stats" style="height:180px; border-radius:16px; box-shadow:0 8px 32px rgba(0,0,0,0.12); transition:transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 16px 48px rgba(0,0,0,0.18)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 8px 32px rgba(0,0,0,0.12)'"/>
-  </a>
-  <a href="https://github.com/radheshyam-bhati" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">
-    <img src="https://raw.githubusercontent.com/radheshyam-bhati/radheshyam-bhati/stats/top-langs-dark.svg?v=4" alt="Top Languages" style="height:180px; border-radius:16px; box-shadow:0 8px 32px rgba(0,0,0,0.12); transition:transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 16px 48px rgba(0,0,0,0.18)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 8px 32px rgba(0,0,0,0.12)'"/>
-  </a>
-</div>
-
-<!-- Contribution Graph -->
-<p style="margin:20px 0 0;">
-  <a href="https://github.com/radheshyam-bhati" target="_blank" rel="noopener noreferrer">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=radheshyam-bhati&theme=tokyo-night&hide_border=true&area=true&area_color=667eea&color=667eea&point=fff&line=667eea&bg_color=1e1e2e" alt="Contribution Activity Graph" style="max-width:100%; height:auto; border-radius:16px; box-shadow:0 8px 32px rgba(102,126,234,0.15);"/>
-  </a>
-</p>
+<img src="https://github-readme-stats.vercel.app/api?username=radheshyam-bhati&show_icons=true&theme=default&hide_border=true&hide_title=true&hide_rank=true&include_all_commits=true&count_private=true&bg_color=ffffff00&title_color=0f172a&text_color=475569&icon_color=667eea&border_radius=12" alt="GitHub Stats" style="max-width:100%; height:auto;"/>
 
 </div>
 
-<!-- Featured Projects Section -->
-<div align="center" style="margin-top:64px;">
+<!-- Tech Stack - only what you actually use -->
+<div align="center" style="margin:0 0 48px; max-width:720px;">
 
-<span style="display:inline-block; padding:8px 22px; border-radius:999px; background:linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%); border:1px solid #d1d5db; font-size:11px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#4b5563;">Featured Projects</span>
+<p style="font-size:12px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#94a3b8; margin:0 0 16px;">Tech Stack</p>
 
-<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:20px; max-width:960px; margin:28px auto 0; padding:0 16px; text-align:left;">
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+  <img src="https://skillicons.dev/icons?i=typescript,react,nextjs,nodejs,python,postgres,redis,docker,kubernetes,githubactions" alt="Stack" height="36" style="filter:grayscale(20%); transition:filter .2s ease;" onmouseover="this.style.filter='grayscale(0%)'" onmouseout="this.style.filter='grayscale(20%)'"/>
+</div>
 
-<!-- Project 1 -->
-<a href="https://github.com/radheshyam-bhati" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">
-  <div style="background:#fff; border:1px solid #e5e7eb; border-radius:16px; padding:24px; transition:all 0.4s cubic-bezier(0.34,1.56,0.64,1); box-shadow:0 4px 20px rgba(0,0,0,0.04);" onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 40px rgba(102,126,234,0.15)';this.style.borderColor='#667eea';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)';this.style.borderColor='#e5e7eb';">
-    <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
-      <span style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:10px; background:linear-gradient(135deg, #667eea 0%, #764ba2 100%); color:#fff; font-size:14px;">🚀</span>
-      <span style="font-size:12px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#667eea;">Real-Time</span>
-    </div>
-    <h3 style="font-size:18px; font-weight:700; margin:0 0 8px; color:#111827; letter-spacing:-0.3px;">Collaborative Editor</h3>
-    <p style="font-size:14px; line-height:1.6; color:#6b7280; margin:0 0 16px;">Real-time collaborative editing with Operational Transform, WebSocket sync, and conflict resolution. Built for production-scale concurrent users.</p>
+</div>
+
+<!-- Pinned Repos - 3 max, real projects -->
+<div align="center" style="margin:0 0 40px; max-width:960px;">
+
+<p style="font-size:12px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#94a3b8; margin:0 0 16px; text-align:left;">Pinned Repositories</p>
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px; text-align:left;">
+
+<!-- Repo 1 -->
+<a href="https://github.com/radheshyam-bhati" target="_blank" rel="noopener" style="text-decoration:none; color:inherit;">
+  <div style="background:#fff; border:1px solid #e2e8f0; border-radius:14px; padding:20px 24px; transition:box-shadow .3s ease, border-color .3s ease, transform .2s ease;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 12px 32px rgba(15,23,42,0.08)';this.style.borderColor='#cbd5e1'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none';this.style.borderColor='#e2e8f0'">
+    <p style="font-size:11px; font-weight:600; letter-spacing:1.5px; text-transform:uppercase; color:#667eea; margin:0 0 8px;">Real-Time</p>
+    <h3 style="font-size:16px; font-weight:600; color:#0f172a; margin:0 0 6px; letter-spacing:-0.2px;">Collaborative Editor</h3>
+    <p style="font-size:13px; color:#64748b; margin:0 0 14px; line-height:1.5;">Operational Transform + WebSocket sync for concurrent editing at scale</p>
     <div style="display:flex; flex-wrap:wrap; gap:6px;">
-      <span style="padding:4px 10px; border-radius:999px; background:#f3f4f6; border:1px solid #e5e7eb; font-size:11px; font-weight:600; color:#4b5563;">TypeScript</span>
-      <span style="padding:4px 10px; border-radius:999px; background:#f3f4f6; border:1px solid #e5e7eb; font-size:11px; font-weight:600; color:#4b5563;">WebSocket</span>
-      <span style="padding:4px 10px; border-radius:999px; background:#f3f4f6; border:1px solid #e5e7eb; font-size:11px; font-weight:600; color:#4b5563;">Redis</span>
-      <span style="padding:4px 10px; border-radius:999px; background:#f3f4f6; border:1px solid #e5e7eb; font-size:11px; font-weight:600; color:#4b5563;">Docker</span>
+      <span style="font-size:10px; font-weight:500; color:#475569; background:#f1f5f9; border-radius:6px; padding:3px 8px;">TypeScript</span>
+      <span style="font-size:10px; font-weight:500; color:#475569; background:#f1f5f9; border-radius:6px; padding:3px 8px;">WebSocket</span>
+      <span style="font-size:10px; font-weight:500; color:#475569; background:#f1f5f9; border-radius:6px; padding:3px 8px;">Redis</span>
     </div>
   </div>
 </a>
 
-<!-- Project 2 -->
-<a href="https://github.com/radheshyam-bhati" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">
-  <div style="background:#fff; border:1px solid #e5e7eb; border-radius:16px; padding:24px; transition:all 0.4s cubic-bezier(0.34,1.56,0.64,1); box-shadow:0 4px 20px rgba(0,0,0,0.04);" onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 40px rgba(16,185,129,0.15)';this.style.borderColor='#10b981';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)';this.style.borderColor='#e5e7eb';">
-    <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
-      <span style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:10px; background:linear-gradient(135deg, #10b981 0%, #059669 100%); color:#fff; font-size:14px;">🧠</span>
-      <span style="font-size:12px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#10b981;">AI Pipeline</span>
-    </div>
-    <h3 style="font-size:18px; font-weight:700; margin:0 0 8px; color:#111827; letter-spacing:-0.3px;">RAG Workflow Engine</h3>
-    <p style="font-size:14px; line-height:1.6; color:#6b7280; margin:0 0 16px;">End-to-end RAG pipeline with vector search, document chunking, embedding optimization, and hallucination detection for production AI apps.</p>
+<!-- Repo 2 -->
+<a href="https://github.com/radheshyam-bhati" target="_blank" rel="noopener" style="text-decoration:none; color:inherit;">
+  <div style="background:#fff; border:1px solid #e2e8f0; border-radius:14px; padding:20px 24px; transition:box-shadow .3s ease, border-color .3s ease, transform .2s ease;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 12px 32px rgba(15,23,42,0.08)';this.style.borderColor='#cbd5e1'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none';this.style.borderColor='#e2e8f0'">
+    <p style="font-size:11px; font-weight:600; letter-spacing:1.5px; text-transform:uppercase; color:#10b981; margin:0 0 8px;">AI Pipeline</p>
+    <h3 style="font-size:16px; font-weight:600; color:#0f172a; margin:0 0 6px; letter-spacing:-0.2px;">RAG Workflow Engine</h3>
+    <p style="font-size:13px; color:#64748b; margin:0 0 14px; line-height:1.5;">End-to-end retrieval-augmented generation with hybrid search & citations</p>
     <div style="display:flex; flex-wrap:wrap; gap:6px;">
-      <span style="padding:4px 10px; border-radius:999px; background:#f3f4f6; border:1px solid #e5e7eb; font-size:11px; font-weight:600; color:#4b5563;">Python</span>
-      <span style="padding:4px 10px; border-radius:999px; background:#f3f4f6; border:1px solid #e5e7eb; font-size:11px; font-weight:600; color:#4b5563;">PyTorch</span>
-      <span style="padding:4px 10px; border-radius:999px; background:#f3f4f6; border:1px solid #e5e7eb; font-size:11px; font-weight:600; color:#4b5563;">PostgreSQL</span>
-      <span style="padding:4px 10px; border-radius:999px; background:#f3f4f6; border:1px solid #e5e7eb; font-size:11px; font-weight:600; color:#4b5563;">FastAPI</span>
+      <span style="font-size:10px; font-weight:500; color:#475569; background:#f1f5f9; border-radius:6px; padding:3px 8px;">Python</span>
+      <span style="font-size:10px; font-weight:500; color:#475569; background:#f1f5f9; border-radius:6px; padding:3px 8px;">PyTorch</span>
+      <span style="font-size:10px; font-weight:500; color:#475569; background:#f1f5f9; border-radius:6px; padding:3px 8px;">FastAPI</span>
     </div>
   </div>
 </a>
 
-<!-- Project 3 -->
-<a href="https://github.com/radheshyam-bhati" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">
-  <div style="background:#fff; border:1px solid #e5e7eb; border-radius:16px; padding:24px; transition:all 0.4s cubic-bezier(0.34,1.56,0.64,1); box-shadow:0 4px 20px rgba(0,0,0,0.04);" onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 40px rgba(249,115,22,0.15)';this.style.borderColor='#f97316';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)';this.style.borderColor='#e5e7eb';">
-    <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
-      <span style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:10px; background:linear-gradient(135deg, #f97316 0%, #ea580c 100%); color:#fff; font-size:14px;">🎮</span>
-      <span style="font-size:12px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#f97316;">Game Dev</span>
-    </div>
-    <h3 style="font-size:18px; font-weight:700; margin:0 0 8px; color:#111827; letter-spacing:-0.3px;">Browser Game Engine</h3>
-    <p style="font-size:14px; line-height:1.6; color:#6b7280; margin:0 0 16px;">Lightweight 2D game engine with ECS architecture, sprite batching, physics integration, and WebGL rendering for smooth 60fps browser games.</p>
+<!-- Repo 3 -->
+<a href="https://github.com/radheshyam-bhati" target="_blank" rel="noopener" style="text-decoration:none; color:inherit;">
+  <div style="background:#fff; border:1px solid #e2e8f0; border-radius:14px; padding:20px 24px; transition:box-shadow .3s ease, border-color .3s ease, transform .2s ease;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 12px 32px rgba(15,23,42,0.08)';this.style.borderColor='#cbd5e1'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none';this.style.borderColor='#e2e8f0'">
+    <p style="font-size:11px; font-weight:600; letter-spacing:1.5px; text-transform:uppercase; color:#f97316; margin:0 0 8px;">Game Dev</p>
+    <h3 style="font-size:16px; font-weight:600; color:#0f172a; margin:0 0 6px; letter-spacing:-0.2px;">Browser Game Engine</h3>
+    <p style="font-size:13px; color:#64748b; margin:0 0 14px; line-height:1.5;">ECS architecture, WebGL rendering, multiplayer networking @ 60fps</p>
     <div style="display:flex; flex-wrap:wrap; gap:6px;">
-      <span style="padding:4px 10px; border-radius:999px; background:#f3f4f6; border:1px solid #e5e7eb; font-size:11px; font-weight:600; color:#4b5563;">JavaScript</span>
-      <span style="padding:4px 10px; border-radius:999px; background:#f3f4f6; border:1px solid #e5e7eb; font-size:11px; font-weight:600; color:#4b5563;">WebGL</span>
-      <span style="padding:4px 10px; border-radius:999px; background:#f3f4f6; border:1px solid #e5e7eb; font-size:11px; font-weight:600; color:#4b5563;">TypeScript</span>
-      <span style="padding:4px 10px; border-radius:999px; background:#f3f4f6; border:1px solid #e5e7eb; font-size:11px; font-weight:600; color:#4b5563;">ECS</span>
+      <span style="font-size:10px; font-weight:500; color:#475569; background:#f1f5f9; border-radius:6px; padding:3px 8px;">JavaScript</span>
+      <span style="font-size:10px; font-weight:500; color:#475569; background:#f1f5f9; border-radius:6px; padding:3px 8px;">WebGL</span>
+      <span style="font-size:10px; font-weight:500; color:#475569; background:#f1f5f9; border-radius:6px; padding:3px 8px;">TypeScript</span>
     </div>
   </div>
 </a>
@@ -125,120 +86,30 @@
 
 </div>
 
-<!-- Tech Stack Section -->
-<div align="center" style="margin-top:64px;">
+<!-- Activity Graph - single, clean -->
+<div align="center" style="margin:0 0 32px; max-width:960px;">
 
-<span style="display:inline-block; padding:8px 22px; border-radius:999px; background:linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%); border:1px solid #d1d5db; font-size:11px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#4b5563;">Tech Stack</span>
-
-<div style="max-width:800px; margin:28px auto 0; text-align:left;">
-
-<!-- Frontend -->
-<div style="margin-bottom:28px;">
-  <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
-    <span style="display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:12px; background:linear-gradient(135deg, #61dafb 0%, #21a1c4 100%); color:#fff; font-size:16px;">⚛</span>
-    <strong style="font-size:16px; font-weight:700; color:#111827; letter-spacing:-0.2px;">Frontend</strong>
-  </div>
-  <div style="display:flex; flex-wrap:wrap; gap:10px;">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,redux,vite" alt="Frontend Stack" style="height:40px; filter:drop-shadow(0 2px 8px rgba(0,0,0,0.1)); transition:transform 0.2s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-  </div>
-</div>
-
-<!-- Backend -->
-<div style="margin-bottom:28px;">
-  <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
-    <span style="display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:12px; background:linear-gradient(135deg, #68a063 0%, #4a7c59 100%); color:#fff; font-size:16px;">🟢</span>
-    <strong style="font-size:16px; font-weight:700; color:#111827; letter-spacing:-0.2px;">Backend</strong>
-  </div>
-  <div style="display:flex; flex-wrap:wrap; gap:10px;">
-    <img src="https://skillicons.dev/icons?i=nodejs,express,python,fastapi,postgres,mongodb,redis,graphql" alt="Backend Stack" style="height:40px; filter:drop-shadow(0 2px 8px rgba(0,0,0,0.1)); transition:transform 0.2s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-  </div>
-</div>
-
-<!-- AI & Data -->
-<div style="margin-bottom:28px;">
-  <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
-    <span style="display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:12px; background:linear-gradient(135deg, #ee4c2c 0%, #c43b1e 100%); color:#fff; font-size:16px;">🔥</span>
-    <strong style="font-size:16px; font-weight:700; color:#111827; letter-spacing:-0.2px;">AI & Data</strong>
-  </div>
-  <div style="display:flex; flex-wrap:wrap; gap:10px;">
-    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,langchain,opencv,numpy,pandas,jupyter" alt="AI Stack" style="height:40px; filter:drop-shadow(0 2px 8px rgba(0,0,0,0.1)); transition:transform 0.2s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-  </div>
-</div>
-
-<!-- DevOps & Real-Time -->
-<div style="margin-bottom:0;">
-  <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
-    <span style="display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:12px; background:linear-gradient(135deg, #2496ed 0%, #0069c0 100%); color:#fff; font-size:16px;">☁</span>
-    <strong style="font-size:16px; font-weight:700; color:#111827; letter-spacing:-0.2px;">DevOps & Real-Time</strong>
-  </div>
-  <div style="display:flex; flex-wrap:wrap; gap:10px;">
-    <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,aws,gcp,terraform,nginx,websocket" alt="DevOps Stack" style="height:40px; filter:drop-shadow(0 2px 8px rgba(0,0,0,0.1)); transition:transform 0.2s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-  </div>
-</div>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=radheshyam-bhati&theme=github&hide_border=true&area=true&area_color=667eea22&color=667eea&line=667eea&point=ffffff&bg_color=ffffff00" alt="Contribution Graph" style="max-width:100%; height:auto; border-radius:12px;"/>
 
 </div>
 
-</div>
+<!-- Streak - clean -->
+<div align="center" style="margin:0 0 40px; max-width:495px;">
 
-<!-- Currently Building -->
-<div align="center" style="margin-top:64px;">
-
-<span style="display:inline-block; padding:8px 22px; border-radius:999px; background:linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border:1px solid #fcd34d; font-size:11px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#92400e;">Currently Building</span>
-
-<div style="max-width:640px; margin:20px auto 0; text-align:left;">
-  <div style="background:linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border:1px solid #fcd34d; border-radius:16px; padding:24px;">
-    <ul style="margin:0; padding:0 0 0 20px; list-style:none;">
-      <li style="position:relative; padding:8px 0 8px 28px; font-size:15px; line-height:1.7; color:#78350f;">
-        <span style="position:absolute; left:0; top:8px; width:18px; height:18px; border-radius:50%; background:linear-gradient(135deg, #f97316 0%, #fbbf24 100%); display:flex; align-items:center; justify-content:center; color:#fff; font-size:10px;">✓</span>
-        Real-time collaboration infrastructure with CRDT-based conflict resolution
-      </li>
-      <li style="position:relative; padding:8px 0 8px 28px; font-size:15px; line-height:1.7; color:#78350f;">
-        <span style="position:absolute; left:0; top:8px; width:18px; height:18px; border-radius:50%; background:linear-gradient(135deg, #f97316 0%, #fbbf24 100%); display:flex; align-items:center; justify-content:center; color:#fff; font-size:10px;">✓</span>
-        Production RAG pipelines with hybrid search and citation tracking
-      </li>
-      <li style="position:relative; padding:8px 0 8px 28px; font-size:15px; line-height:1.7; color:#78350f;">
-        <span style="position:absolute; left:0; top:8px; width:18px; height:18px; border-radius:50%; background:linear-gradient(135deg, #f97316 0%, #fbbf24 100%); display:flex; align-items:center; justify-content:center; color:#fff; font-size:10px;">✓</span>
-        Browser-based game with multiplayer networking and procedural generation
-      </li>
-    </ul>
-  </div>
-</div>
+<img src="https://streak-stats.demolab.com/?user=radheshyam-bhati&theme=default&hide_border=true&border_radius=12&stroke=667eea&ring=667eea&fire=fbbf24&currStreakNum=0f172a&sideNums=64748b&currStreakLabel=0f172a&sideLabels=64748b&dates=64748b&mode=daily&short_numbers=true" alt="GitHub Streak" style="max-width:100%; height:auto; border-radius:12px;"/>
 
 </div>
 
-<!-- Quick Stats Summary (via GitHub Readme Stats) -->
-<div align="center" style="margin-top:64px;">
+<!-- Footer - minimal -->
+<div align="center" style="padding-top:24px; border-top:1px solid #e2e8f0; max-width:960px; margin:0 auto;">
 
-<span style="display:inline-block; padding:8px 22px; border-radius:999px; background:linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%); border:1px solid #d1d5db; font-size:11px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#4b5563;">Quick Stats</span>
+<p style="font-size:13px; color:#94a3b8; margin:0 0 4px;">Jodhpur · Pune, India — open to collaborations & interesting problems</p>
 
-<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin:24px 0 0; max-width:900px;">
-
-<a href="https://github.com/radheshyam-bhati?tab=repositories" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">
-  <img src="https://github-readme-stats.vercel.app/api?username=radheshyam-bhati&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&title_color=fff&icon_color=667eea&text_color=9ca3af&bg_color=1e1e2e,282a36&include_all_commits=true&count_private=true" alt="GitHub Stats" style="max-width:100%; height:auto; border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,0.3); transition:transform 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='translateY(0)'"/>
-</a>
-
-<a href="https://github.com/radheshyam-bhati?tab=stars" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=radheshyam-bhati&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&title_color=fff&text_color=9ca3af&bg_color=1e1e2e,282a36&langs_count=8" alt="Top Languages" style="max-width:100%; height:auto; min-width:320px; border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,0.3); transition:transform 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='translateY(0)'"/>
-</a>
-
-</div>
-
-</div>
-
-<!-- Footer -->
-<div align="center" style="margin-top:72px; padding-top:32px; border-top:1px solid #e5e7eb;">
-
-<p style="font-size:14px; color:#6b7280; margin:0 0 8px;">📍 Jodhpur · Pune, India — open to collaborations, hackathons, and interesting problems.</p>
-
-<p style="font-size:13px; color:#9ca3af; margin:0;">
-  Last updated August 2026 · 
-  <a href="https://github.com/radheshyam-bhati/radheshyam-bhati" target="_blank" rel="noopener noreferrer" style="color:#667eea; text-decoration:none; font-weight:600;">View Source</a> ·
-  <a href="https://radheshyam-bhati.github.io/Portfolio" target="_blank" rel="noopener noreferrer" style="color:#667eea; text-decoration:none; font-weight:600;">Portfolio</a>
+<p style="font-size:12px; color:#cbd5e1; margin:0;">
+  <a href="https://github.com/radheshyam-bhati/radheshyam-bhati" target="_blank" rel="noopener" style="color:#64748b; text-decoration:none; font-weight:500;">Source</a> · 
+  <a href="https://radheshyam-bhati.github.io/Portfolio" target="_blank" rel="noopener" style="color:#64748b; text-decoration:none; font-weight:500;">Portfolio</a>
 </p>
 
-<!-- Visitor Badge -->
-<p style="margin:20px 0 0;">
-  <img src="https://komarev.com/ghpvc/?username=radheshyam-bhati&style=flat-square&color=667eea&label=Profile+Views" alt="Profile Views" style="height:24px; border-radius:6px;"/>
-</p>
+</div>
 
 </div>
