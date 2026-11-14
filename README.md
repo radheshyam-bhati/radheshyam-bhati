@@ -56,65 +56,7 @@
 
 <br/><br/>
 
-<!-- Featured Work -->
-<div align="center">
-  <h3 style="font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; color: #94a3b8; font-weight: 600; margin-bottom: 1.4rem;">
-    Selected Work
-  </h3>
-</div>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/radheshyam-bhati/IntelliDine">IntelliDine</a>
-      </h3>
-      <p>
-        AI-powered restaurant discovery platform with intelligent recommendations and real-time data.
-      </p>
-      <p>
-        <code>TypeScript</code> · <code>Next.js</code> · <code>AI Integration</code>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/radheshyam-bhati/medconnect">MedConnect</a>
-      </h3>
-      <p>
-        AI-powered Personal Health Record platform tailored for the Indian healthcare ecosystem.
-      </p>
-      <p>
-        <code>TypeScript</code> · <code>AI/ML</code> · <code>Healthcare</code>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/radheshyam-bhati/MafiaAttack">MafiaAttack</a>
-      </h3>
-      <p>
-        Real-time social deduction game with voice chat, cinematic phases, and multiplayer networking.
-      </p>
-      <p>
-        <code>JavaScript</code> · <code>WebSockets</code> · <code>Real-time</code>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/radheshyam-bhati/News-Feed">News Feed</a>
-      </h3>
-      <p>
-        Modular, high-performance client-side news application with real-time data fetching.
-      </p>
-      <p>
-        <code>JavaScript</code> · <code>ES Modules</code> · <code>API Design</code>
-      </p>
-    </td>
-  </tr>
-</table>
-
-<br/>
 
 <!-- Current Focus -->
 <div align="center">
