@@ -47,7 +47,6 @@
 
 <!-- ==================== DYNAMIC TECH STACK ==================== -->
 <!--TECH-STACK-START-->
-
 <div align="center">
   <p style="font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: #94a3b8; font-weight: 600; margin-bottom: 14px;">
     Tech Stack · Auto-detected
@@ -68,71 +67,71 @@
 <!--PROJECTS-START-->
 <table>
   <tr>
-
     <td width="50%" valign="top">
-      <a href="https://github.com/radheshyam-bhati/Portfolio" style="text-decoration:none;color:inherit;">
-        <div style="border:1px solid #e2e8f0;border-radius:16px;padding:22px 24px;margin:6px;background:#ffffff;">
-          <p style="font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#667eea;margin:0 0 8px;">featured</p>
-          <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px;">Portfolio</h3>
-          <p style="font-size:13px;color:#64748b;line-height:1.5;margin:0 0 14px;">No description</p>
-          <p style="margin:0;"><code style="font-size:11px;background:#f1f5f9;padding:3px 8px;border-radius:6px;color:#475569;">JavaScript</code></p>
-        </div>
-      </a>
-    </td>
+  <a href="https://github.com/radheshyam-bhati/News-Feed" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #e2e8f0;border-radius:16px;padding:22px 24px;margin:6px;background:#ffffff;">
+      <p style="font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#667eea;margin:0 0 8px;">Featured</p>
+      <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px;">News-Feed</h3>
+      <p style="font-size:13px;color:#64748b;line-height:1.5;margin:0 0 14px;">A fast, modular, and responsive client-side web application that fetches and displays real-t…</p>
+      <p style="margin:0;"><code style="font-size:11px;background:#f1f5f9;padding:3px 8px;border-radius:6px;color:#475569;">JavaScript</code></p>
+    </div>
+  </a>
+</td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Khushi-agarwal1401/GitHub-Developer-Explorer" style="text-decoration:none;color:inherit;">
-        <div style="border:1px solid #e2e8f0;border-radius:16px;padding:22px 24px;margin:6px;background:#ffffff;">
-          <p style="font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#10b981;margin:0 0 8px;">featured</p>
-          <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px;">GitHub-Developer-Explorer</h3>
-          <p style="font-size:13px;color:#64748b;line-height:1.5;margin:0 0 14px;">A sleek, highly modular Vanilla JS web app to search and analyze GitHub developer profiles</p>
-          <p style="margin:0;"><code style="font-size:11px;background:#f1f5f9;padding:3px 8px;border-radius:6px;color:#475569;">JavaScript</code></p>
-        </div>
-      </a>
-    </td>  </tr>
+  <a href="https://github.com/radheshyam-bhati/MafiaAttack" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #e2e8f0;border-radius:16px;padding:22px 24px;margin:6px;background:#ffffff;">
+      <p style="font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#10b981;margin:0 0 8px;">Featured</p>
+      <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px;">MafiaAttack</h3>
+      <p style="font-size:13px;color:#64748b;line-height:1.5;margin:0 0 14px;">An immersive, real-time social deduction game with built-in voice chat and cinematic phases.</p>
+      <p style="margin:0;"><code style="font-size:11px;background:#f1f5f9;padding:3px 8px;border-radius:6px;color:#475569;">JavaScript</code></p>
+    </div>
+  </a>
+</td>
+  </tr>
   <tr>
-
     <td width="50%" valign="top">
-      <a href="https://github.com/radheshyam-bhati/News-Feed" style="text-decoration:none;color:inherit;">
-        <div style="border:1px solid #e2e8f0;border-radius:16px;padding:22px 24px;margin:6px;background:#ffffff;">
-          <p style="font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#f97316;margin:0 0 8px;">featured</p>
-          <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px;">News-Feed</h3>
-          <p style="font-size:13px;color:#64748b;line-height:1.5;margin:0 0 14px;">A fast, modular, and responsive client-side web application that fetches and displays real</p>
-          <p style="margin:0;"><code style="font-size:11px;background:#f1f5f9;padding:3px 8px;border-radius:6px;color:#475569;">JavaScript</code></p>
-        </div>
-      </a>
-    </td>
+  <a href="https://github.com/radheshyam-bhati/medconnect" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #e2e8f0;border-radius:16px;padding:22px 24px;margin:6px;background:#ffffff;">
+      <p style="font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#f97316;margin:0 0 8px;">Web</p>
+      <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px;">medconnect</h3>
+      <p style="font-size:13px;color:#64748b;line-height:1.5;margin:0 0 14px;">MedConnect India is an AI-powered Personal Health Record (PHR) platform tailored for the Ind…</p>
+      <p style="margin:0;"><code style="font-size:11px;background:#f1f5f9;padding:3px 8px;border-radius:6px;color:#475569;">TypeScript</code></p>
+    </div>
+  </a>
+</td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Khushi-agarwal1401/AI-Resume-Builder-and-Analyzer" style="text-decoration:none;color:inherit;">
-        <div style="border:1px solid #e2e8f0;border-radius:16px;padding:22px 24px;margin:6px;background:#ffffff;">
-          <p style="font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#8b5cf6;margin:0 0 8px;">TypeScript</p>
-          <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px;">AI-Resume-Builder-and-Analyzer</h3>
-          <p style="font-size:13px;color:#64748b;line-height:1.5;margin:0 0 14px;">No description</p>
-          <p style="margin:0;"><code style="font-size:11px;background:#f1f5f9;padding:3px 8px;border-radius:6px;color:#475569;">TypeScript</code></p>
-        </div>
-      </a>
-    </td>  </tr>
+  <a href="https://github.com/radheshyam-bhati/Portfolio" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #e2e8f0;border-radius:16px;padding:22px 24px;margin:6px;background:#ffffff;">
+      <p style="font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#8b5cf6;margin:0 0 8px;">Featured</p>
+      <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px;">Portfolio</h3>
+      <p style="font-size:13px;color:#64748b;line-height:1.5;margin:0 0 14px;">Personal project · Portfolio</p>
+      <p style="margin:0;"><code style="font-size:11px;background:#f1f5f9;padding:3px 8px;border-radius:6px;color:#475569;">JavaScript</code></p>
+    </div>
+  </a>
+</td>
+  </tr>
   <tr>
-
     <td width="50%" valign="top">
-      <a href="https://github.com/radheshyam-bhati/kaushal-parnam" style="text-decoration:none;color:inherit;">
-        <div style="border:1px solid #e2e8f0;border-radius:16px;padding:22px 24px;margin:6px;background:#ffffff;">
-          <p style="font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#ec4899;margin:0 0 8px;">Python</p>
-          <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px;">kaushal-parnam</h3>
-          <p style="font-size:13px;color:#64748b;line-height:1.5;margin:0 0 14px;">No description</p>
-          <p style="margin:0;"><code style="font-size:11px;background:#f1f5f9;padding:3px 8px;border-radius:6px;color:#475569;">Python</code></p>
-        </div>
-      </a>
-    </td>
+  <a href="https://github.com/radheshyam-bhati/kaushal-parnam" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #e2e8f0;border-radius:16px;padding:22px 24px;margin:6px;background:#ffffff;">
+      <p style="font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#ec4899;margin:0 0 8px;">Python</p>
+      <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px;">kaushal-parnam</h3>
+      <p style="font-size:13px;color:#64748b;line-height:1.5;margin:0 0 14px;">Personal project · kaushal parnam</p>
+      <p style="margin:0;"><code style="font-size:11px;background:#f1f5f9;padding:3px 8px;border-radius:6px;color:#475569;">Python</code></p>
+    </div>
+  </a>
+</td>
     <td width="50%" valign="top">
-      <a href="https://github.com/radheshyam-bhati/Event_Management_System" style="text-decoration:none;color:inherit;">
-        <div style="border:1px solid #e2e8f0;border-radius:16px;padding:22px 24px;margin:6px;background:#ffffff;">
-          <p style="font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#06b6d4;margin:0 0 8px;">HTML</p>
-          <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px;">Event_Management_System</h3>
-          <p style="font-size:13px;color:#64748b;line-height:1.5;margin:0 0 14px;">No description</p>
-          <p style="margin:0;"><code style="font-size:11px;background:#f1f5f9;padding:3px 8px;border-radius:6px;color:#475569;">HTML</code></p>
-        </div>
-      </a>
-    </td>  </tr>
+  <a href="https://github.com/radheshyam-bhati/Event_Management_System" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #e2e8f0;border-radius:16px;padding:22px 24px;margin:6px;background:#ffffff;">
+      <p style="font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#06b6d4;margin:0 0 8px;">Html</p>
+      <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px;">Event_Management_System</h3>
+      <p style="font-size:13px;color:#64748b;line-height:1.5;margin:0 0 14px;">Personal project · Event_Management_System</p>
+      <p style="margin:0;"><code style="font-size:11px;background:#f1f5f9;padding:3px 8px;border-radius:6px;color:#475569;">HTML</code></p>
+    </div>
+  </a>
+</td>
+  </tr>
 </table>
 <!--PROJECTS-END-->
 
